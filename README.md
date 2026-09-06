@@ -38,3 +38,7 @@ python scripts/validate.py
 ```
 
 `validate.py` picks the schema automatically per file: a document is validated as a language instance if its `meta.iso_code` or a top-level `Lexicon_Overview` is present, otherwise as the general/base ontology. Adding a new language ontology to `files/` (e.g. `OntoXyz.json`) picks up validation automatically — no script changes needed.
+
+## Continuous integration
+
+Every push and pull request runs `scripts/validate.py` over every file in `files/` via [`.github/workflows/validate.yml`](.github/workflows/validate.yml). A new ontology file that doesn't conform to its schema fails the build — schema conformance isn't optional or manual.
