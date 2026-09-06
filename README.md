@@ -42,3 +42,7 @@ python scripts/validate.py
 ## Continuous integration
 
 Every push and pull request runs `scripts/validate.py` over every file in `files/` via [`.github/workflows/validate.yml`](.github/workflows/validate.yml). A new ontology file that doesn't conform to its schema fails the build — schema conformance isn't optional or manual.
+
+## Contributing
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) (English and Russian) for a walkthrough of the schema and how to add a new language ontology.
