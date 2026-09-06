@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ontologies.local/schemas/language-ontology.schema.json",
+  "title": "Language-Specific Linguistic Ontology",
+  "description": "Schema for a single-language instance of the base linguistic ontology (e.g. OntoKon.json for Konabère). Extends base-ontology.schema.json: same seven core GOLD modules, plus language-identifying metadata and a Lexicon_Overview section. Closed at the top level (unevaluatedProperties: false) so a language instance may only contain meta, the seven base sections, and Lexicon_Overview.",
+  "allOf": [
+    { "$ref": "base-ontology.schema.json" }
+  ],
+  "type": "object",
+  "required": ["Lexicon_Overview"],
+  "properties": {
+    "meta": { "$ref": "#/$defs/LanguageMeta" },
+    "Lexicon_Overview": { "$ref": "base-ontology.schema.json#/$defs/OntologyNode" }
+  },
+  "unevaluatedProperties": false,
+  "$defs": {
+    "LanguageMeta": {
+      "type": "object",
+      "description": "Metadata for a language-specific ontology instance. Extends the base Meta contract with fields identifying which language this document describes.",
+      "required": [
+        "title", "version", "description", "sources", "gold_base_uri",
+        "language_name", "iso_code", "classification", "location"
+      ],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "version": { "type": "string", "pattern": "^[0-9]+(\\.[0-9]+){0,2}$" },
+        "description": { "type": "string", "minLength": 1 },
+        "sources": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1
+        },
+        "gold_base_uri": { "type": "string", "format": "uri" },
+        "language_name": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Human-readable language name, e.g. \"Konabère (Bobo Madaré Nord)\"."
+        },
+        "iso_code": {
+          "type": "string",
+          "pattern": "^[a-z]{3}$",
+          "description": "ISO 639-3 language code, e.g. \"bbo\"."
+        },
+        "classification": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Genetic classification path, e.g. \"Niger-Congo, Mande, Western, ...\"."
+        },
+        "speaker_population": {
+          "type": "string",
+          "description": "Speaker count as a string (kept as free text since sources report it with varying precision/qualifiers)."
+        },
+        "location": { "type": "string", "minLength": 1 },
+        "dialects": {
+          "type": "array",
+          "description": "Short flat list of dialect names; a richer per-dialect record (location, notes) may additionally appear inside Core_Foundations.",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "standard_dialect": { "type": "string" }
+      },
+      "additionalProperties": true
+    }
+  }
+}

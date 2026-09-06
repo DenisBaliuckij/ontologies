@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ontologies.local/schemas/base-ontology.schema.json",
+  "title": "Base Linguistic Ontology",
+  "description": "Common structural contract for GOLD-based linguistic ontology documents in this repository. Enforces the shared envelope (metadata plus the seven core GOLD modules) and a recursive 'concept node' shape for their contents. Deliberately does not enumerate the specific linguistic vocabulary (concept names, feature values, etc.) within each module, since that vocabulary is expected to vary and grow per document. A language-specific instance (see language-ontology.schema.json) extends this schema rather than replacing it.",
+  "type": "object",
+  "required": [
+    "meta",
+    "Core_Foundations",
+    "Phonetics_and_Phonology",
+    "Morphology",
+    "Syntax",
+    "Semantics",
+    "Interfaces_and_Integration",
+    "Relations_and_Properties"
+  ],
+  "properties": {
+    "meta": { "$ref": "#/$defs/Meta" },
+    "Core_Foundations": { "$ref": "#/$defs/OntologyNode" },
+    "Phonetics_and_Phonology": { "$ref": "#/$defs/OntologyNode" },
+    "Morphology": { "$ref": "#/$defs/OntologyNode" },
+    "Syntax": { "$ref": "#/$defs/OntologyNode" },
+    "Semantics": { "$ref": "#/$defs/OntologyNode" },
+    "Interfaces_and_Integration": { "$ref": "#/$defs/OntologyNode" },
+    "Relations_and_Properties": { "$ref": "#/$defs/OntologyNode" }
+  },
+  "$defs": {
+    "Meta": {
+      "type": "object",
+      "description": "Document-level metadata. Every ontology document (general or language-specific) must carry these five fields; a language instance adds more (see LanguageMeta in language-ontology.schema.json).",
+      "required": ["title", "version", "description", "sources", "gold_base_uri"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+(\\.[0-9]+){0,2}$",
+          "description": "Semantic-ish version of this ontology document, e.g. \"1.0\" or \"3.0\"."
+        },
+        "description": { "type": "string", "minLength": 1 },
+        "sources": {
+          "type": "array",
+          "description": "Bibliographic references this ontology's content is drawn from.",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1
+        },
+        "gold_base_uri": {
+          "type": "string",
+          "format": "uri",
+          "description": "Base URI of the GOLD (General Ontology for Linguistic Description) vocabulary this document follows."
+        }
+      },
+      "additionalProperties": true
+    },
+    "OntologyNode": {
+      "type": "object",
+      "description": "A node in the concept tree. Keys are free-form concept/field names (e.g. 'definition', 'key_properties', or a GOLD concept name); each value is an OntologyValue. Every module section (Core_Foundations, Morphology, ...) is itself an OntologyNode, recursively, down to whatever depth the content needs.",
+      "minProperties": 1,
+      "additionalProperties": { "$ref": "#/$defs/OntologyValue" }
+    },
+    "OntologyValue": {
+      "description": "The value at any point in the concept tree: free text, a list, or a nested concept node.",
+      "oneOf": [
+        { "type": "string" },
+        {
+          "type": "array",
+          "items": { "$ref": "#/$defs/OntologyArrayItem" }
+        },
+        { "$ref": "#/$defs/OntologyNode" }
+      ]
+    },
+    "OntologyArrayItem": {
+      "description": "An item inside an OntologyValue array: either a plain string (e.g. a list of dialect names) or a structured record (e.g. a lexicon entry or a dialect record with name/location/notes).",
+      "oneOf": [
+        { "type": "string" },
+        { "$ref": "#/$defs/OntologyNode" }
+      ]
+    }
+  }
+}
