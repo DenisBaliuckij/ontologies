@@ -1,0 +1,1977 @@
+{
+  "meta": {
+    "title": "Tajik (забони тоҷикӣ) Language Ontology",
+    "version": "1.0",
+    "description": "A comprehensive ontology of the Tajik language (ISO 639-3: tgk), a Southwestern Iranian language of the Indo-European family. Tajik is the official language of Tajikistan and is closely related to Persian (Farsi) and Dari. This ontology follows the GOLD OntoLing structure, populated with data from standard pedagogical and descriptive sources.",
+    "sources": [
+      "Ido, S. (2005). Tajik (Languages of the World/Materials 442). LINCOM Europa.",
+      "Perry, J. R. (2005). A Tajik Persian Reference Grammar. Brill.",
+      "Rzehak, L. (1999). Tadschikische Studiengrammatik. Reichert.",
+      "Khojayori, N. & Thompson, M. (2009). Tajiki Reference Grammar for Beginners. Georgetown University Press.",
+      "Ido, S. & Mahmoodi-Bakhtiari, B. (Eds.). (2023). Tajik Linguistics. De Gruyter Mouton.",
+      "Rahimī, M. V. & Uspenskaya, L. V. (Eds.). (1954). Луғати тоҷикӣ-русӣ. Москва.",
+      "Windfuhr, G. (Ed.). (2009). The Iranian Languages. Routledge.",
+      "Lazard, G. (1992). A Grammar of Contemporary Persian. Mazda Publishers."
+    ],
+    "language_name": "Tajik (забони тоҷикӣ)",
+    "iso_code": "tgk",
+    "classification": "Indo-European, Indo-Iranian, Iranian, Western Iranian, Southwestern Iranian, Persian, Tajik",
+    "speaker_population": "Approximately 8-10 million in Tajikistan, plus significant communities in Uzbekistan (Samarkand, Bukhara), Afghanistan, Russia, Kazakhstan, and Kyrgyzstan.",
+    "location": "Tajikistan (official language), Uzbekistan, Afghanistan, Kyrgyzstan, Kazakhstan, and diaspora communities.",
+    "dialects": [
+      "Northern dialects (based on Dushanbe, Khujand, and the Ferghana Valley)",
+      "Southern dialects (including Samarkand and Bukhara dialects)",
+      "Mountain dialects (Pamir region, which are sometimes considered separate languages)",
+      "Badakhshan dialects"
+    ],
+    "standard_dialect": "Based on the northern dialects, primarily the speech of Dushanbe and its surrounding regions.",
+    "gold_base_uri": "http://purl.org/linguistics/gold/"
+  },
+  "Core_Foundations": {
+    "Language": {
+      "definition": "Tajik (забони тоҷикӣ) is a Southwestern Iranian language belonging to the Indo-European family. It is the official language of the Republic of Tajikistan and is a member of the Persian language continuum, closely related to Farsi and Dari. Tajik is characterized by a SOV word order, agglutinative-fusional morphology, the absence of grammatical gender, and a complex verb system with a notable ergative construction in the past tense of transitive verbs.",
+      "key_properties": [
+        "SOV (Subject-Object-Verb) word order",
+        "Agglutinative-fusional morphology (extensive use of suffixes for inflection and derivation)",
+        "Absence of grammatical gender",
+        "Absence of articles (definiteness is implied through context and the direct object marker)",
+        "Ergative construction in the past tense of transitive verbs",
+        "Izafet construction for modification and possession",
+        "Postpositional language (uses postpositions, though some prepositions exist)",
+        "Uses a modified Cyrillic alphabet (35 letters: 6 vowels and 29 consonants)",
+        "Rich system of verbal tenses, aspects, and moods"
+      ],
+      "historical_scripts": {
+        "arabic_script": {
+          "period": "8th century - 1928",
+          "description": "Tajik used a modified Arabic alphabet (Perso-Arabic script) from the 8th century until the 1920s. This script was adapted to represent the specific phonemes of Tajik, including the addition of letters for sounds not present in Arabic (e.g., ч, ҷ, ғ, қ, ш, ӣ).",
+          "examples": ["کتاب (китоб) 'book'", "خانه (хона) 'house'", "رفتن (рафтан) 'to go'"]
+        },
+        "latin_script": {
+          "period": "1928 - 1940",
+          "description": "In 1928, the Latin alphabet was adopted as part of the Soviet Union's campaign of latinization. This alphabet was based on the Common Turkic Alphabet and was used for a short period before the Cyrillic script was introduced.",
+          "examples": ["kitob (китоб) 'book'", "xona (хона) 'house'", "raftan (рафтан) 'to go'"]
+        },
+        "cyrillic_script": {
+          "period": "1940 - present",
+          "description": "A modified Cyrillic alphabet became the official Tajik alphabet in 1940 and remains in use today. It consists of 35 letters and is adapted to represent the phonological system of Tajik.",
+          "examples": ["китоб 'book'", "хона 'house'", "рафтан 'to go'"]
+        }
+      },
+      "components": {
+        "Lexicon": {
+          "definition": "The inventory of sign units in Tajik, including native Iranian roots and a significant number of loanwords from Arabic, Persian, Russian, Uzbek, and other languages."
+        },
+        "Grammar": {
+          "definition": "The set of rules for operating on these units, encompassing phonology, morphology, and syntax."
+        }
+      },
+      "Language_vs_Speech": {
+        "Language": {
+          "definition": "The abstract linguistic system in the minds of speakers, representing the standardized rules and vocabulary of Tajik.",
+          "details": "The standardized literary language of Tajikistan, based on the northern dialects and used in government, education, and media."
+        },
+        "Speech": {
+          "definition": "The concrete realization of language in communication.",
+          "details": "Includes dialectal variations (northern, southern, mountain), colloquial speech, and sociolects, which may differ significantly from the literary standard."
+        }
+      }
+    },
+    "Linguistic_System": {
+      "definition": "Tajik is characterized by a hierarchical arrangement of units on inter-related levels: phonology, morphology, syntax, and semantics. It is a 'system of systems' where each level has its own units and rules.",
+      "system_of_systems": "Tajik can be described as a 'system of systems' with hierarchically ordered levels: phonology, morphology, syntax, and semantics."
+    },
+    "Linguistic_Taxon": {
+      "definition": "Tajik is a member of the Western Iranian branch of the Indo-European language family.",
+      "taxonomic_levels": [
+        "Family: Indo-European",
+        "Branch: Indo-Iranian",
+        "Group: Iranian",
+        "Sub-group: Western Iranian",
+        "Sub-sub-group: Southwestern Iranian",
+        "Language: Tajik"
+      ]
+    },
+    "Taxon": {
+      "definition": "Tajik belongs to the Iranian language family, which is a branch of the larger Indo-European family."
+    },
+    "Genetic_Taxon": {
+      "definition": "Tajik is a Southwestern Iranian language, closely related to Persian (Farsi) and Dari.",
+      "genetic_notes": "Tajik, Farsi, and Dari descend from the same Middle Persian (Pahlavi) language and are often considered a single pluricentric language. The separation of Tajik as a distinct standard began in the 20th century during the Soviet era."
+    },
+    "Context_of_Use_Taxon": {
+      "definition": "Tajik is used in a variety of contexts, including official, educational, literary, and daily communication.",
+      "konabere_contexts": [
+        "Official: Used as the state language of the Republic of Tajikistan.",
+        "Literary/Standard: Based on the northern dialects, used in government, media, and literature.",
+        "Daily communication: Used by all generations in all domains of life.",
+        "Religious: Used in religious contexts, although Arabic is also significant for Islamic texts.",
+        "Oral tradition: Rich folklore and literary tradition, including the poetry of Rumi, Rudaki, and Sadriddin Ayni."
+      ]
+    },
+    "Geographic_Taxon": {
+      "definition": "Tajik is spoken primarily in the Republic of Tajikistan, as well as in parts of Uzbekistan, Afghanistan, Kyrgyzstan, Kazakhstan, and Russia.",
+      "area": "Republic of Tajikistan: 143,100 km². Significant speaker populations in Samarkand and Bukhara (Uzbekistan) and in northern Afghanistan."
+    },
+    "Political_Taxon": {
+      "definition": "Tajik is the official language of the Republic of Tajikistan and a recognized minority language in Uzbekistan.",
+      "konabere_political_status": "Official language of the Republic of Tajikistan. Recognized as a minority language in Uzbekistan. The standard dialect is based on the northern dialects, particularly the speech of Dushanbe."
+    },
+    "Endangerment_Taxon": {
+      "definition": "Tajik is not considered endangered. It is the official language of a sovereign state with a large and growing speaker population.",
+      "vitality_factors": [
+        "Speaker population: ~8-10 million (Tajikistan) + significant communities in other countries",
+        "Intergenerational transmission: Yes",
+        "Official status: Official language of the Republic of Tajikistan",
+        "Documentation: Extensive literature, textbooks, dictionaries, and media.",
+        "Literacy programs: Highly developed educational system in Tajik."
+      ]
+    },
+    "Language_Family": {
+      "definition": "Tajik is a member of the Iranian language family, which is a branch of the Indo-European family.",
+      "related_languages": [
+        "Persian (Farsi)",
+        "Dari",
+        "Kurdish",
+        "Pashto",
+        "Balochi",
+        "Ossetian"
+      ]
+    },
+    "Language_Stock": {
+      "definition": "Tajik is part of the Indo-European language family."
+    },
+    "Language_Subfamily": {
+      "definition": "Tajik is a member of the Southwestern Iranian subfamily of Iranian languages, which also includes Persian (Farsi), Dari, and Luri."
+    },
+    "Isolate": {
+      "definition": "Tajik is not an isolate; it has numerous close relatives within the Iranian and Indo-European families."
+    },
+    "Dialect": {
+      "definition": "Tajik has a number of regional dialects, broadly classified into northern, southern, and mountain groups.",
+      "dialects": [
+        {
+          "name": "Northern Dialects",
+          "location": "Dushanbe, Khujand, and the Ferghana Valley",
+          "phonological_features": [
+            "Pronunciation of 'a' as a low back vowel [ɑ]",
+            "Retention of the uvular stop 'q' [q]",
+            "Distinctive stress patterns"
+          ],
+          "morphological_features": [
+            "Use of plural suffix -ҳо",
+            "Use of the copula -ам, -ӣ, -аст, -ем, -ед, -анд"
+          ]
+        },
+        {
+          "name": "Southern Dialects (Samarkand-Bukhara)",
+          "location": "Samarkand, Bukhara, and southern Tajikistan",
+          "phonological_features": [
+            "Fronting of 'a' to 'e' in some contexts: сар → сер 'head'",
+            "Pronunciation of 'q' as [χ] in some positions: бозор → бозох 'bazaar'",
+            "Influence of Uzbek phonology (vowel harmony, consonant assimilation)"
+          ],
+          "morphological_features": [
+            "Use of the plural suffix -лар (from Uzbek)",
+            "Use of the Turkic izafet construction",
+            "More frequent use of Uzbek loanwords",
+            "Use of the infinitive in -иш"
+          ]
+        },
+        {
+          "name": "Mountain Dialects",
+          "location": "Pamir Mountains",
+          "notes": "Often considered separate languages (e.g., Shughni, Rushani). They are not mutually intelligible with standard Tajik."
+        },
+        {
+          "name": "Badakhshan Dialects",
+          "location": "Gorno-Badakhshan Autonomous Region",
+          "notes": "Includes a variety of Pamir languages, which are distinct from Tajik."
+        }
+      ],
+      "standard_dialect": "The literary standard is primarily based on the northern dialects, specifically the speech of Dushanbe."
+    },
+    "The_Linguistic_Sign": {
+      "definition": "Tajik linguistic signs connect a signifier (phonological form) with a signified (meaning).",
+      "components": {
+        "Signifier": {
+          "definition": "The external form, which can be spoken or written.",
+          "konabere_details": "Tajik uses a modified Cyrillic alphabet of 35 letters. The spoken form is based on a system of 6 vowel and 24 consonant phonemes, with dynamic stress."
+        },
+        "Signified": {
+          "definition": "The meaning or concept.",
+          "konabere_details": "Lexical meaning (e.g., хона 'house', китоб 'book', хондан 'to read') and grammatical meaning (e.g., plural -ҳо, past tense -д)."
+        }
+      },
+      "properties": {
+        "Arbitrariness": {
+          "definition": "Predominantly arbitrary, but with some onomatopoeic elements.",
+          "konabere_details": "Most words are arbitrary, though some words like 'ширхор' (to hiss) or 'ғуруз' (rumble) are onomatopoeic."
+        },
+        "Linear_Character": {
+          "definition": "Elements follow one another in time.",
+          "konabere_details": "SOV word order; suffixes are added linearly to roots."
+        },
+        "Double_Articulation": {
+          "definition": "Signs are composed of smaller meaningful signs (morphemes) and non-meaningful units (phonemes).",
+          "konabere_details": "Morphemes: китоб-ҳо (book-PL). Phonemes: /k/, /i/, /t/, /o/, /b/."
+        }
+      },
+      "examples": "Words and morphemes: китоб 'book', -ҳо 'plural', навиштан 'to write', -анд 'third person plural ending'."
+    },
+    "Linguistic_Unit": {
+      "definition": "Linguistic units in Tajik are organized hierarchically.",
+      "units": [
+        {
+          "level": "Phonological",
+          "units": ["Phoneme", "Syllable", "Phonological Word", "Intonation Group"]
+        },
+        {
+          "level": "Morphological",
+          "units": ["Morpheme", "Word", "Root", "Stem", "Affix"]
+        },
+        {
+          "level": "Syntactic",
+          "units": ["Phrase", "Clause", "Sentence"]
+        }
+      ]
+    },
+    "Form_Unit": {
+      "definition": "The sensorily perceptible aspect of the sign, i.e., its spoken or written form.",
+      "examples": [
+        "The written form китоб for 'book'",
+        "The spoken form [kiˈtob] for 'book'",
+        "The suffix -ҳо for the plural"
+      ]
+    },
+    "Grammar_Unit": {
+      "definition": "The structural component of the sign, including morphemes and syntactic words.",
+      "examples": [
+        "Morphemes: китоб (root), -ҳо (plural)",
+        "Syntactic words: китобҳо 'books', навиштам 'I wrote'"
+      ]
+    },
+    "Semantic_Unit": {
+      "definition": "The meaning component of the sign.",
+      "semantic_units": [
+        {
+          "type": "Lexical Meaning",
+          "definition": "Хона 'house', навиштан 'to write', зебо 'beautiful'."
+        },
+        {
+          "type": "Grammatical Meaning",
+          "definition": "Plural number (-ҳо), past tense (-д), definite direct object marker (-ро), genitive relationship (изофа)."
+        }
+      ]
+    },
+    "Linguistic_Expression": {
+      "definition": "The physical representation of a linguistic unit.",
+      "expressions": {
+        "Spoken": "The spoken form of Tajik, produced by the vocal apparatus.",
+        "Written": "The written form, using the modern Cyrillic-based alphabet (since 1940) or, historically, the Latin and Arabic scripts."
+      }
+    },
+    "Spoken_Linguistic_Expression": {
+      "definition": "The physical sound form of Tajik, including dialectal variations and fast-speech processes.",
+      "notes": "Fast speech often involves vowel reduction (e.g., 'меравам' → 'мерам') and assimilation of consonants."
+    },
+    "Written_Linguistic_Expression": {
+      "definition": "The written form of Tajik, primarily using the Cyrillic-based alphabet (35 letters) adopted in 1940. The Latin and Arabic scripts were used in earlier periods.",
+      "notes": "The Cyrillic alphabet contains 6 vowels and 29 consonants. The written language is based on the standard Tajik of the Republic."
+    },
+    "Signed_Linguistic_Expression": {
+      "definition": "Not applicable. Tajik is primarily spoken and written; no signed variety is documented."
+    },
+    "Linguistic_Property": {
+      "definition": "Properties that characterize linguistic units in Tajik.",
+      "properties": {
+        "Phonological": ["Voicing", "Place of articulation", "Manner of articulation", "Backness", "Height", "Stress"],
+        "Morphological": ["Part of speech", "Inflectional class", "Derivational status", "Case", "Number", "Tense", "Aspect", "Mood", "Voice"],
+        "Syntactic": ["Valency", "Case (through postpositions)", "Agreement (subject-verb agreement in person and number)"],
+        "Semantic": ["Thematic role", "Referential status", "Quantification", "Definiteness"]
+      }
+    },
+    "Linguistic_Data_Structure": {
+      "definition": "Abstract containers for grouping together instances of linguistic data.",
+      "structures": [
+        {
+          "type": "Lexical Entry",
+          "definition": "Dictionary entry: хона 'house', китоб 'book', хондан 'to read'."
+        },
+        {
+          "type": "Paradigm",
+          "definition": "Set of forms for a verb in different tenses: хондам (I read), мехонам (I read, I am reading), хоҳам хонд (I will read)."
+        }
+      ]
+    },
+    "Language_varieties": {
+      "Literary_Language": {
+        "definition": "The standard, codified form of Tajik used in official contexts and education.",
+        "variants": {
+          "Codified": "Used in official and prepared communication, based on northern dialects.",
+          "Spoken": "Used in informal communication, may include colloquialisms and dialectal features."
+        }
+      },
+      "Non-literary_Varieties": {
+        "Territorial_Dialects": [
+          "Northern Group",
+          "Southern Group",
+          "Mountain Group"
+        ],
+        "Social_Dialects": "Differences between urban and rural varieties; age-based variations.",
+        "Vernacular": "Colloquial speech, often characterized by reduced forms and borrowing from Uzbek and Russian."
+      }
+    },
+    "Thing": {
+      "definition": "In KonabГЁre ontology, Thing is the superclass of all classes. All linguistic units are instances of Thing."
+    },
+    "Abstract": {
+      "definition": "Grammatical categories in Tajik are abstract: number, tense, aspect, mood, case, definiteness."
+    },
+    "Object": {
+      "definition": "Tajik nouns refer to objects: хона 'house' (physical object), одам 'man' (human), Душанбе 'city' (location)."
+    },
+    "Process": {
+      "definition": "Tajik verbs describe processes: рафтан 'to go', навиштан 'to write', хондан 'to read', зиндагӣ кардан 'to live'."
+    }
+  },
+  "Phonetics_and_Phonology": {
+    "Phonetics": {
+      "definition": "The study of the sound system of Tajik.",
+      "branches": {
+        "Substantive_Phonetics": {
+          "definition": "Studies physical and physiological aspects.",
+          "sub-branches": {
+            "Articulatory": "Study of how Tajik speech sounds are produced (e.g., labial, dental, palatal, velar, uvular).",
+            "Acoustic": "Study of acoustic properties of Tajik vowels and consonants.",
+            "Perceptual": "Study of how Tajik sounds are perceived."
+          }
+        },
+        "Linguistic_Phonetics": {
+          "definition": "Studies the function of sound means in Tajik, focusing on phonemes.",
+          "details": "Tajik has 6 vowel and 24 consonant phonemes, with stress playing a significant functional role."
+        }
+      }
+    },
+    "Phonetic_Units": {
+      "definition": "Linear objects in the speech chain.",
+      "Segment_Units": {
+        "definition": "Minimal linear units.",
+        "types": [
+          {
+            "name": "Sound",
+            "definition": "Concrete realization of a phoneme in a specific context."
+          },
+          {
+            "name": "Sound Type",
+            "definition": "Abstract grouping of phonetically similar sounds."
+          },
+          {
+            "name": "Phoneme",
+            "definition": "Abstract unit that distinguishes meaning (e.g., /p/ vs /b/ in 'пор' (piece) vs 'бор' (burden))."
+          }
+        ]
+      },
+      "Suprasegmental_Units": {
+        "definition": "Units consisting of segmental units organized into larger prosodic structures.",
+        "types": [
+          "Syllable",
+          "Phonetic Word",
+          "Syntagma",
+          "Phrase"
+        ]
+      }
+    },
+    "Phonetic_Features": {
+      "definition": "Properties characterizing phonetic units.",
+      "Segment_Features": [
+        "Voicing (voiced vs voiceless: b/p, d/t, g/k, z/s, ʒ/ʃ, dʒ/tʃ, v/f)",
+        "Place of articulation (bilabial, labiodental, dental, alveolar, postalveolar, palatal, velar, uvular, glottal)",
+        "Manner of articulation (stop, fricative, affricate, nasal, lateral, tap/trill, approximant)",
+        "Vowel Height (high, mid, low)",
+        "Vowel Backness (front, central, back)",
+        "Vowel Rounding (rounded, unrounded)"
+      ],
+      "Suprasegmental_Features": [
+        "Stress (dynamic, usually on the last syllable, but mobile with suffixes and in some word classes)",
+        "Intonation (rising for questions, falling for statements, and conveying various pragmatic meanings)"
+      ]
+    },
+    "Phonetic_Rules": {
+      "definition": "Rules governing the use and variation of phonetic units.",
+      "Phonological_Rules": [
+        "Vowel reduction in unstressed syllables (especially /a/ to [ə])",
+        "Consonant voicing assimilation (voiced consonants become voiceless before voiceless consonants, and vice versa)",
+        "Elision of certain consonants in clusters (e.g., /v/ in 'меравам' → 'мерам')",
+        "Assimilation of /n/ to a following labial consonant (e.g., 'шамбa' ← 'шанба')"
+      ],
+      "Coarticulatory_Rules": [
+        "Nasalization of vowels adjacent to nasal consonants",
+        "Assimilation in fast speech",
+        "Elision of vowels in rapid speech"
+      ]
+    },
+    "Segment_Units": {
+      "Consonants": {
+        "definition": "24 consonant phonemes in Tajik.",
+        "inventory": {
+          "Bilabial": {
+            "phonemes": ["p", "b", "m"],
+            "notes": {
+              "p": "voiceless bilabial stop",
+              "b": "voiced bilabial stop",
+              "m": "voiced bilabial nasal"
+            }
+          },
+          "Labiodental": {
+            "phonemes": ["f", "v"],
+            "notes": {
+              "f": "voiceless labiodental fricative",
+              "v": "voiced labiodental fricative"
+            }
+          },
+          "Dental": {
+            "phonemes": ["t", "d", "n", "l", "r", "s", "z"],
+            "notes": {
+              "t": "voiceless dental stop",
+              "d": "voiced dental stop",
+              "n": "voiced dental nasal",
+              "l": "voiced dental/alveolar lateral",
+              "r": "voiced dental/alveolar tap/trill",
+              "s": "voiceless dental/alveolar fricative",
+              "z": "voiced dental/alveolar fricative"
+            }
+          },
+          "Postalveolar": {
+            "phonemes": ["ʃ", "ʒ", "tʃ", "dʒ"],
+            "notes": {
+              "ʃ": "voiceless postalveolar fricative",
+              "ʒ": "voiced postalveolar fricative",
+              "tʃ": "voiceless postalveolar affricate",
+              "dʒ": "voiced postalveolar affricate"
+            }
+          },
+          "Palatal": {
+            "phonemes": ["j"],
+            "notes": {
+              "j": "voiced palatal approximant"
+            }
+          },
+          "Velar": {
+            "phonemes": ["k", "g", "ɣ", "ŋ"],
+            "notes": {
+              "k": "voiceless velar stop",
+              "g": "voiced velar stop",
+              "ɣ": "voiced velar fricative",
+              "ŋ": "voiced velar nasal (occurs before /g/ and in some loanwords)"
+            }
+          },
+          "Uvular": {
+            "phonemes": ["q", "χ"],
+            "notes": {
+              "q": "voiceless uvular stop",
+              "χ": "voiceless uvular fricative"
+            }
+          },
+          "Glottal": {
+            "phonemes": ["h", "ʔ"],
+            "notes": {
+              "h": "voiceless glottal fricative",
+              "ʔ": "voiceless glottal stop (in loanwords from Arabic)"
+            }
+          }
+        },
+        "phonological_notes": {
+          "voicing_assimilation": "Voiced obstruents are devoiced in final position and before voiceless consonants: китоб [kiˈtop] 'book', дарс [dars] 'lesson'.",
+          "q_χ_distribution": "/q/ is often pronounced as [χ] in some dialects and in certain positions (e.g., бозор [boˈzoχ] 'bazaar').",
+          "ɣ_dialect_variation": "/ɣ/ is present in some dialects and in loanwords, but may be pronounced as [ʁ] or [g]."
+        },
+        "minimal_pairs": [
+          {"pair": "пор 'piece' vs бор 'burden'", "contrast": "p vs b"},
+          {"pair": "тир 'arrow' vs дир 'long'", "contrast": "t vs d"},
+          {"pair": "кор 'work' vs гор 'mountain'", "contrast": "k vs g"},
+          {"pair": "сар 'head' vs зар 'gold'", "contrast": "s vs z"},
+          {"pair": "шаб 'night' vs заб 'tongue'", "contrast": "ʃ vs ʒ"},
+          {"pair": "чой 'tea' vs ҷой 'place'", "contrast": "tʃ vs dʒ"},
+          {"pair": "хар 'donkey' vs ғар 'drowning'", "contrast": "χ vs ɣ"},
+          {"pair": "қош 'eyebrow' vs хош 'nice'", "contrast": "q vs χ"}
+        ]
+      },
+      "Vowels": {
+        "definition": "6 vowel phonemes in Tajik.",
+        "vowel_chart": {
+          "Front": {
+            "Unrounded": {"High": "i", "Mid": "e", "Low": ""},
+            "Rounded": {"High": "", "Mid": "", "Low": ""}
+          },
+          "Central": {
+            "Unrounded": {"High": "", "Mid": "", "Low": "a"},
+            "Rounded": {"High": "", "Mid": "", "Low": ""}
+          },
+          "Back": {
+            "Unrounded": {"High": "", "Mid": "", "Low": ""},
+            "Rounded": {"High": "u", "Mid": "o", "Low": ""}
+          }
+        },
+        "phonetic_values": {
+          "i": "[i] front, high, unrounded",
+          "e": "[e] front, mid, unrounded",
+          "a": "[ä] or [ɑ] central/low back, low, unrounded",
+          "u": "[u] back, high, rounded",
+          "o": "[o] back, mid, rounded"
+        },
+        "vowel_reduction": {
+          "definition": "Vowels are reduced in unstressed syllables. /a/ is often reduced to [ə] or [ʌ], /i/ and /u/ may be reduced to [ɪ] and [ʊ].",
+          "examples": [
+            {"stressed": "хона [χoˈna] 'house'", "unstressed": "хонаҳо [χoˈna(h)o] 'houses'"},
+            {"stressed": "китоб [kiˈtob] 'book'", "unstressed": "китобҳо [kiˈtobho] 'books'"}
+          ]
+        },
+        "dialectal_variation": {
+          "samarkand_bukhara": {
+            "description": "In the Samarkand and Bukhara dialects, the vowel /a/ is frequently fronted to [e] or [æ] in certain environments.",
+            "examples": [
+              {"standard": "сар 'head'", "dialectal": "сер"},
+              {"standard": "мард 'man'", "dialectal": "мерд"},
+              {"standard": "забон 'language'", "dialectal": "зебон"}
+            ]
+          },
+          "northern": {
+            "description": "In northern dialects, the vowel /a/ is typically pronounced as a low back vowel [ɑ], similar to the Russian 'a'."
+          }
+        },
+        "minimal_pairs": [
+          {"pair": "сир 'garlic' vs сур 'red'", "contrast": "i vs u"},
+          {"pair": "зер 'under' vs зор 'lament'", "contrast": "e vs o"},
+          {"pair": "шер 'lion' vs шар 'city'", "contrast": "e vs a"}
+        ]
+      }
+    },
+    "Suprasegmental_Units": {
+      "Syllable": {
+        "definition": "In Tajik, syllables follow a structure of (C)(C)V(C)(C).",
+        "structures": {
+          "V": "Rare; occurs in some pronouns and conjunctions.",
+          "CV": "Most frequent structure.",
+          "CVC": "Frequent.",
+          "CCV": "Occurs in some positions.",
+          "CVCC": "Occurs with consonant clusters."
+        },
+        "examples": [
+          {"structure": "V", "example": "у 'he/she/it'"},
+          {"structure": "CV", "example": "су 'side'"},
+          {"structure": "CVC", "example": "дар 'door'"},
+          {"structure": "CCV", "example": "брoн 'bronze'"},
+          {"structure": "CVCC", "example": "дард 'pain'"}
+        ]
+      },
+      "Stress": {
+        "definition": "Stress is usually on the last syllable of a word. Adding suffixes shifts stress to the new last syllable. In finite verb forms, stress is often on the first syllable, particularly with the prefix 'ме-'. ",
+        "examples": [
+          {"word": "хона 'house'", "stress": "хоˈна"},
+          {"word": "хонаҳо 'houses'", "stress": "хонаˈҳо"},
+          {"word": "хонаи ман 'my house'", "stress": "хонаи ˈман"},
+          {"word": "меравам 'I go'", "stress": "ˈмеравам"},
+          {"word": "рафтам 'I went'", "stress": "ˈрафтам"}
+        ],
+        "exceptions": [
+          "Certain loanwords retain their original stress (e.g., 'кафедра' 'department').",
+          "The negation prefix 'на-' and the durative prefix 'ме-' take primary stress in finite verb forms."
+        ]
+      },
+      "Intonation": {
+        "definition": "Intonation is used to distinguish sentence types and convey pragmatic meaning.",
+        "functions": [
+          "Falling intonation for statements and wh-questions.",
+          "Rising intonation for yes/no questions.",
+          "Complex intonation patterns for expressing emotions and emphasis."
+        ]
+      }
+    },
+    "Phonological_System": {
+      "definition": "The phonological system of Tajik is based on a system of 6 vowels and 24 consonants, with vowel reduction, stress, and intonation playing a significant role.",
+      "vowel_system": "6 vowels organized in a system with front/back, high/mid/low distinctions, and rounding.",
+      "consonant_system": "24 consonants with contrasts in voicing, place, and manner, including uvular and glottal stops."
+    },
+    "Orthographic_System": {
+      "definition": "Tajik has a standardized orthography based on the Cyrillic alphabet, adopted in 1940.",
+      "alphabet": "35 letters: А а, Б б, В в, Г г, Д д, Е е, Ё ё, Ж ж, З з, И и, Й й, К к, Қ қ, Л л, М м, Н н, О о, П п, Р р, С с, Т т, У у, Ф ф, Х х, Ҳ ҳ, Ч ч, Ҷ ҷ, Ш ш, Ъ ъ, Э э, Ю ю, Я я.",
+      "vowel_representation": {
+        "oral": "а, е, и, о, у, э",
+        "notes": "The vowel 'е' is used to represent /e/ and also for the 'yoted' vowels /je/ and /jo/ in initial and post-vocalic positions."
+      },
+      "consonant_representation": {
+        "notes": "Distinct letters for /q/ (қ), /χ/ (х), /ɣ/ (ғ), /ʃ/ (ш), /tʃ/ (ч), /dʒ/ (ҷ), /ʔ/ (ъ)."
+      },
+      "tonal_marking": {
+        "notes": "Tajik is not a tonal language. Stress is not marked orthographically in most cases."
+      },
+      "punctuation": "Uses standard Cyrillic punctuation marks (.,!?, etc.)."
+    }
+  },
+  "Morphology": {
+    "definition": "The branch of linguistics studying the internal structure of words, their forms, and the rules for combining meaningful units in Tajik. Tajik is a highly agglutinative-fusional language, using suffixation extensively for both inflection and derivation.",
+    "key_focus": "Identifying patterns of systematic covariation between form and meaning, particularly in agglutinative-fusional morphology, vowel harmony, and consonant alternations.",
+    "Goals": {
+      "elegant_description": "Capture generalizations about Tajik morphology, not just list facts.",
+      "cognitively_realistic_description": "Reflect the mental grammar of Tajik speakers.",
+      "system_external_explanation": "Link morphological patterns to factors outside the system, such as historical contact with Persian, Arabic, Russian, and Uzbek."
+    },
+    "Basic_Units": {
+      "Word": {
+        "definition": "A complex concept with several distinct senses in Tajik.",
+        "senses": {
+          "Lexeme": {
+            "definition": "An abstract dictionary word representing a core meaning.",
+            "types": [
+              "Simple: хона 'house', китоб 'book', рафтан 'to go'",
+              "Compound: даступо 'hands and feet', сардар 'leader'",
+              "Derived: хонагӣ 'domestic', нависанда 'writer'"
+            ]
+          },
+          "Word-form": {
+            "definition": "A concrete occurrence of a lexeme in speech.",
+            "key_property": "Part of a paradigm.",
+            "examples": {
+              "singular": "хона 'house'",
+              "plural": "хонаҳо 'houses'",
+              "definite object": "хонаро 'the house' (as object)"
+            }
+          },
+          "Word_token": {
+            "definition": "A specific occurrence in a text.",
+            "example": "The token хона in the sentence 'Ман ба хона меравам'"
+          }
+        }
+      },
+      "Morpheme": {
+        "definition": "The smallest meaningful (sign) unit in Tajik. Cannot be divided into smaller meaningful parts.",
+        "key_properties": "Cannot be divided into smaller meaningful parts.",
+        "types": {
+          "Free": {
+            "definition": "Can stand alone as a word.",
+            "examples": ["хона 'house'", "об 'water'", "рав 'go' (imperative)"]
+          },
+          "Bound": {
+            "definition": "Cannot stand alone, must attach to another morpheme.",
+            "examples": ["-ҳо (plural)", "-д (past tense)", "-ро (definite direct object)", "-и (izafet)", "-анд (third person plural verb ending)"]
+          }
+        },
+        "deviations_from_additive_model": {
+          "Cumulation": {
+            "definition": "Expression of multiple meanings by a single marker.",
+            "types": [
+              "Grammatical: past tense suffix -д expresses both past tense and perfective aspect",
+              "Lexical and Grammatical: personal suffixes on verbs express both person and number"
+            ]
+          },
+          "Allomorphy": {
+            "definition": "Variation in form of a morpheme.",
+            "conditioning": [
+              "Phonological: consonant alternations (e.g., voiced/voiceless assimilation)",
+              "Grammatical: different allomorphs for different cases (e.g., -ро, -а for the definite direct object)"
+            ]
+          },
+          "Fusion": "Loss of clear boundary between morphemes in some contracted forms."
+        },
+        "types_by_expression": {
+          "Segmental": "Linear sequence of phonemes: -ҳо, -анд, -ро",
+          "Operational": "Modification of another morpheme: vowel change in some irregular verbs",
+          "Zero": "Meaningful absence: nominative case has zero suffix"
+        }
+      },
+      "Morph": {
+        "definition": "A concrete, linear realization of a morpheme.",
+        "examples": {
+          "-ҳо": "allomorph of plural suffix after consonants and vowels",
+          "-он": "allomorph of plural suffix for animate nouns",
+          "-ён": "allomorph of plural suffix for nouns ending in a vowel",
+          "-ам": "first person singular verb ending",
+          "-анд": "third person plural verb ending"
+        }
+      },
+      "Affix": {
+        "definition": "A bound morpheme attaching to a base. Tajik uses almost exclusively suffixes, with some prefixes from Persian and Arabic.",
+        "types_by_position": {
+          "Prefix": {
+            "definition": "Attach to beginning. Rare in native words, mostly from Persian and Arabic.",
+            "examples": ["бе- (бехона 'homeless')", "но- (ношоиста 'unworthy')", "ме- (durative prefix)", "на- (negation prefix)"]
+          },
+          "Suffix": {
+            "definition": "Attach to end. This is the primary morphological device in Tajik.",
+            "examples": ["-ҳо (plural)", "-д (past tense)", "-ан (infinitive)", "-чӣ (agentive)", "-ӣ (abstract noun)", "-ро (definite direct object)", "-и (izafet)"]
+          }
+        }
+      },
+      "Base_and_Root": {
+        "Root": {
+          "definition": "The base form of a word which cannot be further analyzed without total loss of identity.",
+          "examples": {
+            "free": "хона 'house', китоб 'book', мард 'man'",
+            "bound": "навис- (in нависанда 'writer'), хон- (in хондан 'to read')"
+          }
+        },
+        "Stem": {
+          "definition": "A root plus one or more derivational suffixes, to which inflectional suffixes are added.",
+          "examples": {
+            "simple": "нависанда 'writer' (навис- + -анда)",
+            "compound": "сардор 'leader' (сар 'head' + дор 'having')"
+          }
+        }
+      },
+      "Clitic": {
+        "definition": "A prosodically dependent unit with syntactic freedom.",
+        "types": {
+          "Proclitic": {
+            "definition": "A clitic that precedes the lexical unit.",
+            "examples": ["ме- (durative prefix)", "на- (negation prefix)"]
+          },
+          "Enclitic": {
+            "definition": "A clitic that is phonologically joined at the end.",
+            "examples": ["-ро (definite direct object marker)", "-ам/-ат/-аш (possessive suffixes)", "-и (izafet)", "-е (indefiniteness marker)"]
+          }
+        }
+      },
+      "Compound": {
+        "definition": "A linguistic unit composed of elements that function independently.",
+        "structure": "Two or more words combined; plural marked on the second element.",
+        "examples": {
+          "Noun+Noun": "сардар 'leader' (сар 'head' + дор 'having')",
+          "Noun+Noun (izafet)": "рӯзи оянда 'future day'",
+          "Noun+Adjective": "дастболо 'powerful' (даст 'hand' + боло 'up')"
+        },
+        "types": {
+          "Endocentric": "The compound is a hyponym of its head: сардар (a type of person with a head position)",
+          "Exocentric": "The meaning is not derived from the parts: балогард 'catastrophe'"
+        }
+      }
+    },
+    "Morphological_Operations": {
+      "Inflection": {
+        "definition": "Morphological relationship between word-forms of a single lexeme.",
+        "key_properties": [
+          "Produces word-forms",
+          "Syntactically obligatory",
+          "Regular and productive"
+        ],
+        "categories": [
+          "Number (singular/plural)",
+          "Case (nominative, accusative/dative, genitive, locative, ablative)",
+          "Definiteness (definite direct object marker -ро)",
+          "Tense (present, past, future, perfect, pluperfect)",
+          "Aspect (perfective, imperfective, progressive, habitual)",
+          "Mood (indicative, imperative, subjunctive, conditional, optative)",
+          "Voice (active, passive, causative)",
+          "Person (subject-verb agreement)",
+          "Possession (possessive suffixes on nouns)"
+        ]
+      },
+      "Derivation": {
+        "definition": "Morphological relationship between different lexemes.",
+        "key_properties": [
+          "Produces new lexemes",
+          "Can change word class",
+          "Less regular and productive than inflection"
+        ],
+        "suffixes": {
+          "-чӣ": {
+            "function": "Forms agent nouns from verbs and nouns",
+            "examples": [
+              {"root": "навиштан 'to write'", "derived": "нависанда 'writer'"},
+              {"root": "кор 'work'", "derived": "коргар 'worker'"},
+              {"root": "кӯча 'street'", "derived": "кӯчачӣ 'street sweeper'"}
+            ]
+          },
+          "-ӣ": {
+            "function": "Forms abstract nouns from adjectives and nouns, and adjectives from nouns",
+            "examples": [
+              {"root": "зебо 'beautiful'", "derived": "зебӣ 'beauty'"},
+              {"root": "хона 'house'", "derived": "хонагӣ 'domestic'"},
+              {"root": "мард 'man'", "derived": "мардӣ 'manliness'"}
+            ]
+          },
+          "-гар": {
+            "function": "Forms agent nouns from verbs and nouns",
+            "examples": [
+              {"root": "кор 'work'", "derived": "коргар 'worker'"},
+              {"root": "меҳнат 'labor'", "derived": "меҳнаткаш 'laborer'"}
+            ]
+          },
+          "-гон": {
+            "function": "Forms plural of some nouns, especially animate nouns",
+            "examples": [
+              {"root": "мард 'man'", "derived": "мардон 'men'"},
+              {"root": "зам 'woman'", "derived": "занон 'women'"},
+              {"root": "пир 'old man'", "derived": "пирон 'old men'"}
+            ]
+          },
+          "-истон": {
+            "function": "Forms place names from nouns",
+            "examples": [
+              {"root": "тоҷик 'Tajik'", "derived": "Тоҷикистон 'Tajikistan'"},
+              {"root": "духтар 'girl'", "derived": "духтаристон 'girl's room'"}
+            ]
+          },
+          "-ак": {
+            "function": "Forms diminutives from nouns",
+            "examples": [
+              {"root": "гурба 'cat'", "derived": "гурбача 'kitten'"},
+              {"root": "даст 'hand'", "derived": "дастак 'handle'"}
+            ]
+          }
+        },
+        "verbal_prefixes": {
+          "ме-": {
+            "function": "Forms durative aspect and present-future tense",
+            "examples": ["меравам 'I go'", "мехонам 'I read'"]
+          },
+          "на-": {
+            "function": "Forms negation",
+            "examples": ["намеравам 'I do not go'", "нарафтам 'I did not go'"]
+          },
+          "бе-": {
+            "function": "Forms adjectives meaning 'without'",
+            "examples": ["бехона 'homeless'", "бегап 'speechless'"]
+          },
+          "но-": {
+            "function": "Forms negative adjectives (from Persian)",
+            "examples": ["нодуруст 'incorrect'", "ношоиста 'unworthy'"]
+          }
+        },
+        "nominal_prefixes": {
+          "ба-": {
+            "function": "Forms adjectives meaning 'with'",
+            "examples": ["бадаст 'handy, skillful'", "бафарҳ 'happy'"]
+          },
+          "бе-": {
+            "function": "Forms adjectives meaning 'without'",
+            "examples": ["бедаст 'without hands'", "бефарҳ 'unhappy'"]
+          },
+          "но-": {
+            "function": "Forms negative adjectives (from Persian)",
+            "examples": ["нодуруст 'incorrect'", "ношоиста 'unworthy'"]
+          },
+          "ҳам-": {
+            "function": "Forms nouns and adjectives meaning 'co-, fellow, same'",
+            "examples": ["ҳамсабаб 'colleague'", "ҳамсон 'peer'", "ҳамрӯ 'contemporary'"]
+          }
+        }
+      },
+      "Compounding": {
+        "definition": "Combination of two or more lexemes to form a new one.",
+        "types": {
+          "Endocentric": "One element is the head: сарвар 'leader' (сар 'head' + вар 'having')",
+          "Exocentric": "No clear head: балогард 'catastrophe' (бало 'misfortune' + гард 'turn')"
+        },
+        "examples": {
+          "Noun+Noun": "даступо 'hands and feet', сардӯш 'cover', хонабозор 'house market'",
+          "Noun+Adjective": "дастболо 'powerful', сарсабз 'green-headed'",
+          "Adjective+Adjective": "калон-калон 'very big', хурд-хурд 'very small'"
+        }
+      },
+      "Word_Formation": "Cover term for derivation and compounding."
+    },
+    "The_Lexicon_and_Paradigms": {
+      "Lexicon": {
+        "definition": "The total store of words available to a speaker. Tajik lexicon contains a large number of native Iranian roots, with extensive borrowings from Arabic, Persian, Russian, Uzbek, and other languages.",
+        "key_debate": ["Morpheme-based", "Word-based"],
+        "notes": "Tajik lexicon includes nouns, verbs, adjectives, adverbs, pronouns, postpositions, particles, numerals, and ideophones."
+      },
+      "Lexical_Item": {
+        "definition": "A unit of the vocabulary. Includes native Iranian roots and numerous borrowings."
+      },
+      "Inflectional_Paradigm": {
+        "definition": "The complete set of grammatical word-forms of a lexeme.",
+        "key_concepts": [
+          "Syntagmatic Relations: combination of morphemes",
+          "Paradigmatic Relations: choice between forms"
+        ],
+        "Inflection_Class": "Group of lexemes sharing the same set of forms. Tajik has regular and irregular paradigms.",
+        "Syncretism": "Two or more functions expressed by the same form.",
+        "Defectiveness": "A gap in a paradigm.",
+        "Deponency": "Mismatched form-meaning relationship.",
+        "Periphrasis": "Use of a separate word or phrase."
+      }
+    },
+    "Morphological_Meanings_and_Categories": {
+      "Grammatical_Meaning": {
+        "definition": "Meanings obligatorily expressed by the grammar.",
+        "key_properties": ["Obligatoriness", "Systematicity", "Abstractness"],
+        "Grammatical_Category": "A set of mutually exclusive, obligatory meanings.",
+        "Grammeme": "An individual value within a category."
+      },
+      "Key_Categories_for_Nouns": {
+        "Agreement_Class_Gender": {
+          "definition": "Tajik does not have grammatical gender. Natural gender is expressed lexically or through compounding (e.g., писари 'boy' vs духтар 'girl')."
+        },
+        "Case": {
+          "definition": "Marks syntactic and/or semantic role through suffixes and postpositions. There are five main cases in Tajik.",
+          "Core_Cases": {
+            "Nominative": {
+              "suffix": "∅",
+              "function": "Subject, predicate nominal",
+              "example": "хона 'house'"
+            },
+            "Accusative/Dative": {
+              "suffix": "-ро",
+              "function": "Definite direct object, indirect object with certain verbs",
+              "example": "хонаро 'the house' (as object)"
+            },
+            "Genitive": {
+              "suffix": "-и (izafet)",
+              "function": "Possession, attribution",
+              "example": "хонаи ман 'my house'"
+            },
+            "Locative": {
+              "suffix": "-да / -д",
+              "function": "Location, 'in, on, at'",
+              "example": "хонада 'in the house'"
+            },
+            "Ablative": {
+              "suffix": "-з",
+              "function": "Motion from, 'from'",
+              "example": "хоназ 'from the house'"
+            }
+          },
+          "Peripheral_Cases": [
+            "Instrumental (with бо, -бо/-ва)",
+            "Comitative (also -бо/-ва)",
+            "Benefactive (барои with genitive)"
+          ]
+        },
+        "Number": {
+          "core_meanings": ["Singular", "Plural"],
+          "plural_suffix": {
+            "form": "-ҳо, -он, -ён, -гон",
+            "rule": "The most common plural suffix is -ҳо, which is added to all nouns. -он (and its variants -ён, -гон) is used for animate nouns and some inanimate nouns.",
+            "examples": [
+              {"singular": "хона 'house'", "plural": "хонаҳо"},
+              {"singular": "мард 'man'", "plural": "мардон"},
+              {"singular": "пир 'old man'", "plural": "пирон"},
+              {"singular": "сан 'woman'", "plural": "занон"}
+            ]
+          },
+          "special_cases": {
+            "pluralia_tantum": "Words with only plural form: шим 'pants', айнок 'glasses'",
+            "mass_nouns": "Do not take plural when used generically: об 'water', нон 'bread'"
+          }
+        },
+        "Determination": {
+          "referential_usage": {
+            "Definite": "Marked by the direct object marker -ро for definite direct objects",
+            "Indefinite": "Marked by the indefinite marker -е or by the numeral як 'one'"
+          },
+          "non-referential_usage": {
+            "Generic": "Unmarked noun: Шир хуб аст. 'Milk is good.'"
+          }
+        },
+        "Possession": {
+          "definition": "Possession is expressed through the izafet construction (possessor follows the possessed noun with the izafet marker -и) or through possessive suffixes.",
+          "possessive_suffixes": {
+            "1SG": "-ам (my)",
+            "2SG": "-ат (your)",
+            "3SG": "-аш (his/her/its)",
+            "1PL": "-амон (our)",
+            "2PL": "-атон (your)",
+            "3PL": "-ашон (their)"
+          },
+          "examples": [
+            {"possessor": "my", "word": "хонаам 'my house'"},
+            {"possessor": "your", "word": "хонаат 'your house'"},
+            {"possessor": "his", "word": "хонааш 'his house'"},
+            {"possessor": "our", "word": "хонаамон 'our house'"},
+            {"possessor": "their", "word": "хонаашон 'their house'"}
+          ]
+        }
+      },
+      "Key_Categories_for_Verbs": {
+        "Aspect": {
+          "definition": "Presents situation from internal temporal perspective.",
+          "core_meanings": {
+            "Perfective": "Action viewed as a whole (usually past tense)",
+            "Imperfective": "Action viewed as ongoing (present tense, progressive)",
+            "Habitual": "Repeated or habitual action"
+          },
+          "subtypes": [
+            "Durative (continuous action with ме-)",
+            "Punctual (momentary action)",
+            "Completive (completed action with past tense)",
+            "Inchoative (beginning of action with шудан)",
+            "Habitual (repeated action with ме-)",
+            "Iterative (repeated on one occasion with гирифтан)",
+            "Perfect (resultative state with -а)"
+          ]
+        },
+        "Tense": {
+          "definition": "Locates event relative to moment of speech.",
+          "core_meanings": {
+            "Present": "Unmarked or with ме-",
+            "Past": "-д / -т",
+            "Future": "хоҳам + infinitive or me- + present stem"
+          },
+          "tense_suffixes": {
+            "Present_Future": {
+              "suffix": "ме- + present stem + personal endings",
+              "example": "мехонам 'I read, I will read'"
+            },
+            "Simple_Past": {
+              "suffix": "past stem + -ам, -ӣ, -0, -ем, -ед, -анд",
+              "example": "хондам 'I read'"
+            },
+            "Past_Imperfect": {
+              "suffix": "ме- + past stem + personal endings",
+              "example": "мехондам 'I used to read'"
+            },
+            "Present_Perfect": {
+              "suffix": "past stem + -а + personal endings (copula)",
+              "example": "хондаам 'I have read'"
+            },
+            "Pluperfect": {
+              "suffix": "past stem + -а + будам, будӣ, буд, будем, будед, буданд",
+              "example": "хонда будам 'I had read'"
+            },
+            "Future": {
+              "suffix": "хоҳам, хоҳӣ, хоҳад, etc. + infinitive",
+              "example": "хоҳам хонд 'I will read'"
+            }
+          },
+          "negation_suffix": {
+            "form": "на-",
+            "position": "Before the verb stem or the ме- prefix",
+            "example": "намехонам 'I don't read'"
+          }
+        },
+        "Mood": {
+          "definition": "Expresses attitude toward proposition.",
+          "key_distinction": ["Realis (indicative)", "Irrealis (imperative, subjunctive, conditional, optative)"],
+          "mood_suffixes": {
+            "Imperative": {
+              "SG": "verb stem (e.g., бихон 'read!')",
+              "PL": "verb stem + -ед (e.g., бихонед 'read (PL)!')"
+            },
+            "Subjunctive": {
+              "suffix": "present stem + personal endings (without ме-)",
+              "example": "бихонам 'that I read'"
+            },
+            "Conditional": {
+              "suffix": "past stem + -а + -м, -ӣ, etc.",
+              "example": "хонда бош 'if I had read'"
+            },
+            "Optative": {
+              "suffix": "present stem + -а + personal endings",
+              "example": "хонам 'may I read'"
+            }
+          }
+        },
+        "Voice": {
+          "subtypes": {
+            "Active": "Default voice. The subject performs the action.",
+            "Passive": {
+              "suffix": "past participle + шудан 'to become'",
+              "example": "хонда шудан 'to be read'"
+            },
+            "Causative": {
+              "suffix": "-он- + past stem",
+              "example": "хондан 'to read' → хондан 'to make someone read'"
+            }
+          }
+        }
+      }
+    },
+    "Inflection_vs_Derivation_Criteria": [
+      "Relevance to syntax: Inflection is more relevant",
+      "Obligatoriness: Inflection is more obligatory",
+      "Regularity and productivity: Inflection is more regular",
+      "Meaning compositionality: Inflection is more compositional",
+      "Word class change: Derivation can change class",
+      "Position relative to base: Derivation is closer to root"
+    ],
+    "Morphology_and_Other_Components": {
+      "Morphophonology": {
+        "definition": "Interaction between morphology and phonology.",
+        "processes": [
+          "Vowel reduction in unstressed syllables",
+          "Consonant voicing assimilation",
+          "Elision of consonants in clusters",
+          "Assimilation of /n/ to a following labial"
+        ]
+      },
+      "Syntax-Morphology_Interface": {
+        "lexical_integrity": "Syntactic rules cannot access internal morphological structure."
+      },
+      "Morphology_and_Valence": "How morphology affects argument structure: causative adds an agent, passive removes an agent."
+    },
+    "Productivity_and_Frequency_Effects": {
+      "Productivity": {
+        "definition": "Ability to apply to new bases.",
+        "restrictions": [
+          "Phonological: consonant alternations, vowel harmony (limited)",
+          "Semantic: some derivational suffixes only apply to certain semantic classes",
+          "Pragmatic: some strategies are less productive",
+          "Morphological: borrowed vocabulary may not follow native patterns"
+        ],
+        "blocking": "Existing word prevents formation of a potential synonym."
+      },
+      "Frequency_Effects": {
+        "key_patterns": [
+          "Common values are shorter (e.g., -д for past tense)",
+          "Common values are more differentiated",
+          "High frequency forms are irregular (e.g., будан 'to be' has irregular forms)"
+        ]
+      }
+    },
+    "Morphological_Typology": {
+      "Language_Types": ["Synthetic", "Fusional-Agglutinative"],
+      "Degree_of_Synthesis": "High morpheme-per-word ratio; complex suffixation and compounding."
+    },
+    "Part_Of_Speech_Property": {
+      "definition": "The property that identifies the grammatical class of a word.",
+      "classes": {
+        "Noun": "Names of entities; take plural, case, and possessive markers",
+        "Verb": "Actions and states; show TAM distinctions",
+        "Adjective": "Quality words; can be used as nouns",
+        "Adverb": "Modify verbs; often derived from adjectives with -ӣ",
+        "Pronoun": "Replace nouns; personal, demonstrative, interrogative",
+        "Postposition": "Follow nouns; mark spatial, instrumental, and beneficiary relations",
+        "Particle": "Invariable grammatical items (negation, interrogation, discourse)",
+        "Conjunction": "Connect clauses and phrases",
+        "Numeral": "Cardinal and ordinal numbers",
+        "Interjection": "Exclamatory words"
+      }
+    },
+    "Particles": {
+      "definition": "Invariable grammatical items that serve various functions, including negation, interrogation, and discourse marking.",
+      "types": {
+        "-мӣ": {
+          "function": "Question particle (yes/no questions)",
+          "position": "Enclitic to the verb or the word being questioned",
+          "examples": [
+            {"sentence": "Рафтӣ-мӣ?", "translation": "Did you go?"},
+            {"sentence": "Ту-мӣ рафтӣ?", "translation": "Was it you who went?"}
+          ]
+        },
+        "-да": {
+          "function": "Particle indicating confirmation or emphasis (tag question equivalent)",
+          "position": "Enclitic, often at the end of a clause",
+          "examples": [
+            {"sentence": "Меравӣ-да?", "translation": "You're going, right?"},
+            {"sentence": "Хуб-да!", "translation": "It's good, isn't it?"}
+          ]
+        },
+        "ки": {
+          "function": "Subordinating conjunction (that, because), also used as a relative pronoun",
+          "position": "At the beginning of a subordinate clause",
+          "examples": [
+            {"sentence": "Медонам, ки ӯ рафт.", "translation": "I know that he went."},
+            {"sentence": "Одаме, ки омад.", "translation": "The man who came."}
+          ]
+        },
+        "ҳам": {
+          "function": "Particle meaning 'also, too, even'",
+          "position": "Enclitic to the word it modifies",
+          "examples": [
+            {"sentence": "Ман ҳам рафтам.", "translation": "I went too."},
+            {"sentence": "Ӯ ҳам меравад.", "translation": "He also goes."}
+          ]
+        },
+        "-е": {
+          "function": "Indefinite marker, similar to 'a, an'",
+          "position": "Enclitic to the noun or adjective",
+          "examples": [
+            {"sentence": "Китобе.", "translation": "A book."},
+            {"sentence": "Одаме омад.", "translation": "A man came."}
+          ]
+        },
+        "магар": {
+          "function": "Particle expressing doubt, surprise, or contrast (often 'but' or 'surely')",
+          "position": "At the beginning of a clause",
+          "examples": [
+            {"sentence": "Магар ту намеравӣ?", "translation": "Aren't you going?"},
+            {"sentence": "Магар ӯ рафт?", "translation": "Surely he didn't go?"}
+          ]
+        },
+        "балки": {
+          "function": "Particle meaning 'but, rather, on the contrary'",
+          "position": "At the beginning of a clause",
+          "examples": [
+            {"sentence": "На ба хона, балки ба кор рафт.", "translation": "He didn't go home, but to work."}
+          ]
+        },
+        "гӯё": {
+          "function": "Particle meaning 'as if, as though'",
+          "position": "Before the verb or clause",
+          "examples": [
+            {"sentence": "Гӯё ки ӯ медонад.", "translation": "As if he knows."}
+          ]
+        }
+      }
+    },
+    "GOLD_Specific_Morphological_Classes": {
+      "Bound_Morpheme": {
+        "definition": "Cannot occur independently.",
+        "examples": "Plural suffix -ҳо, past tense -д, infinitives -ан, agentive -чӣ"
+      },
+      "Free_Morpheme": {
+        "definition": "Can occur independently.",
+        "examples": "хона 'house', китоб 'book', мард 'man'"
+      },
+      "Inflectional_Morpheme": {
+        "definition": "Express grammatical categories; do not change word class.",
+        "examples": "Plural suffix -ҳо, case suffixes, tense suffixes"
+      },
+      "Derivational_Morpheme": {
+        "definition": "Derive new lexical units; may change word class.",
+        "examples": "-чӣ (agentive), -ӣ (abstract), -истон (place), -ак (diminutive)"
+      },
+      "Prefix": {
+        "definition": "Attach to beginning of root.",
+        "examples": "ме- (durative), на- (negation), бе- (without), но- (negative)"
+      },
+      "Suffix": {
+        "definition": "Attach to end of root.",
+        "examples": "All primary inflectional and derivational morphemes"
+      },
+      "Category_Changer": {
+        "definition": "Derivational units that change the syntactic category of the root.",
+        "examples": "-чӣ (verb→noun), -ӣ (noun/adjective→noun/adjective), -ак (noun→noun/diminutive)"
+      },
+      "Nominalizer": {
+        "definition": "Forms a noun from some other word class.",
+        "examples": "-чӣ (agentive from verb), -ӣ (abstract from noun/adjective)"
+      },
+      "Verbalizer": {
+        "definition": "Changes nouns into verbs.",
+        "examples": "-идан (хона 'house' → хонаидан 'to house')"
+      },
+      "Intransitivizer": {
+        "definition": "Derives an intransitive verb from a transitive verb.",
+        "examples": "Passive voice: навиштан 'to write' → навишта шудан 'to be written'"
+      },
+      "Transitivizer": {
+        "definition": "Derives transitive verbs from intransitive verb stems.",
+        "examples": "Causative: хондан 'to read' → хондан 'to make someone read'"
+      },
+      "Copula": {
+        "definition": "Indicates a relationship of equivalency between subject and predicate.",
+        "examples": "-ам/-ӣ/-аст/-ем/-ед/-анд (is/are), будан 'to be'"
+      },
+      "Auxiliary": {
+        "definition": "Verbs used in coordination with another verb to express mood, tense or aspect.",
+        "examples": "шудан (passive), хостан (future), бил- (ability)"
+      },
+      "Modal": {
+        "definition": "Expresses necessity, possibility, attitude toward factuality.",
+        "examples": "бояд 'must', метавон 'can', шояд 'maybe'"
+      },
+      "Negation_Operator": {
+        "definition": "Negative-marking particle.",
+        "examples": "на- (verbal negation), не (nominal negation), нест (existential negation)"
+      },
+      "Pro_Form": {
+        "definition": "Substitutes for other constituents.",
+        "examples": "кӣ 'who', чӣ 'what', кадом 'which'"
+      },
+      "Personal_Pronoun": {
+        "definition": "Refers to speaker, addressee, and others.",
+        "examples": {
+          "1SG": "ман",
+          "2SG": "ту",
+          "3SG": "ӯ, вай, ин, он",
+          "1PL": "мо",
+          "2PL": "шумо",
+          "3PL": "онҳо, вайҳо"
+        }
+      },
+      "Demonstrative": {
+        "definition": "Used deictically to indicate spatial, temporal, or discourse location.",
+        "examples": {
+          "proximal": "ин 'this'",
+          "distal": "он 'that'",
+          "plural": "инҳо 'these', онҳо 'those'"
+        }
+      },
+      "Quantifier": {
+        "definition": "Expresses definite or indefinite number or amount.",
+        "examples": ["бисёр 'many'", "кам 'few'", "ҳама 'all'", "баъзе 'some'", "ҳеҷ 'none'"]
+      },
+      "Numeral": {
+        "definition": "Expresses number.",
+        "examples": {
+          "cardinal": {
+            "1": "як", "2": "ду", "3": "се", "4": "чор", "5": "панҷ",
+            "6": "шаш", "7": "ҳафт", "8": "ҳашт", "9": "нӯҳ", "10": "даҳ",
+            "11": "ёздаҳ", "12": "дувоздаҳ", "13": "сенздаҳ", "14": "чордаҳ", "15": "понздаҳ",
+            "16": "шонздаҳ", "17": "ҳабдаҳ", "18": "ҳаждаҳ", "19": "нӯздаҳ", "20": "бист",
+            "30": "сӣ", "40": "чил", "50": "панҷоҳ", "60": "шаст", "70": "ҳафтод",
+            "80": "ҳаштод", "90": "навад", "100": "сад", "200": "дусад", "1000": "ҳазор"
+          },
+          "ordinal": {
+            "formation": "Ordinal numerals are formed by adding the suffix -ум (or -ом after vowels) to the cardinal numeral: як → якум (first), ду → дувум (second), се → сеюм (third), чор → чорум (fourth).",
+            "exceptions": {
+              "first": "аввал (first), якум (also used)",
+              "second": "дувум (second), дуюм (also used)"
+            }
+          }
+        }
+      }
+    },
+    "GOLD_Specific_Grammatical_Categories": {
+      "Number_Values": {
+        "Singular": "Default form in Tajik",
+        "Plural": "Marked by -ҳо, -он, -ён, -гон suffix"
+      },
+      "Person_Values": {
+        "First_Person": "ман (SG), мо (PL)",
+        "Second_Person": "ту (SG), шумо (PL)",
+        "Third_Person": "ӯ/вай/ин/он (SG), онҳо/вайҳо (PL)"
+      },
+      "Tense_Values": {
+        "Present_Tense": "ме- + present stem + personal endings",
+        "Past_Tense": "past stem + personal endings",
+        "Future_Tense": "хоҳам, хоҳӣ, хоҳад, etc. + infinitive"
+      },
+      "Aspect_Values": {
+        "Perfective": "Simple past tense",
+        "Imperfective": "Present-future, past imperfect",
+        "Habitual": "Past imperfect",
+        "Progressive": "Present continuous with истодан",
+        "Perfect": "Present perfect with -а + copula"
+      },
+      "Voice_Values": {
+        "Active": "Default voice",
+        "Passive": "Marked by past participle + шудан",
+        "Causative": "Marked by -он- + past stem"
+      },
+      "Mood_Values": {
+        "Indicative": "Default",
+        "Imperative": "Present stem (SG); present stem + -ед (PL)",
+        "Subjunctive": "Present stem + personal endings (without ме-)",
+        "Conditional": "Past participle + personal endings",
+        "Optative": "Present stem + -а + personal endings"
+      }
+    },
+    "Ergativity": {
+      "definition": "Tajik exhibits an ergative construction in the past tense of transitive verbs. In this construction, the subject of a transitive verb takes the oblique (genitive) case, while the object takes the nominative case. The verb agrees with the object in person and number, not the subject.",
+      "historical_context": "This ergative pattern is a retention from Middle Persian, which had a similar construction. It distinguishes Tajik from other Persian dialects, which have largely lost this feature.",
+      "examples": [
+        {
+          "transitive": "Ман китобро хондам.",
+          "gloss": "I book-DEF read-PAST-1SG",
+          "translation": "I read the book.",
+          "analysis": "ман (I) is the subject in the ergative case, китобро (the book) is the object in the accusative, and хондам (I read) agrees with the subject."
+        },
+        {
+          "transitive": "Ӯ китобро хонд.",
+          "gloss": "He book-DEF read-PAST-3SG",
+          "translation": "He read the book.",
+          "analysis": "ӯ (he) is the subject in the ergative case, китобро (the book) is the object, and хонд (read) agrees with the object (3SG)."
+        },
+        {
+          "transitive": "Мо китобро хондем.",
+          "gloss": "We book-DEF read-PAST-1PL",
+          "translation": "We read the book.",
+          "analysis": "мо (we) is the subject in the ergative case, китобро (the book) is the object, and хондем (read) agrees with the subject (1PL)."
+        },
+        {
+          "intransitive": "Ман рафтам.",
+          "gloss": "I went-PAST-1SG",
+          "translation": "I went.",
+          "analysis": "The intransitive verb agrees with the subject in the nominative case."
+        }
+      ],
+      "notes": "The ergative construction is a significant feature of Tajik, distinguishing it from Persian. It is thought to be a result of contact with Turkic languages or a retention from Old Iranian."
+    }
+  },
+  "Syntax": {
+    "Core_Foundations": {
+      "Generative_Grammar": {
+        "definition": "Grammar viewed as a cognitive faculty; language generated by a set of rules.",
+        "key_assumptions": {
+          "I-Language": "Internal, psychological, cognitive system of grammatical knowledge",
+          "E-Language": "External, physical, social manifestation of language",
+          "Competence": "Idealized, unconscious knowledge of I-Language",
+          "Performance": "Actual use of language, subject to external factors"
+        }
+      },
+      "Basic_Word_Order": {
+        "definition": "SOV (Subject-Object-Verb) order is standard in Tajik, though it can be flexible due to topicalization.",
+        "example": "Ман китобро мехонам. 'I am reading the book.'",
+        "variations": {
+          "OSV": "For emphasis: Китобро ман мехонам. 'It is I who is reading the book.'",
+          "VSO": "Rare, in some questions or poetic contexts: Мехонам ман китобро? 'Am I reading the book?'"
+        }
+      },
+      "Interrogative_Word_Order": {
+        "definition": "In interrogative sentences, the word order typically remains SOV, but the question particle or interrogative word may be fronted for emphasis.",
+        "types": {
+          "yes_no_questions": {
+            "structure": "Rising intonation or the question particle -мӣ is suffixed to the verb or a prominent word in the sentence.",
+            "examples": [
+              {"sentence": "Ту ба хона меравӣ?", "translation": "Are you going home?"},
+              {"sentence": "Ту ба хона меравӣ-мӣ?", "translation": "Are you going home?"},
+              {"sentence": "Оё ту ба хона меравӣ?", "translation": "Are you going home? (formal)"}
+            ]
+          },
+          "wh_questions": {
+            "structure": "The wh-word (кӣ, чӣ, куҷо, etc.) remains in the position of the constituent it replaces, though it may be fronted for focus.",
+            "examples": [
+              {"sentence": "Ту киро мебинӣ?", "translation": "Whom do you see?"},
+              {"sentence": "Киро ту мебинӣ?", "translation": "Whom do you see? (focus on object)"},
+              {"sentence": "Ту чӣ кор мекунӣ?", "translation": "What are you doing?"}
+            ]
+          }
+        }
+      },
+      "Postpositions": {
+        "definition": "Function words that follow nouns to indicate case relations.",
+        "examples": {
+          "барои": "for, because of",
+          "мисли": "like, as",
+          "бо": "with, by",
+          "то": "until, as far as",
+          "аз": "from, because of",
+          "дар": "in, at, on",
+          "бе": "without",
+          "бар": "on, upon"
+        }
+      },
+      "Negation": {
+        "verbal_negation": {
+          "structure": "на- + verb stem",
+          "examples": [
+            {"affirmative": "рафтам 'I went'", "negative": "нарафтам 'I didn't go'"},
+            {"affirmative": "меравам 'I am going'", "negative": "намеравам 'I am not going'"}
+          ]
+        },
+        "nominal_negation": {
+          "structure": "нест + personal ending",
+          "examples": [
+            {"affirmative": "мӯаллимам 'I am a teacher'", "negative": "мӯаллим нестам 'I am not a teacher'"}
+          ]
+        },
+        "existential_negation": {
+          "structure": "нест",
+          "examples": [
+            {"affirmative": "китоб ҳаст 'there is a book'", "negative": "китоб нест 'there is no book'"}
+          ]
+        }
+      },
+      "Interrogation": {
+        "yes_no": {
+          "structure": "Question particle -мӣ or rising intonation",
+          "example": "Гуфтед? 'Did you say?'",
+          "alternative": "Rising intonation in colloquial speech: Гуфтед? 'Did you say?'"
+        },
+        "wh": {
+          "structure": "Interrogative word + verb",
+          "interrogatives": {
+            "кӣ": "who",
+            "чӣ": "what",
+            "куҷо": "where",
+            "чанд": "how many",
+            "чӣ гуна": "how",
+            "кай": "when",
+            "чаро": "why",
+            "кадом": "which"
+          },
+          "example": "Ин чӣ аст? 'What is this?'"
+        }
+      }
+    },
+    "Syntactic_Categories_and_Features": {
+      "Lexical_Categories": ["Noun (N)", "Verb (V)", "Adjective (Adj)", "Adverb (Adv)"],
+      "Functional_Categories": ["Determiner (D)", "Pronoun (Pron)", "Postposition (P)", "Particle", "Conjunction (Conj)"],
+      "Theta_Roles": {
+        "definition": "Bundle of thematic relations.",
+        "common_roles": ["Agent", "Patient", "Goal", "Experiencer", "Instrument", "Location", "Beneficiary"],
+        "Theta_Criterion": "Each argument assigned one and only one theta role; each theta role assigned to one argument."
+      }
+    },
+    "Constituency_and_Phrase_Structure": {
+      "Constituents": {
+        "definition": "A group of words functioning as a single unit.",
+        "tests": ["Replacement", "Movement", "Stand-alone", "Coordination"]
+      },
+      "Noun_Phrase": {
+        "structure": "(Determiner) (Numeral) (Adjective) Noun (Possessive) (Postposition)",
+        "examples": [
+          {"phrase": "хонаи калон 'big house'", "structure": "N Iz Adj"},
+          {"phrase": "ду хонаи калон 'two big houses'", "structure": "Num N Iz Adj"},
+          {"phrase": "хонаи ман 'my house'", "structure": "N Iz Pron"},
+          {"phrase": "дар хона 'in the house'", "structure": "Prep N"}
+        ]
+      },
+      "Verb_Phrase": {
+        "structure": "(Auxiliary) (Negation) (Adverb) Verb (Object)",
+        "examples": [
+          {"phrase": "китобро мехонам 'I am reading the book'", "structure": "Obj Aux V"},
+          {"phrase": "зуд мехонам 'I read quickly'", "structure": "Adv Aux V"},
+          {"phrase": "метавонам бихонам 'I can read'", "structure": "Aux V"}
+        ]
+      },
+      "Adjective_Phrase": {
+        "structure": "Adj + (complement)",
+        "examples": ["хеле зебо 'very beautiful'", "аз хона калонтар 'bigger than the house'"]
+      },
+      "Clause_Structure": {
+        "order": "Subject precedes Object precedes Verb",
+        "example": "Ман китобро мехонам. 'I am reading the book.'"
+      }
+    },
+    "Clause_and_Sentence_Types": {
+      "Declarative": {
+        "structure": "[Subject] [Object] [Verb]",
+        "example": "Ман китобро мехонам.",
+        "negation": "Ман китобро намехонам."
+      },
+      "Interrogative": {
+        "polar": "Ман китобро мехонам? (with rising intonation)",
+        "polar_with_particle": "Ман китобро мехонам-мӣ?",
+        "content": "Ту кадом китобро мехонӣ? 'Which book are you reading?'"
+      },
+      "Imperative": {
+        "singular": "Китобро бихон! 'Read the book!'",
+        "plural": "Китобро бихонед! 'Read the book (PL)!'",
+        "prohibition": "Китобро нахон! 'Don't read the book!'"
+      },
+      "Conditional": {
+        "structure": "Verb + -а + ли + verb",
+        "example": "Агар меомадӣ, ман низ меомадам. 'If you came, I would come too.'"
+      },
+      "Relative_Clause": {
+        "structure": "Participle + Noun",
+        "examples": [
+          {"clause": "омада одам 'the man who is coming'", "type": "Present participle"},
+          {"clause": "хонда китоб 'the book that was read'", "type": "Past participle"}
+        ]
+      }
+    },
+    "Communicative_Categories": {
+      "Theme_and_Rheme": {
+        "Theme": "Starting point, what sentence is about.",
+        "Rheme": "New information, what is said about theme."
+      },
+      "Topic": "Grammaticalized theme, often marked by position at the beginning of sentence.",
+      "Focus": "Most salient, emphasized part; often fronted.",
+      "Given_vs_New": "Information assumed known vs. newly introduced."
+    },
+    "Syntactic_Relations": {
+      "Agreement": {
+        "definition": "Subject-verb agreement in person and number.",
+        "example": "Ман меравам 'I go', Ту меравӣ 'You go'"
+      },
+      "Government": {
+        "definition": "Postpositions determine case marking of noun phrases.",
+        "examples": [
+          "дар хона 'in the house' (locative)",
+          "ба хона 'to the house' (dative)",
+          "аз хона 'from the house' (ablative)"
+        ]
+      },
+      "Adjunct": {
+        "definition": "A phrase modifying a head but not an actant.",
+        "examples": ["Temporal adverbs (имрӯз 'today')", "Locative phrases (дар хона 'at home')"]
+      },
+      "Apposition": "Two noun phrases juxtaposed referring to the same entity.",
+      "example": "Надир, дӯсти ман, дар ин ҷо зиндагӣ мекунад. 'Nadir, my friend, lives here.'"
+    }
+  },
+  "Semantics": {
+    "Core_Theoretical_Foundations": {
+      "Semantics": {
+        "definition": "The branch of linguistics studying meaning in Tajik.",
+        "narrow_vs_wide": {
+          "Narrow_Semantics": "Focuses on conventional, language-internal meaning",
+          "Wide_Semantics": "Encompasses context-dependent sense and pragmatics"
+        }
+      },
+      "Meaning_vs_Sense": {
+        "Meaning_Value": "Abstract, conventional, stable content",
+        "Sense": "Concrete, context-dependent, variable information"
+      },
+      "Truth-Conditional_Semantics": {
+        "definition": "To know meaning is to know truth-conditions."
+      },
+      "Compositionality": {
+        "definition": "Meaning of complex expression determined by meanings of parts and combination rules.",
+        "origin": "Gottlob Frege (Frege's Principle)"
+      }
+    },
+    "Lexical_Semantics": {
+      "Lexical_Meaning": {
+        "definition": "Meaning of a word as a unit of the lexicon.",
+        "components": {
+          "Denotative_Component": "Relation between word and referent",
+          "Significative_Component": "Concept or manner of representation",
+          "Pragmatic_Component": "Conditions of use and speaker's attitude",
+          "Syntactic_Component": "Combinatorial properties"
+        }
+      },
+      "Lexical_Relations": {
+        "Paradigmatic_Relations": {
+          "Synonymy": ["зебо, қашанг, хушрӯй 'beautiful'", "бисёр, зиёд 'many'"],
+          "Antonymy": ["калон 'big' vs хурд 'small'", "хуб 'good' vs бад 'bad'", "дароз 'long' vs кӯтоҳ 'short'"],
+          "Hyperonymy/Hyponymy": [
+            {"hypernym": "ҳайвон 'animal'", "hyponyms": ["саг 'dog'", "гурба 'cat'", "асп 'horse'"]},
+            {"hypernym": "мева 'fruit'", "hyponyms": ["себ 'apple'", "ангӯр 'grape'", "анор 'pomegranate'"]}
+          ],
+          "Meronymy": [
+            {"whole": "хона 'house'", "parts": ["бом 'roof'", "дар 'door'", "тиреза 'window'"]},
+            {"whole": "бадан 'body'", "parts": ["сар 'head'", "даст 'arm'", "по 'foot'"]}
+          ]
+        },
+        "Syntagmatic_Relations": ["Semantic relations", "Collocation"]
+      },
+      "Semantic_Fields": {
+        "Kinship": ["падар 'father'", "модар 'mother'", "бародар 'brother'", "хоҳар 'sister'", "писар 'son'", "духтар 'daughter'"],
+        "Colors": ["сиёҳ 'black'", "сафед 'white'", "сурх 'red'", "сабз 'green'", "кабуд 'blue'", "зард 'yellow'"],
+        "Food": ["нон 'bread'", "гӯшт 'meat'", "моҳӣ 'fish'", "мева 'fruit'", "сабзавот 'vegetables'"],
+        "Transportation": ["мошин 'car'", "автобус 'bus'", "поезд 'train'", "ҳавопаймо 'airplane'", "киштӣ 'ship'"],
+        "Body": ["сар 'head'", "чашм 'eye'", "гӯш 'ear'", "даст 'hand'", "по 'foot'"]
+      },
+      "Polysemy": {
+        "definition": "Single word with multiple related meanings.",
+        "mechanisms": ["Metaphor", "Metonymy", "Synecdoche"],
+        "example": "даст 'hand' also means 'help, assistance' (даст расондан 'to help')"
+      },
+      "Loanwords": {
+        "from_Arabic": {
+          "description": "Arabic loanwords are primarily found in religious, legal, and scientific terminology. They often retain Arabic broken plurals and specific phonological features.",
+          "examples": [
+            {"word": "китоб", "source": "كتاب", "meaning": "book"},
+            {"word": "таърих", "source": "تاريخ", "meaning": "history"},
+            {"word": "адабиёт", "source": "أدبيات", "meaning": "literature"},
+            {"word": "мактаб", "source": "مكتب", "meaning": "school"},
+            {"word": "идора", "source": "إدارة", "meaning": "office, administration"}
+          ]
+        },
+        "from_Persian": {
+          "description": "Persian loanwords form a large part of the Tajik vocabulary, especially in the domains of culture, art, and everyday life. Many of these words are shared with Farsi.",
+          "examples": [
+            {"word": "хона", "source": "خانه", "meaning": "house"},
+            {"word": "шаҳр", "source": "شهر", "meaning": "city"},
+            {"word": "боғ", "source": "باغ", "meaning": "garden"},
+            {"word": "бозор", "source": "بازار", "meaning": "bazaar"},
+            {"word": "гул", "source": "گل", "meaning": "flower"}
+          ]
+        },
+        "from_Russian": {
+          "description": "Russian loanwords are particularly common in technical, administrative, and Soviet-era terminology. They often refer to modern concepts and inventions, and many have been nativized in pronunciation and morphology.",
+          "reasons_for_extensive_borrowing": [
+            "Soviet rule (1920-1991) established Russian as the dominant language of administration, science, and technology.",
+            "Russian was the language of higher education and technical professions.",
+            "Many modern concepts and inventions were introduced through Russian.",
+            "Russian words often had no equivalent in Tajik at the time of borrowing."
+          ],
+          "examples": [
+            {"word": "мошин", "source": "машина", "meaning": "car"},
+            {"word": "стол", "source": "стол", "meaning": "table"},
+            {"word": "газета", "source": "газета", "meaning": "newspaper"},
+            {"word": "телефон", "source": "телефон", "meaning": "telephone"},
+            {"word": "радио", "source": "радио", "meaning": "radio"},
+            {"word": "кино", "source": "кино", "meaning": "cinema"},
+            {"word": "велосипед", "source": "велосипед", "meaning": "bicycle"},
+            {"word": "компютер", "source": "компьютер", "meaning": "computer"},
+            {"word": "интернет", "source": "интернет", "meaning": "internet"},
+            {"word": "банк", "source": "банк", "meaning": "bank"},
+            {"word": "фабрика", "source": "фабрика", "meaning": "factory"}
+          ]
+        },
+        "from_Uzbek": {
+          "description": "Uzbek loanwords are common in the southern dialects (Samarkand, Bukhara) due to extensive bilingualism and cultural contact. They often relate to everyday life, agriculture, and commerce.",
+          "examples": [
+            {"word": "палта", "source": "palto", "meaning": "coat"},
+            {"word": "сабз", "source": "sabz", "meaning": "green"},
+            {"word": "бозор", "source": "bozor", "meaning": "bazaar"},
+            {"word": "маҳалла", "source": "mahalla", "meaning": "neighborhood"},
+            {"word": "чирой", "source": "chiroq", "meaning": "light"}
+          ]
+        }
+      }
+    },
+    "Grammatical_Semantics": {
+      "Grammatical_Meaning": {
+        "definition": "Abstract, obligatory, systematic meaning expressed by grammatical markers.",
+        "key_categories": [
+          "Number (plural -ҳо, -он, -ён, -гон)",
+          "Case (nominative, accusative, genitive, locative, ablative)",
+          "Tense (past -д, present-future ме-, future хоҳам + infinitive)",
+          "Aspect (perfective, imperfective, progressive, habitual, perfect)",
+          "Mood (imperative, subjunctive, conditional, optative)",
+          "Voice (active, passive, causative)",
+          "Possession (possessive suffixes)",
+          "Definiteness (direct object marker -ро)"
+        ]
+      }
+    },
+    "Semantics_of_the_Sentence": {
+      "Propositional_Component": {
+        "definition": "Describes a state of affairs.",
+        "Proposition": "Set of possible worlds or truth-value.",
+        "Predicate": "Denotes a property or relation.",
+        "Argument_Structure": "List of participants with semantic roles."
+      },
+      "Communicative_Component": {
+        "definition": "Packaging of propositional content.",
+        "Theme_Rheme": "Topic and comment.",
+        "Topic_Focus": "Grammaticalized theme and salient part.",
+        "Given_New": "Information assumed known vs. newly introduced."
+      },
+      "Pragmatic_Component": {
+        "definition": "Information about speaker's intention and use.",
+        "Speech_Act": "Utterance with illocutionary force.",
+        "Illocutionary_Force": "Type of act (assertion, question, command, wish)",
+        "Presupposition": "Background information assumed true."
+      }
+    },
+    "Reference_and_Quantification": {
+      "Reference": {
+        "Referential_Status": {
+          "Definite": "Marked by -ро for direct objects or implied by context",
+          "Indefinite": "Marked by -е or як 'one'",
+          "Generic": "Unmarked: Китоб фоида дорад. 'Books are useful.'"
+        }
+      },
+      "Quantification": {
+        "Numerals": {
+          "cardinal": {
+            "1": "як", "2": "ду", "3": "се", "4": "чор", "5": "панҷ",
+            "6": "шаш", "7": "ҳафт", "8": "ҳашт", "9": "нӯҳ", "10": "даҳ",
+            "11": "ёздаҳ", "12": "дувоздаҳ", "13": "сенздаҳ", "14": "чордаҳ", "15": "понздаҳ",
+            "16": "шонздаҳ", "17": "ҳабдаҳ", "18": "ҳаждаҳ", "19": "нӯздаҳ", "20": "бист",
+            "30": "сӣ", "40": "чил", "50": "панҷоҳ", "60": "шаст", "70": "ҳафтод",
+            "80": "ҳаштод", "90": "навад", "100": "сад", "200": "дусад", "1000": "ҳазор"
+          },
+          "ordinal": {
+            "formation": "Ordinal numerals are formed by adding the suffix -ум (or -ом after vowels) to the cardinal numeral: як → якум (first), ду → дувум (second), се → сеюм (third), чор → чорум (fourth).",
+            "exceptions": {
+              "first": "аввал (first), якум (also used)",
+              "second": "дувум (second), дуюм (also used)"
+            }
+          },
+          "compound_numerals": {
+            "structure": "Compound numerals are formed by connecting the tens and units with the conjunction 'у' (and). For example: бисту як (21), бисту ду (22), сӣ (30), чилу панҷ (45), панҷоҳу шаш (56).",
+            "examples": [
+              {"number": "21", "tajik": "бисту як"},
+              {"number": "32", "tajik": "сию ду"},
+              {"number": "45", "tajik": "чилу панҷ"},
+              {"number": "67", "tajik": "шасту ҳафт"},
+              {"number": "89", "tajik": "ҳаштоду нӯҳ"}
+            ]
+          }
+        },
+        "Quantifiers": ["бисёр 'many'", "кам 'few'", "баъзе 'some'", "ҳама 'all'", "ҳеҷ 'none'", "якчанд 'several'"]
+      }
+    }
+  },
+  "Interfaces_and_Integration": {
+    "Phonetics-Phonology_Interface": {
+      "definition": "The interaction between the substance of speech and its functional organization.",
+      "key_areas": [
+        "Allophonic variation: [k]~[c] before front vowels, [g]~[ɟ]",
+        "Phonological rules: vowel reduction, consonant voicing assimilation",
+        "Phonetic transcription: Mapping from phonemes to phonetic realization"
+      ]
+    },
+    "Phonology-Morphology_Interface": {
+      "definition": "The interaction between sound structure and word structure.",
+      "key_areas": [
+        "Vowel reduction in unstressed syllables in suffixes",
+        "Consonant alternations (voicing assimilation, elision in clusters)",
+        "Stress patterns in word formation and inflection"
+      ]
+    },
+    "Morphology-Syntax_Interface": {
+      "definition": "The interaction between word structure and sentence structure.",
+      "key_areas": [
+        "Lexical Integrity: Syntactic rules cannot access internal morphological structure",
+        "Agreement: Subject-verb agreement in person and number",
+        "Case assignment: Postpositions and prepositions assign case to noun phrases",
+        "Valence changing operations: Causative -он- adds an agent, passive -шудан removes an agent"
+      ]
+    },
+    "Syntax-Semantics_Interface": {
+      "definition": "The interaction between sentence structure and meaning.",
+      "key_areas": [
+        "Compositionality: Meaning derived from parts and their combination",
+        "TAM marking: Tense, aspect, mood express temporal and modal meaning",
+        "Focus construction: Fronting for emphasis",
+        "Conditional constructions: -а + ли for real conditions"
+      ]
+    },
+    "Semantics-Pragmatics_Interface": {
+      "definition": "The interaction between literal meaning and context-dependent interpretation.",
+      "key_areas": [
+        "Speech acts: Declaratives, interrogatives, imperatives, wishes",
+        "Presupposition: Background information in relative clauses",
+        "Definiteness and reference: Marked by -ро or implied by context",
+        "Focus and topicalization: Fronting for information structure"
+      ]
+    }
+  },
+  "Relations_and_Properties": {
+    "Object_Properties": {
+      "subject": {
+        "definition": "Agent of transitive verb or single argument of intransitive verb.",
+        "example": "Ман in 'Ман китобро мехонам'"
+      },
+      "object": {
+        "definition": "Patient of transitive verb.",
+        "example": "китоб in 'Ман китобро мехонам'"
+      },
+      "agent": {
+        "definition": "Semantic role of the doer of the action.",
+        "example": "одам in 'Одам дарро кушод'"
+      },
+      "patient": {
+        "definition": "Semantic role of the undergoer of the action.",
+        "example": "дар in 'Одам дарро кушод'"
+      },
+      "precedes": {
+        "definition": "Linear order relation.",
+        "examples": ["Subject precedes Object", "Object precedes Verb", "Noun precedes Adjective"]
+      },
+      "follows": {
+        "definition": "Inverse of precedes.",
+        "examples": ["Verb follows Object", "Adjective follows Noun"]
+      },
+      "allomorph": {
+        "definition": "Relation between a morpheme and its allomorphs.",
+        "examples": [
+          "PLURAL-MORPHEME allomorph -ҳо",
+          "PLURAL-MORPHEME allomorph -он",
+          "PLURAL-MORPHEME allomorph -ён",
+          "PLURAL-MORPHEME allomorph -гон"
+        ]
+      },
+      "allophone": {
+        "definition": "Relation between a phoneme and its phones.",
+        "examples": [
+          "/b/ allophone [p] (word-final)",
+          "/d/ allophone [t] (word-final)",
+          "/g/ allophone [ŋ] (after /n/)"
+        ]
+      },
+      "complement": {
+        "definition": "Syntactic argument of a verb.",
+        "examples": ["Noun complement precedes verb", "Pronoun complement precedes verb"]
+      },
+      "hasMorphologicalConstituent": {
+        "definition": "Part-whole relation in morphology.",
+        "examples": ["Noun hasMorphologicalConstituent Root", "Noun hasMorphologicalConstituent Suffix"]
+      },
+      "hasSyntacticConstituent": {
+        "definition": "Part-whole relation in syntax.",
+        "examples": ["Clause hasSyntacticConstituent Subject", "Clause hasSyntacticConstituent Predicate"]
+      },
+      "realization": {
+        "definition": "Relation between a linguistic unit and its physical form.",
+        "examples": ["/хона/ realized as [хоˈна]", "/китоб/ realized as [киˈтоб]"]
+      },
+      "semanticRole": {
+        "definition": "Relation between a participant and a predicate.",
+        "examples": ["Subject semanticRole Agent", "Object semanticRole Patient"]
+      },
+      "synonym": {
+        "definition": "Words with similar meaning.",
+        "examples": ["зебо, қашанг, хушрӯй = 'beautiful'"]
+      },
+      "antonym": {
+        "definition": "Words with opposite meaning.",
+        "examples": ["калон 'big' vs хурд 'small'", "хуб 'good' vs бад 'bad'"]
+      },
+      "entails": {
+        "definition": "Entailment relation between propositions."
+      },
+      "argument": {
+        "definition": "The syntactic entity about which something is predicated.",
+        "examples": ["Subject argument", "Object argument"]
+      },
+      "head": {
+        "definition": "The head of a phrase.",
+        "examples": ["Noun is head of NP", "Verb is head of VP"]
+      },
+      "inLanguage": {
+        "definition": "Relation between a linguistic sign and Tajik."
+      }
+    },
+    "Datatype_Properties": {
+      "phoneticRep": {
+        "definition": "Phonetic representation of a linguistic unit.",
+        "example": "[киˈтоп] for китоб 'book'"
+      },
+      "phonemicRep": {
+        "definition": "Phonemic representation of a linguistic unit.",
+        "example": "/kiˈtob/ for китоб 'book'"
+      },
+      "orthographicRep": {
+        "definition": "Orthographic representation of a linguistic unit.",
+        "example": "<китоб> for 'book'"
+      },
+      "gloss": {
+        "definition": "Gloss or translation of a linguistic unit.",
+        "example": "'book' for китоб"
+      },
+      "hasExample": {
+        "definition": "Example usage of a linguistic unit."
+      },
+      "stringRep": {
+        "definition": "String representation of a linguistic unit."
+      }
+    }
+  },
+  "Lexicon_Overview": {
+    "definition": "The lexicon of Tajik includes a large number of native Iranian roots, with extensive borrowings from Arabic, Persian, Russian, Uzbek, and other languages. The lexicon is characterized by a high degree of derivational morphology, with a variety of suffixes for forming new words.",
+    "word_structure": "Most words are disyllabic or monosyllabic; CV and CVC syllable structures most common.",
+    "loanwords": "Primarily from Arabic, Persian, Russian, and Uzbek; adapt to native phonotactic constraints.",
+    "noun_classes": "Nouns are not classified by grammatical gender. Natural gender is expressed lexically.",
+    "nominal_compounds": "Highly productive; plural marked on the second constituent.",
+    "idiomatic_expressions": {
+      "definition": "Idiomatic expressions are fixed phrases whose meaning is not predictable from the meanings of their individual components. They are common in Tajik and often have cultural or metaphorical origins.",
+      "examples": [
+        {"expression": "даст ба кор шудан", "literal": "hand to work become", "meaning": "to start working, get down to business"},
+        {"expression": "дил додан", "literal": "heart give", "meaning": "to fall in love, to be captivated"},
+        {"expression": "рӯй додан", "literal": "face give", "meaning": "to happen, to occur"},
+        {"expression": "гап задан", "literal": "talk hit", "meaning": "to talk, to speak"},
+        {"expression": "чашм дӯхтан", "literal": "eye sew", "meaning": "to stare at, to gaze"},
+        {"expression": "сахт гирифтан", "literal": "hard take", "meaning": "to take seriously, to be strict"},
+        {"expression": "хоби гарон", "literal": "heavy sleep", "meaning": "deep sleep"},
+        {"expression": "ошиқи кисеви", "literal": "lover of something", "meaning": "addicted to something, fond of something"},
+        {"expression": "барои хира", "literal": "for the sake of", "meaning": "for, for the benefit of"},
+        {"expression": "бо дасти худ", "literal": "with one's own hand", "meaning": "personally, by oneself"},
+        {"expression": "дар ин бора", "literal": "in this matter", "meaning": "in this regard, about this"},
+        {"expression": "руз ба руз", "literal": "day to day", "meaning": "day by day, gradually"},
+        {"expression": "сар ба сар", "literal": "head to head", "meaning": "face to face, in person"},
+        {"expression": "гап гап", "literal": "talk talk", "meaning": "word of mouth, rumor"},
+        {"expression": "нон дар нон", "literal": "bread in bread", "meaning": "very close, intimate"}
+      ]
+    },
+    "sample_entries": [
+      {"form": "хона", "gloss": "house", "class": "N", "plural": "хонаҳо", "case_paradigm": ["хона (nom.)", "хонаро (acc.)", "хонаи (gen.)", "хонада (loc.)", "хоназ (abl.)"]},
+      {"form": "китоб", "gloss": "book", "class": "N", "plural": "китобҳо", "case_paradigm": ["китоб (nom.)", "китобро (acc.)", "китоби (gen.)", "китобда (loc.)", "китобз (abl.)"]},
+      {"form": "мард", "gloss": "man", "class": "N", "plural": "мардон", "case_paradigm": ["мард (nom.)", "мардро (acc.)", "марди (gen.)", "мардда (loc.)", "мардз (abl.)"]},
+      {"form": "зан", "gloss": "woman", "class": "N", "plural": "занон", "case_paradigm": ["зан (nom.)", "занро (acc.)", "зани (gen.)", "занда (loc.)", "занз (abl.)"]},
+      {"form": "бовар", "gloss": "belief", "class": "N", "plural": "боварҳо"},
+      {"form": "меҳнат", "gloss": "labor", "class": "N", "plural": "меҳнатҳо"},
+      {"form": "таълим", "gloss": "education", "class": "N", "plural": "таълимҳо"},
+      {"form": "руз", "gloss": "day", "class": "N", "plural": "рӯзҳо"},
+      {"form": "шаб", "gloss": "night", "class": "N", "plural": "шабҳо"},
+      {"form": "сабз", "gloss": "green", "class": "Adj"},
+      {"form": "сурх", "gloss": "red", "class": "Adj"},
+      {"form": "кабуд", "gloss": "blue", "class": "Adj"},
+      {"form": "сиёҳ", "gloss": "black", "class": "Adj"},
+      {"form": "сафед", "gloss": "white", "class": "Adj"},
+      {"form": "дароз", "gloss": "long", "class": "Adj"},
+      {"form": "кӯтоҳ", "gloss": "short", "class": "Adj"},
+      {"form": "рафтан", "gloss": "to go", "class": "V", "stem": "рав-", "tenses": ["меравам (present)", "рафтам (past)", "хоҳам рафт (future)"]},
+      {"form": "хондан", "gloss": "to read", "class": "V", "stem": "хон-", "tenses": ["мехонам (present)", "хондам (past)", "хоҳам хонд (future)"]},
+      {"form": "навиштан", "gloss": "to write", "class": "V", "stem": "навис-", "tenses": ["менависам (present)", "навиштам (past)", "хоҳам навишт (future)"]},
+      {"form": "омадан", "gloss": "to come", "class": "V", "stem": "ой-", "tenses": ["меоям (present)", "омадам (past)", "хоҳам омад (future)"]},
+      {"form": "шудан", "gloss": "to become", "class": "V", "stem": "шав-", "tenses": ["мешавам (present)", "шудам (past)", "хоҳам шуд (future)"]},
+      {"form": "кардан", "gloss": "to do", "class": "V", "stem": "кун-", "tenses": ["мекунам (present)", "кардам (past)", "хоҳам кард (future)"]},
+      {"form": "доштан", "gloss": "to have", "class": "V", "stem": "дор-", "tenses": ["медорам (present)", "доштам (past)", "хоҳам дошт (future)"]},
+      {"form": "гуфтан", "gloss": "to say", "class": "V", "stem": "гӯ-", "tenses": ["мегӯям (present)", "гуфтам (past)", "хоҳам гуфт (future)"]},
+      {"form": "шунавидан", "gloss": "to hear", "class": "V", "stem": "шунав-", "tenses": ["мешунавам (present)", "шунавидам (past)", "хоҳам шунавид (future)"]}
+    ]
+  }
+}

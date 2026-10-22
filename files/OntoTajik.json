@@ -1,0 +1,2152 @@
+{
+  "meta": {
+    "title": "Tajik (забони тоҷикӣ) Language Ontology",
+    "version": "1.0",
+    "description": "Description of Modern Literary Tajik, an Eastern variety of New Persian used in Tajikistan and parts of Uzbekistan. The variety described is the literary standard in Cyrillic.",
+    "sources": [
+      "Gernot Windfuhr and John R. Perry, Persian and Tajik (chapter 8 of The Iranian Languages), attached chapter, printed page numbers 416-544. Descriptive reference grammar. URL not stated in the attached file. License not stated in the attached file.",
+      "Nasrullo Khojayori and Mikael Thompson, Tajiki Reference Grammar for Beginners, 2009, Georgetown University Press, ISBN 978-1-58901-269-1. Pedagogical reference grammar. URL not stated in the attached file. Copyright 2009 Georgetown University Press, as printed in the attached file."
+    ],
+    "language_name": "Tajik (забони тоҷикӣ)",
+    "iso_code": "tgk",
+    "iso_639_1": "tg",
+    "classification": "Eastern variety of New Persian; Iranian. Evolved from Early New Persian. Western Persian (Iran) and Eastern Persian (Afghanistan and Central Asia) are the two broad groups; Tajik belongs to the Eastern group.",
+    "speaker_population": "approximately five million",
+    "location": "Tajikistan and parts of Uzbekistan, including the cities of Bukhara and Samarkand; also Tajik Persian speakers in Afghanistan and a minority in Kirgizstan. The so-called Tajiks of south-west Xinjiang speak Pamir languages, not Persian.",
+    "dialects": [
+      "Northern",
+      "Central",
+      "Southern",
+      "South-eastern"
+    ],
+    "standard_dialect": "Modern Literary Tajik (zabon-i adabi-i hozira-i tojik), planned in the Soviet period and based loosely on the style of Bukhara. Dushanbe is nominally in the Northern dialect area but is best considered separately.",
+    "gold_base_uri": "http://purl.org/linguistics/gold/",
+    "date": "2026-10-06",
+    "scope": "Standard literary Tajik of the modern written norm associated with Dushanbe, in Cyrillic script, as described for Modern Literary Tajik.",
+    "note": "Speaker figure, location, dialect groups, and the literary standard are synchronous descriptions in Windfuhr & Perry (book pp. 420-421). The Eastern vs Western split and descent from Early New Persian are diachronic as well as synchronic (book pp. 416-421). ISO codes are file identity fields; the attached grammars do not print ISO 639 codes.",
+    "notes": {
+      "gaps": [
+        {
+          "fact": "Ergative construction in Standard Tajik",
+          "reason": "No attestation in the attached chapter or in the beginner grammar.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "A list of at least 50 irregular Tajik verbs with both stems and the infinitive",
+          "reason": "Windfuhr & Perry give a short set of Tajik stem pairs and state that Tajik forms are omitted from most of the irregular subset list. No stem dictionary is attached.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Three distinct buffer vowels -а-, -я-, and -й- each with three examples, as separate morphological formatives",
+          "reason": "The sources attest euphonic -y- after vowels, ezafe -yi, and euphonic -g- after -a. They do not set up three vowel buffers under those names.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Homonymy of possessive -ат, -аш, -амон, -атон, -ашон with verbal personal endings of the same shape",
+          "reason": "The Tajik verb endings in the paradigm are -am, -i, -ad, -em, -ed, -and. Only -am clearly matches an enclitic of the same shape. -at/-as/-amon/-aton/-ason are enclitics.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Prefix на- homonymous with the onset of verbs such as навиштан, нишастан, намудан",
+          "reason": "Negation na- is attested (na-raft, na-me-gu-yam). Those lexical verbs are not given as Tajik citation forms in the attached sources. 'Sit' is sin-/sist-, not a na- initial stem.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Case markers -да and -з as standard case",
+          "reason": "Not described as Standard Tajik case markers. Postposition -ro and prepositions are described instead. Dialectal da from dar is a reduced preposition, not a case suffix -да.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Suppletive comparatives беҳтар/хуб, бештар/бисёр, камтар/кам, бузургтар/бузург, меҳрубонтар/меҳрубон as stated pairs",
+          "reason": "bihtar-in kitob 'the best book', buzurg-tar, and bisyor 'very' occur, but the sources do not state these as suppletive lemmas of хуб, бисёр, кам, or меҳрубон.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Lexicalized items оҳангар, боғбон, деҳқон, чӯпон, моҳигир, гурбача, шаҳрак, and the base меҳрубон",
+          "reason": "Not found in the attached sources. kor-gar, navis-anda, and Tojikiston are attested and are entered above.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Colloquial shortened stems мешунам and мерам",
+          "reason": "Not attested in the attached sources.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Three attested examples each for abstract -ӣ from adjectives and for relational -ӣ from nouns, beyond the few forms printed",
+          "reason": "Attested: шиносой, хонагӣ, baca-g-i, Buxoro-i. Further triplets are not in the pages used.",
+          "where_searched": [
+            "Khojayori & Thompson 2009",
+            "Windfuhr & Perry, Persian and Tajik"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Derivational suffixes -манд, -нок, -дор, -ча, -ак, -чӣ, -бон with examples",
+          "reason": "Not attested with examples in the passages extracted. -gar, -anda, -iston, and -i/-gi are attested and are entered above.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Perry 2005, Ido 2005 as a Standard Tajik grammar, and Rzehak 1999",
+          "reason": "Those editions are not in the attached file set. The attached Ido PDF is a 2007 Bukharan Tajik text collection and was not used for Standard Tajik facts.",
+          "where_searched": [
+            "attached file set in the task folder"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Lemma conventions of a gold treebank",
+          "reason": "No corpus annotation guidelines were attached (Input C is absent).",
+          "where_searched": [
+            "attached file set in the task folder"
+          ],
+          "status": "missing"
+        }
+      ],
+      "verification": [
+        {
+          "fact": "Consonant letter list of 24 items as read from the Khojayori alphabet page image (ғ, қ, ҳ, ҷ, ъ among them)",
+          "reason": "The PDF text layer maps those glyphs to Latin lookalikes. The list was read from a rendered page image, not from a second grammar's chart.",
+          "where_searched": [
+            "Khojayori & Thompson 2009",
+            "Windfuhr & Perry, Persian and Tajik"
+          ],
+          "status": "unverified"
+        },
+        {
+          "fact": "Present stem paired with the attested infinitive girift-an 'to take'",
+          "reason": "girift-an and girift-a are printed. The present stem is not glossed next to that infinitive. Persian gereft- is in a comparative pair.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik"
+          ],
+          "status": "unverified"
+        },
+        {
+          "fact": "xah-am raft as a Tajik definite future rather than a Persian example in a joint paragraph",
+          "reason": "The stress section cites xah-am raft without a Persian/Tajik slash pair. The tense chapter says there is no paradigmatic future.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "unverified"
+        },
+        {
+          "fact": "Past stem of Tajik don- 'know'",
+          "reason": "Present don- is attested (me-don-em, bi-don). The dan-/danest- pair is in the list from which Tajik forms are omitted.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik"
+          ],
+          "status": "unverified"
+        },
+        {
+          "fact": "Past stem paired with Tajik dih- 'give'",
+          "reason": "dih-ed 'give!' is attested. The deh-/dod- pair is in the list from which Tajik forms are omitted.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik"
+          ],
+          "status": "unverified"
+        }
+      ],
+      "processed": [
+        "Core_Foundations, Phonetics_and_Phonology, Morphology, Syntax, Semantics, Interfaces_and_Integration, Relations_and_Properties, and Lexicon_Overview are populated from the two sources in meta.sources.",
+        "Windfuhr & Perry, Persian and Tajik, chapter 8: citations in this file cover printed pages 416-455, 473, 475-476, 527, and 530-532.",
+        "Khojayori & Thompson 2009 is cited in Phonetics_and_Phonology, Morphology, and Lexicon_Overview. The beginner grammar is not cited by printed page number."
+      ],
+      "not_yet_processed": [
+        "Windfuhr & Perry chapter 8, printed pages 456-472, 474, 477-526, 528-529, and 533-544, are not cited in this file. The chapter PDF is not in the repair folder, so those pages were not read in this pass.",
+        "Khojayori & Thompson 2009 has no page-numbered unread queue recorded in this file."
+      ],
+      "input_validation": [
+        "Repair inputs present: OntoTajik.json, OntoKon.json, base-ontology.schema.json, language-ontology.schema.json, validate.py.",
+        "The source grammars are not in this folder. No new linguistic facts were added in the repair."
+      ],
+      "limitations": [
+        "The Khojayori PDF text layer maps some Cyrillic glyphs to Latin lookalikes. The 24-letter consonant list was read from a rendered page image and is marked unverified in notes.verification.",
+        "ISO 639 codes tgk and tg are file identity fields. The attached grammars do not print ISO 639 codes.",
+        "Lexicon_Overview is a sample, not a full dictionary."
+      ]
+    }
+  },
+  "Core_Foundations": {
+    "Language": {
+      "definition": "A complex sign system organized as a lexicon and a grammar. [GOLD URI: http://purl.org/linguistics/gold/Language] Applied here to Modern Literary Tajik (synchrony): a variety of New Persian, zabon-i tojiki / zabon-i forsi-i tojik, fostered since the 1920s as the national and literary language of Tajikistan.",
+      "key_properties": [
+        "Eastern New Persian (synchrony), evolved from Early New Persian (diachrony)",
+        "Cyrillic orthography since 1939/1940, after Arabic and a Latin stage (diachrony of the writing system; the modern orthography is synchronous)",
+        "Six-vowel system and retention of the q vs gh contrast, unlike Iranian Persian (synchrony)"
+      ],
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 416-421, 425"
+    },
+    "Linguistic_System": {
+      "definition": "The grammar and lexicon of a language variety. [GOLD URI: http://purl.org/linguistics/gold/LinguisticSystem] For this file, the system is Modern Literary Tajik unless a dialect is named.",
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 421"
+    },
+    "Linguistic_Taxon": {
+      "definition": "A node in a classification of languages. [GOLD URI: http://purl.org/linguistics/gold/LinguisticTaxon]",
+      "taxonomy": {
+        "genetic": "New Persian, Eastern group (Afghanistan and Central Asia), as opposed to the Western group mainly in Iran",
+        "geographic": "Tajikistan; Bukhara and Samarkand in Uzbekistan; continuum with Afghan Persian interrupted by Turkmen and Uzbek",
+        "political": "National and literary language of Tajikistan (Soviet republic, independent state from 1991)",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 417-421"
+      }
+    },
+    "Genetic_Taxon": {
+      "definition": "A taxon based on inheritance. [GOLD URI: http://purl.org/linguistics/gold/GeneticTaxon] Tajik and Iranian Persian both evolved from Early New Persian (diachrony). Tajik has retained Early Eastern Persian features and has assimilated a Turkic typological component (diachrony); both still share much of the underlying system (synchrony).",
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 416-420"
+    },
+    "Geographic_Taxon": {
+      "definition": "A taxon based on place. [GOLD URI: http://purl.org/linguistics/gold/GeographicTaxon] Four dialect groups follow the Oxus basin: Northern lowlands (Bukhara, Samarkand, Derbend, Ferghana Valley including Khujand, down the Varzob valley toward Dushanbe); Central (upper Zarafshon); Southern (Kulob, Qarotegin including Gharm, toward the Pamirs); South-eastern (Darvoz, on the bend of the Oxus near Rushan).",
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 421"
+    },
+    "Political_Taxon": {
+      "definition": "A taxon based on a polity. [GOLD URI: http://purl.org/linguistics/gold/PoliticalTaxon] Tajik has been fostered as the national literary language of Tajikistan since the 1920s (synchrony of status; the political history is diachrony).",
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 420"
+    },
+    "Endangerment_Taxon": {
+      "definition": "A taxon based on degree of endangerment. [GOLD URI: http://purl.org/linguistics/gold/EndangermentTaxon] The attached sources do not assign an endangerment status to Standard Tajik. They do note assimilation and emigration for Caucasian Tat, and emigration of the Jews of Bukhara, which is a Northern Tajik sub-variety, not the national standard.",
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 418, 421"
+    },
+    "Language_Family": {
+      "definition": "A genetic grouping. [GOLD URI: http://purl.org/linguistics/gold/LanguageFamily] The attached chapter treats Tajik inside Iranian, as New Persian. A finer Indo-European subtree is not stated in the attached sources.",
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 416-417"
+    },
+    "Language_Subfamily": {
+      "definition": "A grouping inside a family. [GOLD URI: http://purl.org/linguistics/gold/LanguageSubfamily] Persian varieties split into a Western group (mainly Iran) and an Eastern group (Afghanistan and Central Asia). Tajik is Eastern (synchrony of the split; the split itself is diachronic).",
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 417"
+    },
+    "Dialect": {
+      "definition": "A regional or social variety differing from the standard. [GOLD URI: http://purl.org/linguistics/gold/Dialect]",
+      "list": [
+        {
+          "name": "Northern",
+          "note": "Bukhara, Samarkand, Derbend, Ferghana Valley including Khujand, and the Varzob valley toward Dushanbe. Influenced by Uzbek, with widespread bilingualism (synchrony). A sub-variety is the speech of the Jews of Bukhara. In Northern dialects an -ro construction widely replaces the ezafe: man-a pisar-am 'my son' (synchrony, dialectal).",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 421, 443"
+        },
+        {
+          "name": "Central",
+          "note": "Upper Zarafshon (Zeravshan) valley. The attached chapter names the group and does not list phonetic or morphological differences peculiar to it.",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 421"
+        },
+        {
+          "name": "Southern",
+          "note": "South and east of the capital, Kulob and Qarotegin (Karategin), including Gharm, as far as the Pamirs. Affinities with left-bank Badakhshan in Afghanistan. Tendency to drop h in all positions, and to drop r before d in a few common words, especially the past stem of kardan (kad-um 'I did') (synchrony, dialectal).",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 421, 429"
+        },
+        {
+          "name": "South-eastern",
+          "note": "Darvoz, on the bend of the Oxus near Rushan. Affinities with Badakhshan. Includes Tajik as the contact vernacular (called forsi) of Gorno-Badakhshan.",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 421"
+        },
+        {
+          "name": "Dushanbe",
+          "note": "Nominally Northern, but a small market town made capital in 1924, with later demographic change. Best considered separately from the Northern dialects. The literary variety described in the chapter is Modern Literary Tajik, not a transcript of Dushanbe speech.",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 421"
+        }
+      ]
+    },
+    "The_Linguistic_Sign": {
+      "definition": "A pairing of form and meaning. [GOLD URI: http://purl.org/linguistics/gold/LinguisticSign] Tajik orthographic words in Cyrillic are the written signs of the literary language (synchrony).",
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 423-425; Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+    },
+    "Linguistic_Unit": {
+      "definition": "A unit of linguistic structure. [GOLD URI: http://purl.org/linguistics/gold/LinguisticUnit] Units used below include the phoneme, the syllable, the morpheme (stem, affix, clitic), the word, and the clause.",
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8"
+    },
+    "Language_varieties": {
+      "Literary_Language": {
+        "definition": "Modern Literary Tajik, zabon-i adabi-i hozira-i tojik (synchrony).",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 421"
+      },
+      "standard_vs_dialect": "Examples in Windfuhr & Perry are Modern Literary Tajik unless a dialect is named. Khojayori & Thompson describe Tajiki, and mark some forms as literary/formal versus colloquial northern or southern.",
+      "Bukharan_note": "Windfuhr & Perry identify Bukharan Jewish speech as a Northern sub-variety with a modest literature. Most speakers of that variety have emigrated."
+    }
+  },
+  "Phonetics_and_Phonology": {
+    "note": "Vowel count and the q/gh contrast are synchronous facts of Modern Standard Tajik. Length neutralization relative to Early New Persian is diachrony. Orthography is synchronous for the current Cyrillic norm.",
+    "Vowel_inventory": {
+      "count": "6",
+      "phonemes": [
+        {
+          "orthography": "а",
+          "transliteration": "a",
+          "quality": "low; unstable; more open than Russian a, without a w-glide",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 425-426; Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners, alphabet chapter"
+        },
+        {
+          "orthography": "э",
+          "transliteration": "e",
+          "quality": "mid front; stable. Word-initially e is written with non-yotated э; after a consonant the letter е can represent simple e",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 423, 425-426; Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+        },
+        {
+          "orthography": "и",
+          "transliteration": "i",
+          "quality": "high front; unstable. Lowered to e before h or glottal stop plus a consonant",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 426"
+        },
+        {
+          "orthography": "о",
+          "transliteration": "o",
+          "quality": "mid back rounded; stable",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 425-426; Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+        },
+        {
+          "orthography": "у",
+          "transliteration": "u",
+          "quality": "high back; unstable. Lowered to uu before h or glottal stop plus a consonant",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 426"
+        },
+        {
+          "orthography": "ӯ",
+          "transliteration": "uu",
+          "quality": "high back rounded; stable; more close than u, and slightly lower",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 426; Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners lists у and ӯ as distinct vowels"
+        }
+      ],
+      "stable_vs_unstable": "Stable (phonetically invariant): e, uu, o. Unstable (length and quality vary): i, a, u. In stressed position and in unstressed closed syllables the unstable vowels match the stable vowels in length; in unstressed open syllables they may shorten or drop. Examples: did '(s)he saw', d'gar 'other'; dud 'smoke', g'doz 'melting'; bad 'bad', b'dan 'body'. Synchrony. In some dialects, for example Bukhara, phonemic length is preserved in i and u.",
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 425-426",
+      "diachrony": "Both Modern Standard Persian and Tajik reduced the eight-vowel inventory of Middle and Early New Persian to six, in different ways. In some varieties of Tajik, length was neutralized by merger of short and long high vowels and rounding of long aa (diachrony)."
+    },
+    "Consonant_inventory": {
+      "count_statement": "Windfuhr & Perry: 30 Tajik segmental phonemes against 29 in Persian. The single consonantal difference is that Early New Persian gh (velar fricative) and loaned uvular q merged in Persian and did not merge in Tajik (diachrony of the merger; the contrast is synchronous in Tajik). Khojayori & Thompson: the Cyrillic alphabet has 24 consonant letters.",
+      "contrasts_named_in_prose": [
+        "q remains distinct from gh",
+        "v varies with w: bilabial w finally, between rounded vowels, and after a before a consonant (varaq 'page', beva 'widow', but gov 'cow', suwol 'question', qawl 'speech')",
+        "palatal fricative of limited distribution; in spoken Tajik, including Russian loans, it tends to be replaced by j",
+        "glottal stop from an automatic onset, from Arabic hamza, and from Arabic ayn",
+        "k and g are fronted before front vowels under Uzbek influence"
+      ],
+      "letters_24": [
+        "б",
+        "в",
+        "г",
+        "ғ",
+        "д",
+        "ж",
+        "з",
+        "й",
+        "к",
+        "қ",
+        "л",
+        "м",
+        "н",
+        "п",
+        "р",
+        "с",
+        "т",
+        "ф",
+        "х",
+        "ҳ",
+        "ч",
+        "ҷ",
+        "ш",
+        "ъ"
+      ],
+      "letters_note": "The 24 consonant letters are those read from the alphabet list in Khojayori & Thompson. Windfuhr & Perry describe the same system in transliteration (stops and affricates p b t d ch j k g q; fricatives f s z sh zh x gh h; nasals m n; liquid l and trill r; glides y and v/w) and state the 30-phoneme total rather than a letter count.",
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 423-427; Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners, chapter 1"
+    },
+    "Stress": {
+      "nominals": "Word-final in nominals, including nominal verb forms (synchrony). Examples: baca 'child', did-an 'to see'. Trisyllabics have secondary initial stress: baca-g-i 'childhood'.",
+      "finite_verbs": "Stress in verb forms is regressive, less so in Tajik than in Persian. me- and na- are stressed, and na- takes primary stress: na-me-rav-am 'I will not go'. With bi-, Tajik has primary stress on the final syllable and secondary stress on the prefix: bi-gir-ed. Unprefixed past forms may stress either the stem or the personal ending: guft-em or guft-em. The definite-future pattern keeps stress on the personal ending: xah-am raft 'I will go'.",
+      "clitics": "Adpositions and enclitics are unstressed.",
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 429-430; Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners states that stress usually falls on the first syllable in finite verb forms or on the last syllable in nouns and noun-like words"
+    },
+    "Orthography": {
+      "alphabet_size": "35",
+      "statement": "Khojayori & Thompson: a modified Cyrillic alphabet became official in 1940 and contains 35 letters: 24 consonants, 6 vowels plus и with macron (ӣ) used at the end of a word, and 4 yotated letters (е, ё, ю, я). Windfuhr & Perry: Arabic script was replaced by Latin in 1928 and by Cyrillic in 1939; six supplementary letters are added to the Cyrillic inventory by diacritics (diachrony of script change; the inventory is synchronous).",
+      "dotted_i": "ӣ (macron) marks stressed word-final -i of a morphological formative, as against unstressed ezafe -i. The macron is dropped before an ezafe. Also used in monosyllables: ki 'who?' (distinct from unstressed subordinizer ki), chi 'what?', si 'thirty', and the interrogative enclitic -mi.",
+      "distinct_letters": "Tajik keeps ҳ, қ, ғ, ҷ as letters. Windfuhr & Perry: қ (q) is distinct from the velar stop, and ғ (gh) is distinct from х, unlike the Persian merger of q and gh. Khojayori lists ҳ, қ, ғ, ҷ among the consonant letters, separate from х, к, г, ч.",
+      "yotated_letters": "е, ё, ю, я represent y plus a vowel. Russian-style и after a vowel represents yi, as in the ezafe after a vowel (xona-yi man 'my house').",
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 420, 423-424; Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners, chapter 1"
+    },
+    "Buffer_vowels": {
+      "statement": "No two adjacent vowels are allowed in standard Persian and Tajik (synchrony). Hiatus breakers attested for Tajik are -y- and, with the copula and with indefinite and derivational -i, a glottal stop. Windfuhr & Perry also call -y- a euphonic consonant interposed after vowels before pronominal enclitics. Khojayori & Thompson describe -гӣ (not a bare vowel) as the form of the abstract suffix after the vowel а.",
+      "y_after_vowel_before_enclitic_or_ending": {
+        "fact": "A euphonic -y- stands between a vowel and a following pronominal enclitic or personal ending (synchrony).",
+        "examples": [
+          {
+            "form": "sahr-ho-yamon",
+            "gloss": "our cities",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 435"
+          },
+          {
+            "form": "dast-ho-yat-ro",
+            "gloss": "your hands (direct object)",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 435"
+          },
+          {
+            "form": "me-gu-yam",
+            "gloss": "I say",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 450"
+          },
+          {
+            "form": "dono-yand",
+            "gloss": "they are knowledgeable",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 450"
+          }
+        ]
+      },
+      "y_in_ezafe_after_vowel": {
+        "fact": "After a vowel the ezafe is -yi, written with и (synchrony).",
+        "examples": [
+          {
+            "form": "xona-yi to",
+            "gloss": "your house",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 429"
+          },
+          {
+            "form": "qoli-yi buzurg",
+            "gloss": "large carpet",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 429"
+          },
+          {
+            "form": "xona-yi man",
+            "gloss": "my house",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 423"
+          }
+        ]
+      },
+      "g_before_stressed_suffix_after_a": {
+        "fact": "Word-final -a alternates with -ag- before stressed -on, -ona, and -i. In Tajik this g is treated as euphonic and is supplied even for non-Persian words in -a (synchrony). Diachronically -ag continues Middle Persian -ag.",
+        "examples": [
+          {
+            "form": "baca-g-on",
+            "gloss": "children",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 430"
+          },
+          {
+            "form": "baca-g-i",
+            "gloss": "childhood",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 430"
+          },
+          {
+            "form": "talaba-g-on",
+            "gloss": "students",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 430"
+          },
+          {
+            "form": "kard-a-g-i",
+            "gloss": "done",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 430"
+          },
+          {
+            "form": "хонагӣ",
+            "gloss": "of/for the home",
+            "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners, derived nominals; хона 'home'"
+          }
+        ]
+      }
+    },
+    "Syllable": {
+      "structure": "CV, CVC, CVCC. Examples: to 'till', dar 'in', dast 'hand'. Syllable boundary is any consonant before a vowel: dast-am [das-tam] 'my hand'.",
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 427-428"
+    }
+  },
+  "Morphology": {
+    "Nouns": {
+      "number": {
+        "statement": "Singular is unmarked. Plurals are -ho and -on (synchrony). -ho applies to all nouns. -on is more limited, stylistically literary, and relatively more frequent in Tajik than in Persian.",
+        "suffixes": [
+          {
+            "form": "-ҳо",
+            "transliteration": "-ho",
+            "function": "general plural",
+            "examples": [
+              {
+                "form": "қаламҳо",
+                "gloss": "pencils",
+                "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; қалам 'pencil'"
+              },
+              {
+                "form": "мардҳо",
+                "gloss": "men",
+                "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; мард 'a man'"
+              },
+              {
+                "form": "китобҳо",
+                "gloss": "books",
+                "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; китоб 'a book'. Colloquial pronunciation drops ҳ after a consonant: [китобо]"
+              },
+              {
+                "form": "хонаҳо",
+                "gloss": "houses",
+                "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; хона 'a house'. Colloquial [хонаҳо]"
+              },
+              {
+                "form": "ciz-ho",
+                "gloss": "things",
+                "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431"
+              },
+              {
+                "form": "pisar-ho",
+                "gloss": "boys",
+                "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431"
+              }
+            ],
+            "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431"
+          },
+          {
+            "form": "-он",
+            "transliteration": "-on",
+            "function": "plural of animates, some paired body parts, and some other nouns; literary",
+            "examples": [
+              {
+                "form": "муаллимон",
+                "gloss": "teachers",
+                "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+              },
+              {
+                "form": "рассомон",
+                "gloss": "artists",
+                "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+              },
+              {
+                "form": "занон",
+                "gloss": "women",
+                "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+              },
+              {
+                "form": "мардон",
+                "gloss": "men",
+                "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+              },
+              {
+                "form": "одамон",
+                "gloss": "people",
+                "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+              },
+              {
+                "form": "дастон",
+                "gloss": "hands",
+                "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+              },
+              {
+                "form": "лабон",
+                "gloss": "lips",
+                "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+              },
+              {
+                "form": "чашмон",
+                "gloss": "eyes",
+                "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+              },
+              {
+                "form": "дарахтон",
+                "gloss": "trees",
+                "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+              },
+              {
+                "form": "pisar-on",
+                "gloss": "boys",
+                "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431"
+              },
+              {
+                "form": "muallim-on",
+                "gloss": "teachers",
+                "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431"
+              }
+            ],
+            "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431"
+          },
+          {
+            "form": "-гон",
+            "transliteration": "-gon",
+            "function": "variant of -on after the vowel a, including yotated я",
+            "examples": [
+              {
+                "form": "ҳамсоягон",
+                "gloss": "neighbors",
+                "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+              },
+              {
+                "form": "бачагон",
+                "gloss": "children",
+                "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+              },
+              {
+                "form": "наберагон",
+                "gloss": "grandchildren",
+                "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+              },
+              {
+                "form": "baca-g-on",
+                "gloss": "children",
+                "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 430; g is the euphonic consonant after -a"
+              }
+            ],
+            "note": "Khojayori & Thompson list three variants of this plural: -он, -вон, -ён, and state that -гон is used after the vowel а. Windfuhr & Perry give the post-vocalic variant -yon (dono-yon 'sages').",
+            "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431"
+          },
+          {
+            "form": "-ён",
+            "transliteration": "-yon",
+            "function": "variant of -on after a vowel, in Windfuhr & Perry's morphophonemic statement",
+            "examples": [
+              {
+                "form": "dono-yon",
+                "gloss": "sages",
+                "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431"
+              }
+            ],
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431"
+          }
+        ],
+        "homonymy_on": {
+          "fact": "The sequence -on is the animate/literary plural suffix and is also the end of underived words (synchrony). The plural reading and the base-word reading are both attested.",
+          "plural_reading": [
+            {
+              "form": "мардон",
+              "gloss": "men",
+              "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+            },
+            {
+              "form": "pisar-on",
+              "gloss": "boys",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431"
+            }
+          ],
+          "base_reading": [
+            {
+              "form": "zabon",
+              "gloss": "language, in zabon-i tojiki 'Tajik language'",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 420"
+            },
+            {
+              "form": "on",
+              "gloss": "that (demonstrative)",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 436"
+            },
+            {
+              "form": "osmon",
+              "gloss": "sky, in osmon-i obi 'blue sky'",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 473"
+            },
+            {
+              "form": "hamon",
+              "gloss": "that same, in hamon dam-i dar 'right at the door'",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 453"
+            }
+          ]
+        },
+        "arabic_plurals": {
+          "fact": "Arabic loan plurals, including broken plurals, occur in the lexicon (diachrony of borrowing; the forms are synchronous vocabulary).",
+          "examples": [
+            {
+              "form": "xayol-ot",
+              "gloss": "dreams, fantasies",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431"
+            },
+            {
+              "form": "ulamo",
+              "gloss": "religious scholars; singular olim",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431"
+            },
+            {
+              "form": "axbor",
+              "gloss": "news; singular xabar",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431"
+            }
+          ],
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431; Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners discusses Arabic dual -айн and broken plurals"
+        }
+      },
+      "case_and_object": {
+        "statement": "There is no noun-case paradigm of the Indo-European type. Windfuhr & Perry: substantives have no case inflections. The definite direct object is marked by the postposition -ro (synchrony). The ezafe -i links a head to a following modifier.",
+        "ro": {
+          "form": "-ро",
+          "function": "definite or otherwise specific direct object; also focused temporal and local extension",
+          "examples": [
+            {
+              "form": "китобро",
+              "gloss": "the book (direct object)",
+              "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; formal. Colloquial northern and southern китоба after a consonant"
+            },
+            {
+              "form": "хонаро",
+              "gloss": "the house (direct object)",
+              "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; formal. Colloquial northern хоная after a vowel; southern хонара"
+            },
+            {
+              "form": "kitob-ro xarid-am",
+              "gloss": "I bought the book",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 442"
+            },
+            {
+              "form": "duxtar-i dust-as-ro did",
+              "gloss": "he saw the daughter of his friend",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 442"
+            },
+            {
+              "form": "kuza-ya ovard-am",
+              "gloss": "I brought the jug (colloquial -ya after a vowel)",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 443"
+            }
+          ],
+          "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 442-443"
+        },
+        "ezafe": {
+          "form": "-и",
+          "function": "links head to possessor, complement, or adjective. After a vowel, -yi.",
+          "examples": [
+            {
+              "form": "dar-i xona",
+              "gloss": "the door of the room",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431"
+            },
+            {
+              "form": "havo-i nayz",
+              "gloss": "nice weather",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431"
+            },
+            {
+              "form": "xona-yi man",
+              "gloss": "my house",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 423"
+            },
+            {
+              "form": "qalam-i xud-am",
+              "gloss": "my own pen",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 436"
+            }
+          ],
+          "note": "Izafe is inherited from Classical Persian (diachrony) and is productive in Modern Literary Tajik (synchrony). Northern dialects widely replace it with a possessor-ro plus possessive clitic construction.",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 423, 431, 436, 443"
+        }
+      },
+      "possessive_enclitics": {
+        "statement": "Oblique enclitics, including possession (synchrony). After a vowel a euphonic -y- is interposed.",
+        "forms": [
+          {
+            "person": "1sg",
+            "form": "-am",
+            "example": {
+              "form": "qalam-i xud-am sikast",
+              "gloss": "my own pen broke",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 436"
+            }
+          },
+          {
+            "person": "2sg",
+            "form": "-at",
+            "example": {
+              "form": "xud-at",
+              "gloss": "you yourself",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 437"
+            }
+          },
+          {
+            "person": "3sg",
+            "form": "-as",
+            "example": {
+              "form": "barodar-as",
+              "gloss": "his brother",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 436"
+            }
+          },
+          {
+            "person": "1pl",
+            "form": "-amon",
+            "example": {
+              "form": "sahr-ho-yamon",
+              "gloss": "our cities",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 435"
+            }
+          },
+          {
+            "person": "2pl",
+            "form": "-aton",
+            "example": {
+              "form": "mo xud-amon",
+              "gloss": "we ourselves; the 2pl enclitic is listed as -aton in the pronoun table",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 434-437"
+            }
+          },
+          {
+            "person": "3pl",
+            "form": "-ason",
+            "example": {
+              "form": "buzurg-tar-in-ason",
+              "gloss": "the biggest one of them",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 434"
+            }
+          }
+        ],
+        "homonymy_with_verbal_endings": {
+          "fact": "The shape -am is both the 1sg possessive/oblique enclitic and the 1sg personal ending of the verb (synchrony). The 2sg verb ending is -i, not -at; -at is the 2sg enclitic. The 3sg present ending is -ad, and the 3sg past ending is zero; -as is the 3sg enclitic.",
+          "examples": [
+            {
+              "form": "xud-am",
+              "gloss": "myself / my own (enclitic -am)",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 437"
+            },
+            {
+              "form": "me-rav-am",
+              "gloss": "I go (personal ending -am)",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 452"
+            },
+            {
+              "form": "raft-am",
+              "gloss": "I went (personal ending -am)",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 454"
+            }
+          ],
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 434-437, 450-454"
+        }
+      },
+      "personal_pronouns": {
+        "forms": {
+          "1sg": "man",
+          "2sg": "tu",
+          "3sg": "vay (animate and inanimate in Tajik); also demonstratives in, on",
+          "1pl": "mo",
+          "2pl": "sumo (also polite singular)",
+          "3pl": "vay-o; on-ho (respectful, and the replacement of earlier ison)"
+        },
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 434-436",
+        "examples": [
+          {
+            "form": "man",
+            "gloss": "I",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 434"
+          },
+          {
+            "form": "tu",
+            "gloss": "you (singular)",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 434"
+          },
+          {
+            "form": "vay",
+            "gloss": "he, she, it",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 435"
+          },
+          {
+            "form": "mo",
+            "gloss": "we",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 434"
+          },
+          {
+            "form": "sumo",
+            "gloss": "you (plural)",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 434"
+          }
+        ]
+      }
+    },
+    "Adjectives": {
+      "comparison": {
+        "comparative": {
+          "suffix": "-тар",
+          "examples": [
+            {
+              "form": "сафедтар",
+              "gloss": "whiter",
+              "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; сафед 'white'"
+            },
+            {
+              "form": "гармтар",
+              "gloss": "hotter",
+              "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; гарм 'hot'"
+            },
+            {
+              "form": "сурхтар",
+              "gloss": "redder",
+              "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; in аз ёқут сурхтар 'redder than ruby'"
+            },
+            {
+              "form": "baland-tar",
+              "gloss": "higher",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 434"
+            },
+            {
+              "form": "buzurg-tar az tu",
+              "gloss": "older than you",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 441"
+            }
+          ]
+        },
+        "superlative": {
+          "suffix": "-тарин",
+          "examples": [
+            {
+              "form": "bihtar-in kitob",
+              "gloss": "the best book",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 475"
+            },
+            {
+              "form": "baland-tar-in",
+              "gloss": "the highest",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 434"
+            },
+            {
+              "form": "buzurg-tar-in-ason",
+              "gloss": "the biggest one of them",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 434"
+            }
+          ],
+          "other": "Khojayori & Thompson: -ин is a less frequent superlative marker, found in нахустин 'first', пасин 'last', беҳин 'best'."
+        },
+        "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 434, 441, 475"
+      },
+      "derivation": {
+        "ii": {
+          "fact": "Stressed -i makes an abstract or relational nominal (synchrony). After the vowel a the form is -gi (Khojayori: -гӣ).",
+          "examples": [
+            {
+              "form": "шиносой",
+              "gloss": "acquaintance",
+              "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; шиносо 'acquainted'"
+            },
+            {
+              "form": "хонагӣ",
+              "gloss": "of/for the home",
+              "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; хона 'home'"
+            },
+            {
+              "form": "baca-g-i",
+              "gloss": "childhood",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 430"
+            },
+            {
+              "form": "Buxoro-i",
+              "gloss": "Bukharan; a Bukharan",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 430"
+            }
+          ]
+        },
+        "anda": {
+          "fact": "-anda derives a present participle, often lexicalized as an agent noun (synchrony).",
+          "examples": [
+            {
+              "form": "navis-anda",
+              "gloss": "writer",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 449"
+            },
+            {
+              "form": "o-yanda",
+              "gloss": "coming; future",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 449"
+            }
+          ]
+        },
+        "iston": {
+          "fact": "-iston derives a place noun (synchrony). Country names are the best-known use; the suffix is wider.",
+          "examples": [
+            {
+              "form": "бемористон",
+              "gloss": "hospital",
+              "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; бемор 'ill'"
+            },
+            {
+              "form": "Себистон",
+              "gloss": "place of apples (a village)",
+              "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; себ 'apple'"
+            },
+            {
+              "form": "гулистон",
+              "gloss": "place of flowers",
+              "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; гул 'flower, rose'"
+            },
+            {
+              "form": "Tojikiston",
+              "gloss": "Tajikistan",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 476"
+            }
+          ]
+        },
+        "gar": {
+          "fact": "-gar derives an agent from a noun (synchrony).",
+          "examples": [
+            {
+              "form": "kor-gar",
+              "gloss": "manual worker",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 527; from kor 'work'"
+            }
+          ]
+        }
+      }
+    },
+    "Verbs": {
+      "two_stems": {
+        "fact": "Every verb has Stem I (present stem) and Stem II (past stem). Past tenses, the past participle, and the infinitive are built on Stem II. Present tenses are built on Stem I (synchrony). Stem II ends in a dental, -d or -t.",
+        "regular": "In the regular class, Stem II is Stem I plus -id. Example: ras- / rasid- 'arrive'.",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 446-447"
+      },
+      "irregular_verbs_attested_for_tajik": {
+        "note": "Only pairs for which the attached chapter gives the Tajik stems, not the Persian-only list from which Tajik forms are explicitly omitted. Compound verbs are not included.",
+        "items": [
+          {
+            "lemma": "raft-an",
+            "present_stem": "rav-",
+            "past_stem": "raft-",
+            "gloss": "go, leave",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 449, 452-453"
+          },
+          {
+            "present_stem": "o-",
+            "past_stem": "omad-",
+            "gloss": "come",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 448, 451"
+          },
+          {
+            "present_stem": "or-",
+            "past_stem": "ovard-",
+            "gloss": "bring",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 448, 451"
+          },
+          {
+            "present_stem": "sin-",
+            "past_stem": "sist-",
+            "gloss": "sit",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 448"
+          },
+          {
+            "present_stem": "ras-",
+            "past_stem": "rasid-",
+            "gloss": "arrive",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 447; cited for both Persian and Tajik"
+          },
+          {
+            "present_stem": "gu-",
+            "past_stem": "guft-",
+            "gloss": "say",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 450, 453; me-gu-yam 'I say', na-guft 'did not say'"
+          }
+        ]
+      },
+      "prefixes": {
+        "me": {
+          "form": "ме-",
+          "function": "imperfective. With Stem I: present-future indicative. With Stem II: imperfect, also counterfactual.",
+          "examples": [
+            {
+              "form": "me-rav-ad",
+              "gloss": "goes, is going, will go",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 452"
+            },
+            {
+              "form": "me-raft",
+              "gloss": "was going, used to go",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 452"
+            }
+          ]
+        },
+        "na": {
+          "form": "на-",
+          "function": "negation. Precedes other prefixes and takes primary stress.",
+          "examples": [
+            {
+              "form": "na-me-gu-yam",
+              "gloss": "I will not say",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 452"
+            },
+            {
+              "form": "na-raft",
+              "gloss": "did not go",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 452"
+            },
+            {
+              "form": "na-rafta ast",
+              "gloss": "has not gone",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 452"
+            }
+          ]
+        },
+        "bi": {
+          "form": "би-",
+          "function": "Vestigial in Tajik (synchrony). Regular only as a suppletive piece of Stem I of o-/omad- 'come' and or-/ovard- 'bring'. Optional in some polite imperatives. Before a stem in b- the vowel is u.",
+          "examples": [
+            {
+              "form": "me-bi-o-yam",
+              "gloss": "I come, am coming",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 451"
+            },
+            {
+              "form": "bi-or-ed",
+              "gloss": "bring (it)",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 451"
+            },
+            {
+              "form": "bi-sin-ed",
+              "gloss": "sit down",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 451"
+            },
+            {
+              "form": "bu-baxs-ed",
+              "gloss": "excuse (plural)",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 451"
+            }
+          ]
+        },
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 451-452"
+      },
+      "personal_endings": {
+        "present": [
+          "-am",
+          "-i",
+          "-ad",
+          "-em",
+          "-ed (plural variant -eton is noted)",
+          "-and"
+        ],
+        "past": [
+          "-am",
+          "-i",
+          "zero in 3sg",
+          "-em",
+          "-ed",
+          "-and"
+        ],
+        "imperative": [
+          "zero in 2sg",
+          "-ed in 2pl"
+        ],
+        "copula": [
+          "-am",
+          "-i",
+          "ast / -st",
+          "-em",
+          "-ed",
+          "-and"
+        ],
+        "existential": "hast- with the same endings; 3sg hast is existential only. Negative nest-.",
+        "y_after_vowel": "Endings, but not the copula, insert -y- after vowels.",
+        "examples": [
+          {
+            "form": "me-rav-am",
+            "gloss": "I go",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 453"
+          },
+          {
+            "form": "me-rav-i",
+            "gloss": "you (sg) go",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 453"
+          },
+          {
+            "form": "me-rav-ad",
+            "gloss": "he/she goes",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 453"
+          },
+          {
+            "form": "me-rav-em",
+            "gloss": "we go",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 453"
+          },
+          {
+            "form": "me-rav-ed",
+            "gloss": "you (pl) go",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 453"
+          },
+          {
+            "form": "me-rav-and",
+            "gloss": "they go",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 453"
+          },
+          {
+            "form": "raft",
+            "gloss": "he/she went",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 453"
+          },
+          {
+            "form": "me-gu-yam",
+            "gloss": "I say",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 450"
+          }
+        ],
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 450-453"
+      },
+      "tense_aspect_mood": {
+        "forms": [
+          {
+            "name": "present-future",
+            "shape": "me- + present stem + present ending",
+            "example": {
+              "form": "me-rav-ad",
+              "gloss": "goes, is going, will go",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 452"
+            }
+          },
+          {
+            "name": "imperfect",
+            "shape": "me- + past stem + past ending",
+            "example": {
+              "form": "me-raft",
+              "gloss": "was going, used to go, would go",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 452"
+            }
+          },
+          {
+            "name": "preterite / aorist",
+            "shape": "past stem + past ending",
+            "example": {
+              "form": "raft",
+              "gloss": "he went",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 454"
+            }
+          },
+          {
+            "name": "present perfect",
+            "shape": "past participle in -a + enclitic copula",
+            "example": {
+              "form": "raft-a ast",
+              "gloss": "has gone, is gone",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 455"
+            }
+          },
+          {
+            "name": "pluperfect",
+            "shape": "past participle in -a + bud- + past ending",
+            "example": {
+              "form": "raft-a bud",
+              "gloss": "had gone",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 453"
+            }
+          },
+          {
+            "name": "subjunctive",
+            "shape": "present stem + present ending; bi- is not required in Tajik",
+            "example": {
+              "form": "rav-am",
+              "gloss": "that I go",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 451; be-rav-am is the Persian counterpart, rav-am the Tajik line of the table"
+            }
+          },
+          {
+            "name": "imperative",
+            "shape": "(bi-) + present stem",
+            "example": {
+              "form": "bi-raw / rav-ed",
+              "gloss": "go",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 453"
+            }
+          },
+          {
+            "name": "counterfactual",
+            "shape": "imperfect me- + past stem, and pluperfect raft-a bud-",
+            "example": {
+              "form": "me-raft-",
+              "gloss": "imperfective counterfactual as well as indicative imperfect",
+              "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 452-453"
+            }
+          }
+        ],
+        "future_note": "There is no paradigmatic future. Indicative forms are used for future time (synchrony). The stressed pattern xah-am raft 'I will go' is cited in the stress section without a separate Tajik gloss line.",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 452-455"
+      },
+      "voice": {
+        "active": "Unmarked finite forms.",
+        "causative": "Productive in Tajik: -on on Stem I and -on-id on Stem II (synchrony).",
+        "examples": [
+          {
+            "form": "ras-on- / ras-on-id-",
+            "gloss": "make arrive, take to",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 448"
+          },
+          {
+            "form": "xur-on- / xur-on-id-",
+            "gloss": "make eat or drink, feed",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 448"
+          },
+          {
+            "form": "sin-on- / sin-on-id-",
+            "gloss": "set, plant",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 448"
+          },
+          {
+            "form": "duz-on- / duz-on-id-",
+            "gloss": "have something sewn",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 448"
+          }
+        ],
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 448"
+      },
+      "nominal_forms": {
+        "infinitive": {
+          "form": "girift-an",
+          "gloss": "to take, taking",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 449"
+        },
+        "past_participle": {
+          "form": "girift-a",
+          "gloss": "taken",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 449"
+        },
+        "tajik_participle_agi": {
+          "form": "girift-agi",
+          "gloss": "having (been) taken",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 449"
+        },
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 449"
+      }
+    },
+    "Composite_forms": [
+      {
+        "name": "present perfect",
+        "token_order": [
+          "past participle in -a",
+          "enclitic copula"
+        ],
+        "parts": [
+          {
+            "pos": "participle",
+            "form": "raft-a"
+          },
+          {
+            "pos": "copula",
+            "form": "am / i / ast / em / ed / and"
+          }
+        ],
+        "resulting_lemma": "the lexical verb (raftan for the example)",
+        "example": {
+          "form": "raft-a ast",
+          "gloss": "has gone, is gone",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 455"
+        },
+        "synchrony": "synchronous analytic tense"
+      },
+      {
+        "name": "pluperfect",
+        "token_order": [
+          "past participle in -a",
+          "bud- plus past ending"
+        ],
+        "parts": [
+          {
+            "pos": "participle",
+            "form": "raft-a"
+          },
+          {
+            "pos": "auxiliary",
+            "form": "bud-am / bud-i / bud / bud-em / bud-ed / bud-and"
+          }
+        ],
+        "resulting_lemma": "the lexical verb",
+        "example": {
+          "form": "raft-a bud-am",
+          "gloss": "I had gone",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 453"
+        },
+        "synchrony": "synchronous analytic tense"
+      },
+      {
+        "name": "imperfective present",
+        "token_order": [
+          "me-",
+          "present stem",
+          "personal ending"
+        ],
+        "parts": [
+          {
+            "pos": "prefix",
+            "form": "me-"
+          },
+          {
+            "pos": "verb stem",
+            "form": "rav-"
+          },
+          {
+            "pos": "ending",
+            "form": "-am"
+          }
+        ],
+        "resulting_lemma": "raftan",
+        "example": {
+          "form": "me-rav-am",
+          "gloss": "I go / am going / will go",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 453"
+        },
+        "synchrony": "synchronous"
+      },
+      {
+        "name": "causative",
+        "token_order": [
+          "present stem",
+          "-on",
+          "inflection"
+        ],
+        "parts": [
+          {
+            "pos": "verb stem",
+            "form": "ras-"
+          },
+          {
+            "pos": "suffix",
+            "form": "-on- / -on-id-"
+          }
+        ],
+        "resulting_lemma": "the causative of the base verb",
+        "example": {
+          "form": "ras-on-id-",
+          "gloss": "make arrive",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 448"
+        },
+        "synchrony": "synchronous and productive in Tajik"
+      }
+    ],
+    "Lexicalized_words": {
+      "note": "Derived words attested as ordinary lexical items.",
+      "items": [
+        {
+          "form": "kor-gar",
+          "gloss": "manual worker",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 527"
+        },
+        {
+          "form": "navis-anda",
+          "gloss": "writer",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 449"
+        },
+        {
+          "form": "o-yanda",
+          "gloss": "coming; the future",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 449"
+        },
+        {
+          "form": "Tojikiston",
+          "gloss": "Tajikistan",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 476"
+        },
+        {
+          "form": "бемористон",
+          "gloss": "hospital",
+          "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+        },
+        {
+          "form": "хонагӣ",
+          "gloss": "of/for the home",
+          "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+        }
+      ]
+    }
+  },
+  "Syntax": {
+    "order": {
+      "statement": "The direct object follows the subject. A definite object takes -ro (synchrony). Windfuhr & Perry discuss constituent order in the clause chapter; Khojayori & Thompson state that in most Tajiki sentences the direct object follows the subject.",
+      "examples": [
+        {
+          "form": "kitob-ro xarid-am",
+          "gloss": "I bought the book",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 442"
+        },
+        {
+          "form": "Ман китобро барои вай харидам",
+          "gloss": "I bought the book for her",
+          "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+        },
+        {
+          "form": "Ӯ китобро хонд",
+          "gloss": "She read the book",
+          "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+        },
+        {
+          "form": "Ман ӯро дидам",
+          "gloss": "I saw her",
+          "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+        }
+      ],
+      "topic": "A noun or independent pronoun may stand at the head, with a following resumptive phrase: mo xud-amon me-don-em 'we ourselves know'.",
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 437; Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+    },
+    "adpositions": {
+      "prepositions": [
+        {
+          "form": "ba",
+          "gloss": "to, in; with, by",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 441; ba tu me-dih-am 'I will give it to you'"
+        },
+        {
+          "form": "dar",
+          "gloss": "in(to)",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 441; dar injo 'in that place'"
+        },
+        {
+          "form": "az",
+          "gloss": "from, than",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 441; az injo 'from here'; buzurg-tar az tu 'older than you'"
+        },
+        {
+          "form": "to",
+          "gloss": "up to, until",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 441; to Dusanbe 'as far as Dushanbe'"
+        },
+        {
+          "form": "bo",
+          "gloss": "with",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 441; bo tu 'with you'"
+        },
+        {
+          "form": "baro-i",
+          "gloss": "for",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 441; in baro-i tu ast 'this is for you'"
+        },
+        {
+          "form": "be",
+          "gloss": "without",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 441; still active in Tajik"
+        },
+        {
+          "form": "bar",
+          "gloss": "on",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 442; bar kuh barf bud 'there was snow on the mountains'"
+        }
+      ],
+      "postpositions": [
+        {
+          "form": "-ro",
+          "gloss": "definite direct object",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 442"
+        },
+        {
+          "form": "barin",
+          "gloss": "like",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 444; man barin odam 'a person like me'. Admitted in Modern Literary Tajik"
+        },
+        {
+          "form": "qati",
+          "gloss": "with",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 444; southern and Afghan; tu qati 'with you'"
+        }
+      ],
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 441-444"
+    },
+    "relative_clauses": {
+      "statement": "Subordination uses unstressed ki, distinct from stressed ki 'who?' (synchrony).",
+      "examples": [
+        {
+          "form": "ki",
+          "gloss": "subordinating conjunction",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 423"
+        },
+        {
+          "form": "havo ki xunuk sud",
+          "gloss": "when/once the weather becomes cold",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 454"
+        },
+        {
+          "form": "vaqt-e ki omad, bi-gu",
+          "gloss": "as soon as he comes, tell me",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 454"
+        }
+      ],
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 423, 454"
+    },
+    "negation": {
+      "statement": "Verbal negation is the stressed prefix na-, which precedes me- (synchrony). The negative copula and existential are nest-.",
+      "examples": [
+        {
+          "form": "na-me-rav-am",
+          "gloss": "I will not go",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 430"
+        },
+        {
+          "form": "na-raft",
+          "gloss": "did not go",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 452"
+        },
+        {
+          "form": "nest",
+          "gloss": "is not",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 450"
+        }
+      ],
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 430, 450, 452"
+    },
+    "interrogatives": {
+      "statement": "Interrogative pronouns ki 'who?' and chi 'what?' (synchrony). The letter ӣ also marks an interrogative enclitic -mi.",
+      "examples": [
+        {
+          "form": "ki",
+          "gloss": "who?",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 423"
+        },
+        {
+          "form": "chi",
+          "gloss": "what?",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 423"
+        },
+        {
+          "form": "-mi",
+          "gloss": "interrogative enclitic",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 423"
+        },
+        {
+          "form": "kadom zan-ro did-ed?",
+          "gloss": "which woman did you see?",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 439"
+        }
+      ],
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 423, 439; Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners lists ки 'who?' and чӣ 'what?'"
+    }
+  },
+  "Semantics": {
+    "lexical_relations": {
+      "statement": "Attested relations are derivation (agent, place, abstract), antonymic pairs only where both members are glossed, and plural/singular pairs.",
+      "examples": [
+        {
+          "relation": "derived agent",
+          "items": [
+            "kor",
+            "kor-gar"
+          ],
+          "gloss": "work / worker",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 527"
+        },
+        {
+          "relation": "place noun",
+          "items": [
+            "бемор",
+            "бемористон"
+          ],
+          "gloss": "ill / hospital",
+          "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+        },
+        {
+          "relation": "comparative",
+          "items": [
+            "сафед",
+            "сафедтар"
+          ],
+          "gloss": "white / whiter",
+          "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+        }
+      ]
+    },
+    "semantic_fields": {
+      "kinship": {
+        "note": "Tajik terms additional to or alternating with the Persian set, some of Uzbek origin (diachrony of borrowing; the terms are synchronous vocabulary).",
+        "items": [
+          {
+            "form": "oca",
+            "gloss": "mother",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 532"
+          },
+          {
+            "form": "aka",
+            "gloss": "elder brother",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 532"
+          },
+          {
+            "form": "dodar",
+            "gloss": "younger brother",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 532"
+          },
+          {
+            "form": "uka",
+            "gloss": "younger brother",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 532"
+          },
+          {
+            "form": "apa",
+            "gloss": "elder sister",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 532"
+          },
+          {
+            "form": "aya",
+            "gloss": "elder sister",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 532"
+          },
+          {
+            "form": "yanga",
+            "gloss": "aunt (uncle's wife), sister-in-law",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 532"
+          },
+          {
+            "form": "padar-suy",
+            "gloss": "father-in-law of the wife",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 532"
+          },
+          {
+            "form": "xusur",
+            "gloss": "father-in-law of the wife",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 532"
+          },
+          {
+            "form": "modar-suy",
+            "gloss": "mother-in-law of the wife",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 532"
+          },
+          {
+            "form": "bobo",
+            "gloss": "grandfather",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 532"
+          },
+          {
+            "form": "bibi",
+            "gloss": "grandmother",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 532"
+          }
+        ],
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 532"
+      },
+      "colours": {
+        "items": [
+          {
+            "form": "сафед",
+            "gloss": "white",
+            "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+          },
+          {
+            "form": "сурх",
+            "gloss": "red",
+            "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; as a noun, 'the red one', not the name of the color"
+          },
+          {
+            "form": "sap-safed",
+            "gloss": "snow-white",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 434"
+          },
+          {
+            "form": "sip-siyoh",
+            "gloss": "jet black",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 434"
+          },
+          {
+            "form": "safed-i-yi barf",
+            "gloss": "as white as snow",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 445"
+          }
+        ]
+      },
+      "numerals": {
+        "cardinals": [
+          "yak 1",
+          "du 2",
+          "se 3",
+          "cor / cahor 4",
+          "panj 5",
+          "sas 6",
+          "haft 7",
+          "hast 8",
+          "nuh 9",
+          "dah 10",
+          "bist 20",
+          "si 30",
+          "sad 100",
+          "hazor 1000"
+        ],
+        "note": "Khojayori & Thompson give як, ду, се is in Windfuhr, чор (чаҳор), панҷ, ҳафт, ҳашт, даҳ. Windfuhr & Perry table 8.5 gives the fuller set in transliteration, including literary cahor beside cor. The numerand after a cardinal is singular (synchrony), except ba'z-e, which takes the plural.",
+        "ordinals": "Suffix -um / -yum: yak-um, du-yum, se-yum. Fractions: az se du 'two-thirds'; panj-yak 'one-fifth'.",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 445-446; Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+      },
+      "body_parts": {
+        "items": [
+          {
+            "form": "dast",
+            "gloss": "hand",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 428; dast-am 'my hand'"
+          },
+          {
+            "form": "дастон",
+            "gloss": "hands",
+            "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+          },
+          {
+            "form": "лабон",
+            "gloss": "lips",
+            "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+          },
+          {
+            "form": "чашмон",
+            "gloss": "eyes",
+            "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+          },
+          {
+            "form": "casm-on",
+            "gloss": "eyes",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 431; casm-on-i pur az ask 'eyes full of tears'"
+          }
+        ]
+      }
+    },
+    "borrowing": {
+      "arabic": "Approximately 50 percent of the Persian/Tajik lexicon, about 25 percent in frequency of use (Windfuhr & Perry, for the Persian phonology section, applied to the shared loan component). Broken plurals and the adverbial suffix -an are morphological residues (diachrony), still present as vocabulary (synchrony).",
+      "turkic_uzbek": "Uzbek bilingualism in Northern dialects. Loan morphology includes a kim- series of indefinites (kim-ki 'someone or other, anyone', kim-kadom 'some N or other') and kinship terms such as aka, uka, yanga. Postpositions such as -dan are dialect borrowings, not Modern Literary Tajik.",
+      "russian": "Systematic introduction of Russian loans in the Soviet period (diachrony). Initial clusters foreign to Tajik occur in loans (zveno 'team', Stalinobod, the former name of Dushanbe) and may be assimilated by speakers to varying degrees (synchrony). istansa from Russian stantsiya. Address: rafiq 'comrade', patronymics, surnames in -ov/-ova.",
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 420-421, 423, 428, 439, 530-532"
+    }
+  },
+  "Interfaces_and_Integration": {
+    "Phonetics-Phonology_Interface": {
+      "definition": "The relation between articulation and the phoneme system. [GOLD URI: http://purl.org/linguistics/gold/Phonetics] Tajik unstable vowels i, a, u shorten or drop in unstressed open syllables, while e, uu, o do not (synchrony).",
+      "example": {
+        "form": "did / d'gar",
+        "gloss": "(s)he saw / other",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 426"
+      },
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 426"
+    },
+    "Phonology-Morphology_Interface": {
+      "definition": "Sound alternations conditioned by morphological concatenation. Hiatus -y-, euphonic -g- after -a, and stress shift onto na- and onto nominal suffixes.",
+      "examples": [
+        {
+          "form": "sahr-ho-yamon",
+          "gloss": "our cities",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 435"
+        },
+        {
+          "form": "baca-g-on",
+          "gloss": "children",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 430"
+        },
+        {
+          "form": "na-me-gu-yam",
+          "gloss": "I will not say",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 452"
+        }
+      ],
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 429-430, 435, 452"
+    },
+    "Morphology-Syntax_Interface": {
+      "definition": "Morphological markers whose function is syntactic: ezafe -i inside the noun phrase, and -ro on a specific direct object.",
+      "examples": [
+        {
+          "form": "duxtar-i dust-as-ro did",
+          "gloss": "he saw the daughter of his friend",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 442"
+        },
+        {
+          "form": "qalam-i xud-am",
+          "gloss": "my own pen",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 436"
+        }
+      ],
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 436, 442"
+    },
+    "Syntax-Semantics_Interface": {
+      "definition": "Syntactic position and role. The postposition -ro marks a specific direct object, not every noun phrase after the verb.",
+      "examples": [
+        {
+          "form": "kitob-ro xarid-am",
+          "gloss": "I bought the book",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 442"
+        },
+        {
+          "form": "Ӯ китоб хонд",
+          "gloss": "She read a book / books (no -ro; indefinite or generic)",
+          "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+        }
+      ],
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 442; Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+    },
+    "Semantics-Pragmatics_Interface": {
+      "definition": "Meaning that depends on the speech situation. sumo is plural and also a polite singular address. on-ho may refer respectfully to one person. vay in Tajik is animate or inanimate.",
+      "examples": [
+        {
+          "form": "sumo",
+          "gloss": "you (plural), also polite singular",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 435"
+        },
+        {
+          "form": "on-ho",
+          "gloss": "they; respectful singular",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 435"
+        },
+        {
+          "form": "vay kor",
+          "gloss": "that matter",
+          "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 435"
+        }
+      ],
+      "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 435"
+    }
+  },
+  "Relations_and_Properties": {
+    "Object_Properties": {
+      "inLanguage": {
+        "definition": "The form belongs to a language or variety. [GOLD URI: http://purl.org/linguistics/gold/inLanguage]",
+        "instantiated_by": "All lexical entries in Lexicon_Overview are inLanguage Modern Literary Tajik, except where a dialect is named."
+      },
+      "hasLexicalItem": {
+        "definition": "A lexicon contains an item. [GOLD URI: http://purl.org/linguistics/gold/hasLexicalItem]",
+        "instantiated_by": [
+          "kitob",
+          "xona",
+          "rav-/raft-",
+          "kor-gar"
+        ]
+      },
+      "suffix": {
+        "definition": "An affix that follows the host. [GOLD URI: http://purl.org/linguistics/gold/suffix]",
+        "instantiated_by": [
+          "-ho",
+          "-on",
+          "-ro",
+          "-i",
+          "-tar",
+          "-tarin",
+          "-on (causative)",
+          "-a (participle)"
+        ]
+      },
+      "prefix": {
+        "definition": "An affix that precedes the host. [GOLD URI: http://purl.org/linguistics/gold/prefix]",
+        "instantiated_by": [
+          "me-",
+          "na-",
+          "bi-"
+        ]
+      },
+      "inflectedForm": {
+        "definition": "A word form related to a lemma by inflection. [GOLD URI: http://purl.org/linguistics/gold/inflectedForm]",
+        "instantiated_by": [
+          {
+            "lemma": "kitob",
+            "form": "kitob-ro",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8"
+          },
+          {
+            "lemma": "raftan",
+            "form": "me-rav-am",
+            "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8"
+          },
+          {
+            "lemma": "сафед",
+            "form": "сафедтар",
+            "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+          }
+        ]
+      },
+      "allomorph": {
+        "definition": "An alternate shape of a morpheme. [GOLD URI: http://purl.org/linguistics/gold/allomorph]",
+        "instantiated_by": [
+          "-on / -yon / -gon",
+          "ezafe -i / -yi",
+          "-ro / colloquial -a / -ya"
+        ]
+      },
+      "geneticallyRelated": {
+        "definition": "Shares inheritance. [GOLD URI: http://purl.org/linguistics/gold/geneticallyRelated]",
+        "instantiated_by": "Modern Literary Tajik is genetically related to Iranian Persian: both evolved from Early New Persian."
+      },
+      "agrees": {
+        "definition": "Shares grammatical features with another constituent. [GOLD URI: http://purl.org/linguistics/gold/agrees]",
+        "instantiated_by": "The finite verb agrees with the subject in person and number (me-rav-am vs me-rav-and). Adjectives do not agree in number (Khojayori & Thompson)."
+      }
+    },
+    "Datatype_Properties": {
+      "orthographicRep": {
+        "definition": "Written form. [GOLD URI: http://purl.org/linguistics/gold/orthographicRep] Cyrillic for forms taken from Khojayori & Thompson; Latin transliteration for forms taken from Windfuhr & Perry, who state that Modern Literary Tajik examples are transliterated.",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 423"
+      },
+      "phoneticRep": {
+        "definition": "Phonetic form. [GOLD URI: http://purl.org/linguistics/gold/phoneticRep]",
+        "instantiated_by": [
+          "dast-am [das-tam]",
+          "gov with bilabial w",
+          "unstable-vowel reduction d'gar"
+        ]
+      },
+      "stringRep": {
+        "definition": "A literal string of a form. [GOLD URI: http://purl.org/linguistics/gold/stringRep] The form fields in this file are string representations.",
+        "source": "this file"
+      }
+    }
+  },
+  "Lexicon_Overview": {
+    "note": "Sample only. Glosses and stems are those of the attached sources. Transliteration follows Windfuhr & Perry; Cyrillic follows Khojayori & Thompson.",
+    "entries": [
+      {
+        "form": "китоб",
+        "gloss": "book",
+        "class": "noun",
+        "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+      },
+      {
+        "form": "хона",
+        "gloss": "house, home",
+        "class": "noun",
+        "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners; Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8 xona"
+      },
+      {
+        "form": "қалам",
+        "gloss": "pencil",
+        "class": "noun",
+        "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+      },
+      {
+        "form": "мард",
+        "gloss": "man",
+        "class": "noun",
+        "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+      },
+      {
+        "form": "зан",
+        "gloss": "woman",
+        "class": "noun",
+        "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners занон 'women'"
+      },
+      {
+        "form": "zabon",
+        "gloss": "language",
+        "class": "noun",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 420; base, not the plural suffix -on"
+      },
+      {
+        "form": "osmon",
+        "gloss": "sky",
+        "class": "noun",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 473; osmon-i obi 'blue sky'"
+      },
+      {
+        "form": "on",
+        "gloss": "that",
+        "class": "demonstrative",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 436"
+      },
+      {
+        "form": "hamon",
+        "gloss": "that same",
+        "class": "demonstrative",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 453"
+      },
+      {
+        "form": "dast",
+        "gloss": "hand",
+        "class": "noun",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 428"
+      },
+      {
+        "form": "сафед",
+        "gloss": "white",
+        "class": "adjective",
+        "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+      },
+      {
+        "form": "гарм",
+        "gloss": "hot",
+        "class": "adjective",
+        "source": "Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners"
+      },
+      {
+        "form": "baland",
+        "gloss": "high",
+        "class": "adjective",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 434"
+      },
+      {
+        "form": "buzurg",
+        "gloss": "big, great; older in the comparative buzurg-tar",
+        "class": "adjective",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 441"
+      },
+      {
+        "form": "xud",
+        "gloss": "self, own",
+        "class": "pronoun",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 436"
+      },
+      {
+        "form": "kor-gar",
+        "gloss": "manual worker",
+        "class": "noun",
+        "lexicalized": "true",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 527"
+      },
+      {
+        "form": "navis-anda",
+        "gloss": "writer",
+        "class": "noun",
+        "lexicalized": "true",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 449"
+      },
+      {
+        "form": "Tojikiston",
+        "gloss": "Tajikistan",
+        "class": "noun",
+        "lexicalized": "true",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 476"
+      },
+      {
+        "form": "raft-an",
+        "gloss": "to go",
+        "class": "verb",
+        "present_stem": "rav-",
+        "past_stem": "raft-",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 449, 452; future participle raft-an-i 'about to go'"
+      },
+      {
+        "form": "girift-an",
+        "gloss": "to take, taking",
+        "class": "verb",
+        "past_stem": "girift-",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 449. Present stem is not printed beside this infinitive"
+      },
+      {
+        "form": "o- / omad-",
+        "gloss": "come",
+        "class": "verb",
+        "present_stem": "o-",
+        "past_stem": "omad-",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 448"
+      },
+      {
+        "form": "or- / ovard-",
+        "gloss": "bring",
+        "class": "verb",
+        "present_stem": "or-",
+        "past_stem": "ovard-",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 448"
+      },
+      {
+        "form": "sin- / sist-",
+        "gloss": "sit",
+        "class": "verb",
+        "present_stem": "sin-",
+        "past_stem": "sist-",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 448"
+      },
+      {
+        "form": "gu- / guft-",
+        "gloss": "say",
+        "class": "verb",
+        "present_stem": "gu-",
+        "past_stem": "guft-",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 450, 453"
+      },
+      {
+        "form": "ras- / rasid-",
+        "gloss": "arrive",
+        "class": "verb",
+        "present_stem": "ras-",
+        "past_stem": "rasid-",
+        "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 447"
+      }
+    ]
+  }
+}

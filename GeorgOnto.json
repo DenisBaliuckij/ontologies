@@ -1,0 +1,2854 @@
+{
+  "meta": {
+    "title": "Georgian (ქართული ენა) Language Ontology",
+    "version": "1.0",
+    "description": "A comprehensive ontology of the Georgian language (ISO 639-3: kat), the only literary language of the Kartvelian (South Caucasian) family. Georgian is an agglutinative-fusional language with a highly complex verbal system, characterized by poly-personal agreement, split ergativity, and a rich system of preverbs and screeves (tense-aspect-mood paradigms). It is spoken primarily in Georgia and uses the unique Mkhedruli script.",
+    "sources": [
+      "Hewitt, B. G. (2005). Georgian: A Learner's Grammar (2nd ed.). Routledge.",
+      "Aronson, H. I. (1990). Georgian: A Reading Grammar. Slavica Publishers.",
+      "Kiziria, D. (2009). Beginner's Georgian. Hippocrene Books.",
+      "Vogt, H. (1971). Grammaire de la langue géorgienne. Universitetsforlaget.",
+      "Shanidze, A. (1973). Kartuli enis gramatikis safuZvlebi (Fundamentals of the Grammar of the Georgian Language). Tbilisi State University Press.",
+      "Tschenkeli, K. (1958). Einführung in die georgische Sprache. Amirani Verlag."
+    ],
+    "language_name": "Georgian (ქართული ენა, kartuli ena)",
+    "iso_code": "kat",
+    "classification": "Kartvelian, Georgian",
+    "speaker_population": "Approximately 4 million in Georgia, plus significant communities in Turkey, Russia, Iran, Azerbaijan, and diaspora communities.",
+    "location": "Georgia (official language), Turkey (northeastern regions), Russia, Iran, Azerbaijan, and diaspora communities.",
+    "dialects": [
+      {
+        "name": "Kartlian (ქართლური)",
+        "location": "Central Georgia (Kartli region)",
+        "notes": "Forms the basis of the standard literary language."
+      },
+      {
+        "name": "Kakhetian (კახური)",
+        "location": "Eastern Georgia (Kakheti region)",
+        "notes": "Close to Kartlian; some phonological and lexical differences."
+      },
+      {
+        "name": "Imeretian (იმერული)",
+        "location": "Western Georgia (Imereti region)",
+        "notes": "Significant differences in verb morphology and phonology."
+      },
+      {
+        "name": "Gurian (გურული)",
+        "location": "Western Georgia (Guria region)",
+        "notes": "Further phonological reductions; some unique vocabulary."
+      },
+      {
+        "name": "Adjarian (აჭარული)",
+        "location": "Southwestern Georgia (Adjara)",
+        "notes": "Influenced by Turkish; distinct phonological features."
+      },
+      {
+        "name": "Meskhetian (მესხური)",
+        "location": "Southern Georgia (Meskheti)",
+        "notes": "Archaic features; influenced by Armenian and Turkish."
+      },
+      {
+        "name": "Javakhetian (ჯავახური)",
+        "location": "Southern Georgia (Javakheti)",
+        "notes": "Influenced by Armenian; distinct phonology."
+      },
+      {
+        "name": "Mountain dialects (Khevsureti, Pshavi, Tusheti, etc.)",
+        "location": "Northern Georgia (Caucasus mountains)",
+        "notes": "Archaic features, unique vocabulary, and complex consonant clusters."
+      }
+    ],
+    "standard_dialect": "Based on the Kartlian dialect, with significant influence from the literary tradition centered in Tbilisi.",
+    "gold_base_uri": "http://purl.org/linguistics/gold/"
+  },
+  "Core_Foundations": {
+    "Language": {
+      "definition": "Georgian (ქართული ენა) is the official language of the Republic of Georgia and the only literary language of the Kartvelian (South Caucasian) language family. It is an agglutinative-fusional language with a highly complex verbal system, characterized by poly-personal agreement, split ergativity, and a rich system of preverbs and screeves (tense-aspect-mood paradigms). It is spoken primarily in Georgia and uses the unique Mkhedruli script, which is phonemic and has no capital letters.",
+      "key_properties": [
+        "Agglutinative-fusional morphology with complex suffixation and prefixation",
+        "Poly-personal verb agreement (subject, direct object, indirect object)",
+        "Split ergativity: nominative-accusative in Series I, ergative-absolutive in Series II and III",
+        "Absence of grammatical gender",
+        "Seven nominal cases (nominative, ergative, dative, genitive, instrumental, adverbial, vocative)",
+        "Rich system of preverbs indicating direction and aspect",
+        "Unique Mkhedruli script (33 letters, no capitals)",
+        "Complex consonant clusters (up to 6 consonants initially)",
+        "Ejective (glottalized) consonants",
+        "Free word order (SOV is basic, but pragmatically flexible)"
+      ],
+      "components": {
+        "Lexicon": {
+          "definition": "The inventory of sign units in Georgian, including native Kartvelian roots and loanwords from Iranian, Arabic, Turkish, Russian, and English.",
+          "details": "The lexicon includes nouns, verbs, adjectives, adverbs, pronouns, postpositions, particles, numerals, and ideophones. Many basic words are native Kartvelian, but there are extensive borrowings from Iranian languages (Old and Middle Persian), Arabic, Turkish, Russian, and more recently English."
+        },
+        "Grammar": {
+          "definition": "The set of rules for operating on these units.",
+          "details": "Includes rules for complex nominal and verbal inflection, poly-personal agreement, split ergativity, preverbation, vowel syncope, and consonant alternations."
+        }
+      },
+      "Language_vs_Speech": {
+        "Language": {
+          "definition": "The abstract linguistic system in the minds of speakers.",
+          "details": "The standardized grammatical rules and vocabulary of Georgian, as presented in grammars and used in formal communication."
+        },
+        "Speech": {
+          "definition": "The concrete realization of language in communication.",
+          "details": "Variants include dialectal differences (e.g., Kartlian, Imeretian, Gurian, Adjarian) and colloquial speech patterns, such as the dropping of final vowels and consonant reductions."
+        }
+      }
+    },
+    "Linguistic_System": {
+      "definition": "Georgian is characterized by a system of 5 vowels and 28 consonants, a rich system of suffixes and prefixes that perform both grammatical and derivational functions, and a complex system of screeves (tense-aspect-mood paradigms).",
+      "system_of_systems": "Georgian can be described as a 'system of systems' with hierarchically ordered levels: phonology, morphology, syntax, and semantics."
+    },
+    "Linguistic_Taxon": {
+      "definition": "Georgian is a member of the Kartvelian language family, which is not demonstrably related to any other language family.",
+      "taxonomic_levels": [
+        "Family: Kartvelian (South Caucasian)",
+        "Branch: Georgian",
+        "Language: Georgian"
+      ],
+      "related_languages": [
+        "Mingrelian (მარგალური ნინა, margaluri nina)",
+        "Laz (ლაზური ნენა, lazuri nena)",
+        "Svan (ლუშნუ ნინ, lušnu nin)"
+      ],
+      "notes": "Within the Kartvelian family, Georgian is most closely related to Mingrelian and Laz (which form the Zan branch), while Svan is more distantly related."
+    },
+    "Taxon": {
+      "definition": "Georgian belongs to the Kartvelian language family, which is considered an isolate family."
+    },
+    "Genetic_Taxon": {
+      "definition": "Georgian is a Kartvelian language, with no conclusive demonstration of genetic relationship to any other language family.",
+      "genetic_notes": "The Kartvelian family is considered one of the oldest language families in the Caucasus. Georgian has been a literary language since the 5th century AD."
+    },
+    "Context_of_Use_Taxon": {
+      "definition": "Georgian is used in a variety of contexts, including official, educational, literary, and daily communication.",
+      "contexts": [
+        "Official: Used as the state language of the Republic of Georgia.",
+        "Literary/Standard: Based on the Kartlian dialect, used in government, media, and literature.",
+        "Daily communication: Used by all generations in all domains of life.",
+        "Religious: Used in religious contexts by the Georgian Orthodox Church.",
+        "Oral tradition: Rich folklore, including epics and polyphonic folk songs."
+      ]
+    },
+    "Geographic_Taxon": {
+      "definition": "Georgian is spoken in the Republic of Georgia and in diaspora communities.",
+      "area": "Republic of Georgia: 69,700 km². Significant diaspora in Turkey, Russia, Iran, Azerbaijan, and other countries."
+    },
+    "Political_Taxon": {
+      "definition": "Georgian is the national and official language of the Republic of Georgia.",
+      "political_status": "Official language of the Republic of Georgia. It is also spoken as a minority language in Turkey, Russia, and Iran."
+    },
+    "Endangerment_Taxon": {
+      "definition": "Georgian is not considered endangered and is spoken by a large population. It is the official language of a sovereign state.",
+      "vitality_factors": [
+        "Speaker population: ~4 million in Georgia",
+        "Intergenerational transmission: Yes",
+        "Official status: Official language of the Republic of Georgia",
+        "Documentation: Extensive literature, textbooks, dictionaries, and media.",
+        "Literacy programs: Highly developed educational system in Georgian."
+      ]
+    },
+    "Language_Family": {
+      "definition": "Georgian is a member of the Kartvelian language family.",
+      "related_languages": [
+        "Mingrelian",
+        "Laz",
+        "Svan"
+      ]
+    },
+    "Language_Stock": {
+      "definition": "The Kartvelian language family is not considered part of any larger established stock, though it is sometimes included in hypothetical macro-families like Nostratic or Dene-Caucasian."
+    },
+    "Language_Subfamily": {
+      "definition": "Georgian is the only member of its subfamily within Kartvelian; the others are Mingrelian-Laz (Zan) and Svan."
+    },
+    "Isolate": {
+      "definition": "The Kartvelian family is an isolate family, not demonstrably related to any other language family."
+    },
+    "Dialect": {
+      "definition": "Georgian has a number of regional dialects, classified into Eastern and Western groups.",
+      "dialects": [
+        {
+          "name": "Eastern Group",
+          "location": "Kartli, Kakheti, Meskheti, Javakheti",
+          "notes": "Kartlian and Kakhetian form the basis of the standard language."
+        },
+        {
+          "name": "Western Group",
+          "location": "Imereti, Guria, Adjara, Samegrelo (Georgian-speaking areas)",
+          "notes": "Imeretian and Gurian have distinct verb morphology and phonology."
+        },
+        {
+          "name": "Mountain Group",
+          "location": "Khevsureti, Pshavi, Tusheti, Mtiuleti, Gudamaqari",
+          "notes": "Archaic features, unique vocabulary, and complex consonant clusters."
+        }
+      ],
+      "standard_dialect": "The literary standard is primarily based on the Kartlian dialect (Eastern group), with significant influence from Kakhetian and the literary tradition centered in Tbilisi."
+    },
+    "The_Linguistic_Sign": {
+      "definition": "Georgian linguistic signs connect a signifier (phonological form) with a signified (meaning).",
+      "components": {
+        "Signifier": {
+          "definition": "The external form, which can be spoken or written.",
+          "details": "Georgian uses the Mkhedruli script (33 letters). The spoken form is based on a system of 5 vowels and 28 consonant phonemes, with complex consonant clusters and ejective consonants."
+        },
+        "Signified": {
+          "definition": "The meaning or concept.",
+          "details": "Lexical meaning (e.g., სახლი saxli 'house', წიგნი cigni 'book', წერა cera 'writing') and grammatical meaning (e.g., plural -eb-, ergative -ma, past tense)."
+        }
+      },
+      "properties": {
+        "Arbitrariness": {
+          "definition": "Predominantly arbitrary, but with some onomatopoeic elements.",
+          "details": "Most words are arbitrary, though some words like ბზუილი bzuili (buzzing) are onomatopoeic."
+        },
+        "Linear_Character": {
+          "definition": "Elements follow one another in time.",
+          "details": "SOV word order; suffixes and prefixes are added linearly to roots."
+        },
+        "Double_Articulation": {
+          "definition": "Signs are composed of smaller meaningful signs (morphemes) and non-meaningful units (phonemes).",
+          "details": "Morphemes: სახლ-ებ-ი saxl-eb-i (house-PL-NOM). Phonemes: /s/, /a/, /x/, /l/, /e/, /b/, /i/."
+        }
+      },
+      "examples": "Words and morphemes: სახლი saxli 'house', -eb- (plural), წერ- cer- 'write', -თ -t (2PL subject marker)."
+    },
+    "Linguistic_Unit": {
+      "definition": "Linguistic units in Georgian are organized hierarchically.",
+      "units": [
+        {
+          "level": "Phonological",
+          "units": ["Phoneme", "Syllable", "Phonological Word"]
+        },
+        {
+          "level": "Morphological",
+          "units": ["Morpheme", "Word", "Root", "Stem"]
+        },
+        {
+          "level": "Syntactic",
+          "units": ["Phrase", "Clause", "Sentence"]
+        }
+      ]
+    },
+    "Form_Unit": {
+      "definition": "The sensorily perceptible aspect of the sign, i.e., its spoken or written form.",
+      "examples": [
+        "The written form სახლი for 'house'",
+        "The spoken form [saxli] for 'house'",
+        "The suffix -eb- for the plural"
+      ]
+    },
+    "Grammar_Unit": {
+      "definition": "The structural component of the sign, including morphemes and syntactic words.",
+      "examples": [
+        "Morphemes: სახლ- (root), -eb- (plural), -i (nominative)",
+        "Syntactic words: სახლები saxlebi 'houses', დავწერე davc'ere 'I wrote'"
+      ]
+    },
+    "Semantic_Unit": {
+      "definition": "The meaning component of the sign.",
+      "semantic_units": [
+        {
+          "type": "Lexical Meaning",
+          "definition": "სახლი saxli 'house', წერა cera 'to write', ლამაზი lamazi 'beautiful'."
+        },
+        {
+          "type": "Grammatical Meaning",
+          "definition": "Plural number (-eb-), ergative case (-ma), past tense (aorist screeve)."
+        }
+      ]
+    },
+    "Linguistic_Expression": {
+      "definition": "The physical representation of a linguistic unit.",
+      "expressions": {
+        "Spoken": "The spoken form of Georgian, produced by the vocal apparatus.",
+        "Written": "The written form, using the Mkhedruli script (33 letters, no capitals)."
+      }
+    },
+    "Spoken_Linguistic_Expression": {
+      "definition": "The physical sound form of Georgian, including dialectal variations and fast-speech processes.",
+      "notes": "Fast speech often involves the reduction of vowels and simplification of consonant clusters (e.g., სადა ხარ? sada xar? → სად ხარ? sad xar? 'Where are you?')."
+    },
+    "Written_Linguistic_Expression": {
+      "definition": "The written form of Georgian, using the Mkhedruli script (33 letters) adopted in the 5th century AD. The script is phonemic and has no capital letters.",
+      "notes": "The Mkhedruli script contains 5 vowels and 28 consonants. The written language is based on the Standard Georgian of the Republic."
+    },
+    "Signed_Linguistic_Expression": {
+      "definition": "Not applicable. Georgian is primarily spoken and written; a signed variety exists (Georgian Sign Language) but is not a primary focus of this ontology."
+    },
+    "Linguistic_Property": {
+      "definition": "Properties that characterize linguistic units in Georgian.",
+      "properties": {
+        "Phonological": ["Voicing", "Ejectivity", "Place of articulation", "Manner of articulation"],
+        "Morphological": ["Part of speech", "Inflectional class", "Case", "Number", "Tense", "Aspect", "Mood", "Version"],
+        "Syntactic": ["Valency", "Agreement", "Ergativity", "Word order"],
+        "Semantic": ["Thematic role", "Referential status", "Quantification"]
+      }
+    },
+    "Linguistic_Data_Structure": {
+      "definition": "Abstract containers for linguistic data.",
+      "structures": [
+        {
+          "type": "Lexical Entry",
+          "definition": "Dictionary entry: სახლი saxli 'house', სახლები saxlebi 'houses'."
+        },
+        {
+          "type": "Paradigm",
+          "definition": "Set of case forms for სახლი: სახლი (nom.), სახლის (gen.), სახლს (dat.), სახლით (instr.), სახლად (adv.), სახლო (voc.)."
+        }
+      ]
+    },
+    "Language_varieties": {
+      "Literary_Language": {
+        "definition": "The standard, codified form of Georgian used in official contexts and education.",
+        "variants": {
+          "Codified": "Used in official and prepared communication, based on the Kartlian dialect.",
+          "Spoken": "Used in informal communication, may include colloquialisms."
+        }
+      },
+      "Non-literary_Varieties": {
+        "Territorial_Dialects": [
+          "Kartlian",
+          "Kakhetian",
+          "Imeretian",
+          "Gurian",
+          "Adjarian",
+          "Meskhetian",
+          "Javakhetian",
+          "Mountain dialects"
+        ],
+        "Social_Dialects": "Differences between urban and rural varieties; age-based variations.",
+        "Vernacular": "Colloquial speech, often characterized by reduced forms and borrowing."
+      }
+    },
+    "Thing": {
+      "definition": "In GOLD ontology, Thing is the superclass of all classes. All linguistic units are instances of Thing."
+    },
+    "Abstract": {
+      "definition": "Grammatical categories in Georgian are abstract: number, tense, aspect, mood, case, version."
+    },
+    "Object": {
+      "definition": "Georgian nouns refer to objects: სახლი saxli 'house' (physical object), კაცი k'ac'i 'man' (human), თბილისი Tbilisi 'city' (location)."
+    },
+    "Process": {
+      "definition": "Georgian verbs describe processes: წერა c'era 'to write', კითხვა k'itxva 'to read', სიარული siaruli 'to walk', ცხოვრება cxovreba 'to live'."
+    }
+  }
+},
+{
+  "Phonetics_and_Phonology": {
+    "Phonetics": {
+      "definition": "The study of the sound system of Georgian, based primarily on the articulatory and acoustic properties of its consonants and vowels.",
+      "branches": {
+        "Substantive_Phonetics": {
+          "definition": "Studies physical and physiological aspects.",
+          "sub-branches": {
+            "Articulatory": "Study of how Georgian speech sounds are produced (e.g., ejective stops, uvular consonants, complex consonant clusters).",
+            "Acoustic": "Study of acoustic properties of Georgian vowels and consonants (e.g., formants, VOT of ejectives vs. aspirated stops).",
+            "Perceptual": "Study of how Georgian sounds are perceived (e.g., distinguishing ejective /p'/, /t'/, /k'/ from aspirated /p/, /t/, /k/ and voiced /b/, /d/, /g/)."
+          }
+        },
+        "Linguistic_Phonetics": {
+          "definition": "Studies the function of sound means in Georgian, focusing on phonemes.",
+          "details": "Georgian has 28 consonant and 5 vowel phonemes. Key functional elements include the three-way laryngeal contrast (voiced, aspirated voiceless, ejective), complex consonant clusters, and the absence of phonemic vowel length."
+        }
+      }
+    },
+    "Phonetic_Units": {
+      "definition": "Linear objects in the speech chain.",
+      "Segment_Units": {
+        "definition": "Minimal linear units.",
+        "types": [
+          {
+            "name": "Sound",
+            "definition": "Concrete realization of a phoneme in a specific context (e.g., aspirated [tʰ] in თბილისი [tʰbilisi] 'Tbilisi')."
+          },
+          {
+            "name": "Sound Type",
+            "definition": "Abstract grouping of phonetically similar sounds (e.g., all aspirated stops)."
+          },
+          {
+            "name": "Phoneme",
+            "definition": "Abstract unit that distinguishes meaning (e.g., /p/ vs /p'/ in პირი p'iri 'mouth' vs პირი piri 'elephant' - note: real minimal pair is ფარი pʰari 'shield' vs პარი p'ari 'pair' vs ბარი bari 'pen' - three-way contrast)."
+          }
+        ]
+      },
+      "Suprasegmental_Units": {
+        "definition": "Units consisting of segmental units organized into larger prosodic structures.",
+        "types": [
+          "Syllable",
+          "Phonetic Word",
+          "Syntagma",
+          "Phrase"
+        ]
+      }
+    },
+    "Phonetic_Features": {
+      "definition": "Properties characterizing phonetic units.",
+      "Segment_Features": [
+        "Voicing (voiced, voiceless aspirated, voiceless ejective)",
+        "Place of articulation (labial, dental/alveolar, postalveolar, velar, uvular, glottal)",
+        "Manner of articulation (stop, affricate, fricative, nasal, liquid, glide)",
+        "Vowel Height (high, mid, low)",
+        "Vowel Backness (front, central, back)",
+        "Vowel Rounding (rounded, unrounded)"
+      ],
+      "Suprasegmental_Features": [
+        "Stress (weak, dynamic, usually on the first syllable of a word; can shift with some suffixes)",
+        "Intonation (falling for statements, rising for yes/no questions, falling for wh-questions)"
+      ]
+    },
+    "Phonetic_Rules": {
+      "definition": "Rules governing the use and variation of phonetic units.",
+      "Phonological_Rules": [
+        "Consonant clusters: Georgian allows up to six consonants initially (e.g., ბრძოლა brdzola 'fight'). No vowel epenthesis occurs.",
+        "Voicing assimilation: Some assimilation occurs in clusters, but is not fully systematic.",
+        "Ejective neutralization: Ejectives may lose glottalization in fast speech or word-final position.",
+        "Vowel reduction: In fast speech, unstressed vowels may be reduced or elided.",
+        "Final devoicing: Voiced stops /b, d, g/ may be partially devoiced word-finally, but not completely."
+      ],
+      "Coarticulatory_Rules": [
+        "Palatalization of velars before front vowels.",
+        "Labialization of consonants before rounded vowels.",
+        "Nasalization of vowels adjacent to nasal consonants."
+      ]
+    },
+    "Segment_Units": {
+      "Consonants": {
+        "definition": "28 consonant phonemes in Georgian, with a three-way laryngeal contrast for stops and affricates.",
+        "inventory": {
+          "Stops": {
+            "Bilabial": {
+              "voiced": "ბ b",
+              "aspirated": "ფ pʰ",
+              "ejective": "პ p'"
+            },
+            "Alveolar": {
+              "voiced": "დ d",
+              "aspirated": "თ tʰ",
+              "ejective": "ტ t'"
+            },
+            "Velar": {
+              "voiced": "გ g",
+              "aspirated": "ქ kʰ",
+              "ejective": "კ k'"
+            },
+            "Uvular": {
+              "voiceless": "ყ q' (ejective)",
+              "notes": "Often accompanied by strong friction; no voiced or aspirated counterpart."
+            }
+          },
+          "Affricates": {
+            "Alveolar": {
+              "voiced": "ძ dz",
+              "aspirated": "ც tsʰ",
+              "ejective": "წ ts'"
+            },
+            "Postalveolar": {
+              "voiced": "ჯ dʒ",
+              "aspirated": "ჩ tʃʰ",
+              "ejective": "ჭ tʃ'"
+            }
+          },
+          "Fricatives": {
+            "Labiodental": "ვ v (often realized as [w] or [ʋ])",
+            "Alveolar": {
+              "voiced": "ზ z",
+              "voiceless": "ს s"
+            },
+            "Postalveolar": {
+              "voiced": "ჟ ʒ",
+              "voiceless": "შ ʃ"
+            },
+            "Velar": {
+              "voiced": "ღ ɣ",
+              "voiceless": "ხ x"
+            },
+            "Glottal": "ჰ h"
+          },
+          "Nasals": {
+            "Bilabial": "მ m",
+            "Alveolar": "ნ n"
+          },
+          "Liquids": {
+            "Lateral": "ლ l",
+            "Trill/Tap": "რ r"
+          }
+        },
+        "phonological_notes": {
+          "three_way_contrast": "The three-way laryngeal contrast (voiced, aspirated, ejective) for stops and affricates is a key feature of Georgian.",
+          "ejectives": "Ejective (glottalized) consonants are produced with a simultaneous glottal closure and oral closure, releasing with a sharp pop.",
+          "uvular_q": "ყ q' is a uvular ejective with strong friction; learners often struggle with its pronunciation.",
+          "v_allophony": "ვ v has multiple allophones: [v] before vowels, [w] after vowels, [ʋ] in some contexts.",
+          "r_allophony": "რ r is typically a tap [ɾ], but can be a trill [r] in emphatic speech.",
+          "l_allophony": "ლ l has a velarized allophone [ɫ] in some positions and a palatalized allophone [lʲ] before front vowels."
+        },
+        "minimal_pairs": [
+          {"pair": "ფარი pʰari 'shield' vs პარი p'ari 'pair' vs ბარი bari 'pen'", "contrast": "pʰ vs p' vs b"},
+          {"pair": "თაგვი tʰagvi 'mouse' vs ტაგვი t'agvi (not a word) vs დაგვი dagvi (not a word)", "contrast": "tʰ vs t' vs d"},
+          {"pair": "ქარი kʰari 'wind' vs კარი k'ari 'door' vs გარი gari (not a word)", "contrast": "kʰ vs k' vs g"},
+          {"pair": "ცა tsʰa 'sky' vs წა ts'a (not a word) vs ძა dza (not a word)", "contrast": "tsʰ vs ts' vs dz"},
+          {"pair": "ჩაი tʃʰai 'tea' vs ჭაი tʃ'ai (not a word) vs ჯაი dʒai (not a word)", "contrast": "tʃʰ vs tʃ' vs dʒ"},
+          {"pair": "სალი sali 'hall' vs ზალი zali (not a word)", "contrast": "s vs z"},
+          {"pair": "შარი ʃari 'arrow' vs ჟარი ʒari (not a word)", "contrast": "ʃ vs ʒ"},
+          {"pair": "ხარი xari 'bull' vs ღარი ɣari 'gutter'", "contrast": "x vs ɣ"}
+        ]
+      },
+      "Vowels": {
+        "definition": "5 vowel phonemes in Georgian, with no phonemic length distinction.",
+        "vowel_chart": {
+          "Front": {
+            "High": "ი i",
+            "Mid": "ე e",
+            "Low": ""
+          },
+          "Central": {
+            "High": "ი i (or ა a)",
+            "Mid": "ე e (or ა a)",
+            "Low": "ა a"
+          },
+          "Back": {
+            "High": "უ u",
+            "Mid": "ო o",
+            "Low": "ა a"
+          }
+        },
+        "phonetic_values": {
+          "ა a": "[ɑ] central low unrounded",
+          "ე e": "[ɛ] front mid unrounded",
+          "ი i": "[i] front high unrounded",
+          "ო o": "[ɔ] back mid rounded",
+          "უ u": "[u] back high rounded"
+        },
+        "vowel_harmony": "Georgian does not have vowel harmony. Vowels can occur freely in any position.",
+        "minimal_pairs": [
+          {"pair": "და da 'and' vs დე de (not a word)", "contrast": "a vs e"},
+          {"pair": "სი si (not a word) vs სუ su (not a word)", "contrast": "i vs u"},
+          {"pair": "კო ko (not a word) vs კა ka (not a word)", "contrast": "o vs a"}
+        ],
+        "length_contrast": {
+          "definition": "Vowel length is not phonemic in Georgian. Long vowels may occur in loanwords or as a result of consonant elision, but they do not create minimal pairs."
+        }
+      }
+    },
+    "Suprasegmental_Units": {
+      "Syllable": {
+        "definition": "In Georgian, syllables follow a structure of (C)(C)(C)(C)(C)(C)V(C)(C)(C)(C)(C)(C).",
+        "structures": {
+          "V": "Rare; occurs in some pronouns and conjunctions (e.g., ა a 'or').",
+          "CV": "Very frequent (e.g., ბა ba, და da).",
+          "CVC": "Very frequent (e.g., სახლი saxli 'house').",
+          "CVCC": "Frequent (e.g., ბრძოლა brdzola 'fight').",
+          "CCVC": "Frequent (e.g., სპორტი sp'ort'i 'sport').",
+          "CCCVCC": "Common (e.g., ბრძოლა brdzola).",
+          "CCCCVCC": "Rare (e.g., ბრწყინვალე brts'q'invale 'brilliant').",
+          "CCCCCVCC": "Very rare (e.g., ბრწყინვალება brts'q'invaleba 'brilliance').",
+          "CCCCCCVCC": "Extremely rare (e.g., მწვრთნელი mts'vrtneli 'trainer')."
+        },
+        "examples": [
+          {"structure": "V", "example": "ა a 'or'"},
+          {"structure": "CV", "example": "და da 'and'"},
+          {"structure": "CVC", "example": "სახლი saxli 'house'"},
+          {"structure": "CCVC", "example": "სპორტი sp'ort'i 'sport'"},
+          {"structure": "CCCVCC", "example": "ბრძოლა brdzola 'fight'"},
+          {"structure": "CCCCVCC", "example": "ბრწყინვალე brts'q'invale 'brilliant'"},
+          {"structure": "CCCCCVCC", "example": "ბრწყინვალება brts'q'invaleba 'brilliance'"},
+          {"structure": "CCCCCCVCC", "example": "მწვრთნელი mts'vrtneli 'trainer'"}
+        ]
+      },
+      "Stress": {
+        "definition": "Stress in Georgian is weak and dynamic, usually on the first syllable of a word. Adding suffixes can shift stress to the new first syllable.",
+        "examples": [
+          {"word": "სახლი saxli 'house'", "stress": "sax-li"},
+          {"word": "სახლები saxlebi 'houses'", "stress": "sax-le-bi"},
+          {"word": "სახლების saxlebis 'of houses'", "stress": "sax-le-bis"}
+        ],
+        "exceptions": [
+          "Some words have stress on other syllables, especially in loanwords or compound words.",
+          "In some dialects (e.g., Imeretian), stress patterns differ."
+        ]
+      },
+      "Intonation": {
+        "definition": "Intonation is used to distinguish sentence types.",
+        "functions": [
+          "Falling intonation for statements.",
+          "Rising intonation for yes/no questions (in colloquial speech).",
+          "Rising-falling intonation for wh-questions."
+        ]
+      }
+    },
+    "Phonetic_Features": {
+      "Consonant_Clusters": {
+        "definition": "Georgian is famous for its complex consonant clusters, allowing up to six consonants initially and up to four finally.",
+        "examples": [
+          {"word": "მწვრთნელი", "transliteration": "mts'vrtneli", "gloss": "trainer", "cluster": "მწვრთნ- mts'vrtn- (6 consonants)"},
+          {"word": "ბრწყინვალე", "transliteration": "brts'q'invale", "gloss": "brilliant", "cluster": "ბრწყ- brts'q'- (5 consonants)"},
+          {"word": "ბრძოლა", "transliteration": "brdzola", "gloss": "fight", "cluster": "ბრძ- brdz- (4 consonants)"},
+          {"word": "სპორტი", "transliteration": "sp'ort'i", "gloss": "sport", "cluster": "სპ- sp'- (2 consonants)"}
+        ],
+        "notes": "No vowel epenthesis occurs in these clusters; speakers articulate them fluently. This is a major challenge for learners."
+      },
+      "Ejective_Consonants": {
+        "definition": "Ejective (glottalized) consonants are a hallmark of Georgian phonology. They are produced with a simultaneous glottal closure and oral closure, releasing with a sharp pop.",
+        "inventory": ["პ p'", "ტ t'", "კ k'", "ყ q'", "წ ts'", "ჭ tʃ'"],
+        "notes": "Learners must distinguish ejectives from aspirated and voiced counterparts. For example, პარი p'ari 'pair' vs ფარი pʰari 'shield' vs ბარი bari 'pen'."
+      },
+      "Vowel_System": {
+        "definition": "Georgian has 5 vowel phonemes with no length distinction.",
+        "notes": "Vowels are pronounced clearly and without reduction in careful speech. In fast speech, unstressed vowels may be reduced or elided."
+      }
+    },
+    "Phonological_System": {
+      "definition": "The phonological system of Georgian is based on a system of 5 vowels and 28 consonants, with a three-way laryngeal contrast, complex consonant clusters, and no phonemic vowel length or stress.",
+      "vowel_system": "5 vowels: ა a, ე e, ი i, ო o, უ u. No length distinction.",
+      "consonant_system": "28 consonants with contrasts in voicing (voiced, aspirated voiceless, ejective), place, and manner."
+    },
+    "Orthographic_System": {
+      "definition": "Georgian has a standardized orthography based on the Mkhedruli script, which has been in use since the 5th century AD.",
+      "alphabet": "33 letters: ა a, ბ b, გ g, დ d, ე e, ვ v, ზ z, თ t, ი i, კ k', ლ l, მ m, ნ n, ო o, პ p', ჟ ʒ, რ r, ს s, ტ t', უ u, ფ p, ქ k, ღ ɣ, ყ q', შ ʃ, ჩ tʃ, ც ts, ძ dz, წ ts', ჭ tʃ', ხ x, ჯ dʒ, ჰ h.",
+      "vowel_representation": {
+        "oral": "ა a, ე e, ი i, ო o, უ u",
+        "notes": "Vowels are represented by distinct letters. No length marking."
+      },
+      "consonant_representation": {
+        "notes": "Distinct letters for ejectives (პ, ტ, კ, ყ, წ, ჭ) and their aspirated and voiced counterparts (ფ, თ, ქ, ც, ჩ; ბ, დ, გ, ძ, ჯ)."
+      },
+      "tonal_marking": {
+        "notes": "Georgian is not a tonal language. Stress is not marked orthographically."
+      },
+      "punctuation": "Uses standard Western punctuation marks (.,!?, etc.)."
+    }
+  }
+},
+{
+  "Morphology": {
+    "definition": "The branch of linguistics studying the internal structure of words in Georgian. Georgian is an agglutinative-fusional language with rich prefixation and suffixation, poly-personal verb agreement, split ergativity, and a highly complex system of screeves (tense-aspect-mood paradigms).",
+    "key_focus": "Identifying patterns of systematic covariation between form and meaning, particularly in poly-personal agreement, version, preverbation, and ergative case marking.",
+    "Goals": {
+      "elegant_description": "Capture generalizations about Georgian morphology, especially its poly-personal agreement and version system.",
+      "cognitively_realistic_description": "Reflect the mental grammar of Georgian speakers, including the distinction between Series I, II, and III screeves.",
+      "system_external_explanation": "Link morphological patterns to factors outside the system, such as historical contact with Iranian, Arabic, Turkish, and Russian languages."
+    },
+    "Basic_Units": {
+      "Word": {
+        "definition": "A complex concept with several distinct senses in Georgian.",
+        "senses": {
+          "Lexeme": {
+            "definition": "An abstract dictionary word representing a core meaning.",
+            "types": [
+              "Simple: სახლი saxli 'house', წიგნი c'igni 'book', წერა c'era 'to write'",
+              "Compound: მთისწვერი mtisc'veri 'mountain peak' (mta 'mountain' + c'veri 'peak'), წყალსაცავი c'q'alsacavi 'reservoir' (c'q'ali 'water' + sacavi 'container')",
+              "Derived: მწერალი mc'erali 'writer' (c'er- 'write' + -al- + -i), თავისუფლება tavisupleba 'freedom' (tavisupali 'free' + -eba)"
+            ]
+          },
+          "Word-form": {
+            "definition": "A concrete occurrence of a lexeme in speech.",
+            "key_property": "Part of a paradigm.",
+            "examples": {
+              "singular": "სახლი saxli 'house'",
+              "plural": "სახლები saxlebi 'houses'",
+              "ergative": "სახლმა saxlma 'house (ERG)'",
+              "dative": "სახლს saxls 'house (DAT)'",
+              "genitive": "სახლის saxis 'of the house'"
+            }
+          },
+          "Word_token": {
+            "definition": "A specific occurrence in a text.",
+            "example": "The token სახლი in the sentence 'ეს სახლია' es saxl-ia 'This is a house'"
+          }
+        }
+      },
+      "Morpheme": {
+        "definition": "The smallest meaningful (sign) unit in Georgian. Cannot be divided into smaller meaningful parts.",
+        "key_properties": "Cannot be divided into smaller meaningful parts.",
+        "types": {
+          "Free": {
+            "definition": "Can stand alone as a word.",
+            "examples": ["სახლი saxli 'house'", "წყალი c'q'ali 'water'", "მიდი midi 'go! (SG)'"]
+          },
+          "Bound": {
+            "definition": "Cannot stand alone, must attach to another morpheme.",
+            "examples": ["-ებ- -eb- (plural)", "-მა -ma (ergative)", "-ის -is (genitive)", "-ა -a (3SG subject marker)"]
+          }
+        },
+        "deviations_from_additive_model": {
+          "Cumulation": {
+            "definition": "Expression of multiple meanings by a single marker.",
+            "types": [
+              "Grammatical: The suffix -ა -a in არის aris 'is' marks both 3SG subject and present tense.",
+              "Grammatical: The suffix -თ -t marks both 2PL subject and plurality of the direct object in some forms.",
+              "Lexical and Grammatical: The prefix მ- m- in მწერალი mc'erali 'writer' marks both agentive and the lexical root c'er-."
+            ]
+          },
+          "Allomorphy": {
+            "definition": "Variation in form of a morpheme.",
+            "conditioning": [
+              "Phonological: The plural suffix has allomorphs -ებ- -eb- and -ნ- -n- depending on the root.",
+              "Grammatical: The 1SG subject prefix has allomorphs ვ- v- and ვ- - -თ -t depending on screeve.",
+              "Lexical: Some roots have suppletive forms (e.g., მიდის midis 'goes' vs წავიდა c'avida 'went')."
+            ]
+          },
+          "Fusion": "Loss of clear boundary between morphemes in some contracted forms (e.g., მაქვს makvs 'I have' contains fused agreement markers)."
+        },
+        "types_by_expression": {
+          "Segmental": "Linear sequence of phonemes: -ებ- -eb-, -მა -ma, -ის -is.",
+          "Operational": "Modification of another morpheme: vowel syncope in some roots (e.g., ქვეყანა kveq'ana 'country' → ქვეყნის kveq'nis 'of the country').",
+          "Zero": "Meaningful absence: nominative case has zero suffix (e.g., სახლი saxli 'house' vs სახლმა saxlma 'house (ERG)')."
+        }
+      },
+      "Morph": {
+        "definition": "A concrete, linear realization of a morpheme.",
+        "examples": {
+          "-ებ- -eb-": "allomorph of plural suffix after most roots (e.g., სახლები saxlebi 'houses')",
+          "-ნ- -n-": "allomorph of plural suffix after some roots (e.g., ქვეყნები kveq'nebi 'countries')",
+          "-მა -ma": "ergative case suffix",
+          "-ს -s": "dative case suffix",
+          "-ის -is": "genitive case suffix",
+          "-ით -it": "instrumental case suffix",
+          "-ად -ad": "adverbial case suffix",
+          "-ო -o": "vocative case suffix"
+        }
+      },
+      "Affix": {
+        "definition": "A bound morpheme attaching to a base. Georgian uses both prefixes and suffixes, though suffixation is more common.",
+        "types_by_position": {
+          "Prefix": {
+            "definition": "Attach to beginning of root.",
+            "examples": [
+              "მ- m- (agentive, e.g., მწერალი mc'erali 'writer')",
+              "სა- sa- (future/place, e.g., სასწავლებელი sasc'avlebeli 'school')",
+              "ვ- v- (1SG subject marker)",
+              "ა- a- (version vowel, e.g., აკეთებs ak'etebs 'he does it')",
+              "ი- i- (version vowel, e.g., იწერს ic'ers 'he writes to himself')",
+              "უ- u- (version vowel, e.g., უწერს uc'ers 'he writes to him')"
+            ]
+          },
+          "Suffix": {
+            "definition": "Attach to end of root. This is the primary morphological device in Georgian.",
+            "examples": [
+              "-ებ- -eb- (plural, e.g., სახლები saxlebi 'houses')",
+              "-მა -ma (ergative, e.g., კაცმა k'ac'ma 'man (ERG)')",
+              "-ს -s (dative, e.g., კაცს k'ac's 'man (DAT)')",
+              "-ის -is (genitive, e.g., კაცის k'ac'is 'of the man')",
+              "-ით -it (instrumental, e.g., კაცით k'ac'it 'with the man')",
+              "-ად -ad (adverbial, e.g., კაცად k'ac'ad 'as a man')",
+              "-ო -o (vocative, e.g., კაცო k'ac'o 'O man!')",
+              "-ა -a (3SG subject marker)",
+              "-ენ -en (3PL subject marker)",
+              "-თ -t (2PL subject marker, also 1PL subject marker)"
+            ]
+          },
+          "Circumfix": {
+            "definition": "Discontinuous affix that occurs on both sides of the base.",
+            "examples": [
+              "ა- -ებ- a- -eb- (causative, e.g., აკეთებს ak'etebs 'he makes someone do')",
+              "სა- -ე sa- -e (place, e.g., სასწავლებელი sasc'avlebeli 'school')",
+              "სა- -ო sa- -o (purpose, e.g., საჭმელი sac'meli 'food')",
+              "უ- -ო u- -o (privative, e.g., უშვილო ušvilo 'childless')"
+            ]
+          }
+        }
+      },
+      "Base_and_Root": {
+        "Root": {
+          "definition": "The base form of a word which cannot be further analyzed without total loss of identity.",
+          "examples": {
+            "free": "სახლი saxli 'house', წიგნი c'igni 'book', წყალი c'q'ali 'water'",
+            "bound": "წერ- c'er- (in მწერალი mc'erali 'writer'), კითხ- k'itx- (in მკითხველი mk'itxveli 'reader')"
+          }
+        },
+        "Stem": {
+          "definition": "A root plus one or more derivational suffixes, to which inflectional suffixes are added.",
+          "examples": {
+            "simple": "მწერალი mc'erali 'writer' (c'er- + -al- + -i)",
+            "compound": "მთისწვერი mtisc'veri 'mountain peak' (mta 'mountain' + c'veri 'peak')"
+          }
+        },
+        "Syncope": {
+          "definition": "Loss of a vowel in the root in certain morphological contexts.",
+          "examples": [
+            {"nominative": "ქვეყანა kveq'ana 'country'", "genitive": "ქვეყნის kveq'nis 'of the country'"},
+            {"nominative": "სახელი saxeli 'name'", "genitive": "სახლის saxlis 'of the name'"},
+            {"nominative": "წყალი c'q'ali 'water'", "genitive": "წყლის c'q'lis 'of the water'"}
+          ]
+        }
+      },
+      "Clitic": {
+        "definition": "A prosodically dependent unit with syntactic freedom.",
+        "types": {
+          "Proclitic": {
+            "definition": "A clitic that precedes the lexical unit.",
+            "examples": ["ვერ ver 'cannot' (e.g., ვერ მოვდივარ ver movdivar 'I cannot come')"]
+          },
+          "Enclitic": {
+            "definition": "A clitic that is phonologically joined at the end.",
+            "examples": ["-ც -c 'also' (e.g., მეც mec 'me too')", "-ღა -ɣa 'still' (e.g., ჯერ კიდევ ღა...)"]
+          }
+        },
+        "semantic_classes": [
+          "Pronominal (enclitic pronouns)",
+          "Particles (question, emphasis)",
+          "Conjunctions (da 'and')"
+        ]
+      },
+      "Compound": {
+        "definition": "A linguistic unit composed of elements that function independently.",
+        "structure": "Two or more words combined; plural marked on the second element.",
+        "examples": {
+          "Noun+Noun": "მთისწვერი mtisc'veri 'mountain peak' (mta 'mountain' + c'veri 'peak')",
+          "Noun+Noun (genitive)": "სახლის კარი saxis k'ari 'house door' (saxli 'house' + k'ari 'door')",
+          "Adjective+Noun": "შავთვალა ქალი šavtvala kali 'black-eyed woman' (šavi 'black' + tvali 'eye')"
+        },
+        "types": {
+          "Endocentric": "The compound is a hyponym of its head: მთისწვერი (a type of c'veri 'peak')",
+          "Exocentric": "The meaning is not derived from the parts: ცხრაფეხა cxrapexa 'spider' (cxra 'nine' + pexi 'foot')"
+        }
+      }
+    },
+    "Morphological_Operations": {
+      "Inflection": {
+        "definition": "Morphological relationship between word-forms of a single lexeme.",
+        "key_properties": [
+          "Produces word-forms",
+          "Syntactically obligatory",
+          "Regular and productive"
+        ],
+        "categories": [
+          "Number (singular/plural)",
+          "Case (7 cases: nominative, ergative, dative, genitive, instrumental, adverbial, vocative)",
+          "Tense/Aspect/Mood (11 screeves in 3 series)",
+          "Version (neutral, subjective, objective, locative)",
+          "Person (agreement suffixes on verbs)",
+          "Voice (active, passive, causative, reflexive)"
+        ]
+      },
+      "Derivation": {
+        "definition": "Morphological relationship between different lexemes.",
+        "key_properties": [
+          "Produces new lexemes",
+          "Can change word class",
+          "Less regular and productive than inflection"
+        ],
+        "suffixes": {
+          "-ელ- -el-": {
+            "function": "Forms agent nouns and adjectives from nouns or verbs",
+            "examples": [
+              {"root": "წერა c'era 'to write'", "derived": "მწერალი mc'erali 'writer'"},
+              {"root": "სწავლა sc'avla 'to learn'", "derived": "მასწავლებელი masc'avlebeli 'teacher'"},
+              {"root": "კითხვა k'itxva 'to read'", "derived": "მკითხველი mk'itxveli 'reader'"}
+            ]
+          },
+          "-არ- -ar-": {
+            "function": "Forms agent nouns from verbs",
+            "examples": [
+              {"root": "წერა c'era 'to write'", "derived": "მწერარი mc'erari 'scribe' (rare)"}
+            ]
+          },
+          "-ობ- -ob-": {
+            "function": "Forms abstract nouns from adjectives and nouns",
+            "examples": [
+              {"root": "ლამაზი lamazi 'beautiful'", "derived": "ლამაზობა lamazoba 'beauty'"},
+              {"root": "მეგობარი megobari 'friend'", "derived": "მეგობრობა megobroba 'friendship'"},
+              {"root": "ბედნიერი bednieri 'happy'", "derived": "ბედნიერება bedniereba 'happiness'"}
+            ]
+          },
+          "-ებ- -eb-": {
+            "function": "Forms abstract nouns from adjectives and verbs",
+            "examples": [
+              {"root": "თავისუფალი tavisupali 'free'", "derived": "თავისუფლება tavisupleba 'freedom'"},
+              {"root": "სწავლა sc'avla 'to learn'", "derived": "სწავლება sc'avleba 'teaching'"}
+            ]
+          },
+          "-იან- -ian-": {
+            "function": "Forms adjectives from nouns meaning 'having, with'",
+            "examples": [
+              {"root": "წყალი c'q'ali 'water'", "derived": "წყლიანი c'qliani 'watery'"},
+              {"root": "თმა tma 'hair'", "derived": "თმიანი tmiani 'hairy'"},
+              {"root": "ბედი bedi 'fortune'", "derived": "ბედიანი bediani 'fortunate'"}
+            ]
+          },
+          "-ურ- -ur-": {
+            "function": "Forms adjectives from nouns meaning 'related to, of'",
+            "examples": [
+              {"root": "საქართველო sakartvelo 'Georgia'", "derived": "ქართული kartuli 'Georgian'"},
+              {"root": "მთა mta 'mountain'", "derived": "მთიური mtiuri 'mountainous'"}
+            ]
+          },
+          "-ად- -ad-": {
+            "function": "Forms adverbs from adjectives",
+            "examples": [
+              {"root": "კარგი k'argi 'good'", "derived": "კარგად k'argad 'well'"},
+              {"root": "ლამაზი lamazi 'beautiful'", "derived": "ლამაზად lamazad 'beautifully'"},
+              {"root": "სწრაფი sc'rapi 'quick'", "derived": "სწრაფად sc'rapad 'quickly'"}
+            ]
+          },
+          "-დ- -d-": {
+            "function": "Forms adverbs from adjectives (vowel-final roots)",
+            "examples": [
+              {"root": "უშვილო ušvilo 'childless'", "derived": "უშვილოდ ušvilod 'without a child'"}
+            ]
+          }
+        },
+        "verbal_prefixes": {
+          "სა- sa-": {
+            "function": "Forms future participles and nouns of purpose/place",
+            "examples": ["საჭმელი sac'meli 'food' (from č'ama 'to eat')", "სასწავლებელი sasc'avlebeli 'school' (from sc'avla 'to learn')"]
+          },
+          "მ- m-": {
+            "function": "Forms active participles",
+            "examples": ["მწერალი mc'erali 'writer'", "მკითხველი mk'itxveli 'reader'"]
+          },
+          "უ- u-": {
+            "function": "Forms privative adjectives (without)",
+            "examples": ["უშვილო ušvilo 'childless'", "უსახლო usaxlo 'homeless'", "უწყლო uc'q'lo 'waterless'"]
+          },
+          "ნა- na-": {
+            "function": "Forms past participles and nouns",
+            "examples": ["ნაწერი nac'eri 'written'", "ნათქვამი natkvami 'said'"]
+          }
+        }
+      },
+      "Compounding": {
+        "definition": "Combination of two or more lexemes to form a new one.",
+        "types": {
+          "Endocentric": "One element is the head: მთისწვერი mtisc'veri 'mountain peak' (c'veri 'peak' is the head)",
+          "Exocentric": "No clear head: ცხრაფეხა cxrapexa 'spider' (cxra 'nine' + pexi 'foot')"
+        },
+        "examples": {
+          "Noun+Noun": "მთისწვერი mtisc'veri 'mountain peak', წყალსაცავი c'q'alsacavi 'reservoir', სახლის კარი saxis k'ari 'house door'",
+          "Adjective+Noun": "შავთვალა šavtvala 'black-eyed', მწვანეთვალა mc'vanetvala 'green-eyed'",
+          "Noun+Verb": "წყალსაცავი c'q'alsacavi 'reservoir', მარცვლეული marc'vleuli 'grain'"
+        }
+      },
+      "Word_Formation": "Cover term for derivation and compounding."
+    },
+    "The_Lexicon_and_Paradigms": {
+      "Lexicon": {
+        "definition": "The total store of words available to a speaker. Georgian lexicon contains native Kartvelian roots and extensive borrowings from Iranian, Arabic, Turkish, Russian, and European languages.",
+        "key_debate": ["Morpheme-based", "Word-based"],
+        "notes": "Georgian lexicon includes nouns, verbs, adjectives, adverbs, pronouns, postpositions, particles, numerals, and ideophones."
+      },
+      "Lexical_Item": {
+        "definition": "A unit of the vocabulary. Includes native Kartvelian roots and numerous borrowings."
+      },
+      "Inflectional_Paradigm": {
+        "definition": "The complete set of grammatical word-forms of a lexeme.",
+        "key_concepts": [
+          "Syntagmatic Relations: combination of morphemes",
+          "Paradigmatic Relations: choice between forms"
+        ],
+        "Inflection_Class": "Group of lexemes sharing the same set of forms. Georgian has regular and irregular paradigms.",
+        "Syncretism": "Two or more functions expressed by the same form (e.g., -ს -s marks both dative and genitive in some paradigms).",
+        "Defectiveness": "A gap in a paradigm.",
+        "Deponency": "Mismatched form-meaning relationship.",
+        "Periphrasis": "Use of a separate word or phrase (e.g., future tense in some verbs uses a particle)."
+      }
+    },
+    "Morphological_Meanings_and_Categories": {
+      "Grammatical_Meaning": {
+        "definition": "Meanings obligatorily expressed by the grammar.",
+        "key_properties": ["Obligatoriness", "Systematicity", "Abstractness"],
+        "Grammatical_Category": "A set of mutually exclusive, obligatory meanings.",
+        "Grammeme": "An individual value within a category."
+      },
+      "Key_Categories_for_Nouns": {
+        "Agreement_Class_Gender": {
+          "definition": "Georgian does not have grammatical gender. Natural gender is expressed lexically (e.g., კაცი k'ac'i 'man' vs ქალი kali 'woman') or through distinct words (e.g., ძმა dzma 'brother' vs და da 'sister')."
+        },
+        "Case": {
+          "definition": "Marks syntactic and/or semantic role through suffixes. There are seven cases in Georgian.",
+          "Core_Cases": {
+            "Nominative": {
+              "suffix": "-ი -i (or zero)",
+              "function": "Subject of intransitive verbs, direct object in Series I, subject in Series III",
+              "example": "სახლი saxli 'house (NOM)'"
+            },
+            "Ergative": {
+              "suffix": "-მა -ma",
+              "function": "Subject of transitive verbs in Series II (aorist)",
+              "example": "სახლმა saxlma 'house (ERG)'"
+            },
+            "Dative": {
+              "suffix": "-ს -s",
+              "function": "Indirect object, direct object in Series I and II, subject of indirect verbs",
+              "example": "სახლს saxls 'house (DAT)'"
+            },
+            "Genitive": {
+              "suffix": "-ის -is",
+              "function": "Possession, 'of'",
+              "example": "სახლის saxis 'of the house'"
+            },
+            "Instrumental": {
+              "suffix": "-ით -it",
+              "function": "Instrument, means, 'with, by'",
+              "example": "სახლით saxit 'with the house'"
+            },
+            "Adverbial": {
+              "suffix": "-ად -ad",
+              "function": "Manner, 'as', predicative",
+              "example": "სახლად saxl-ad 'as a house'"
+            },
+            "Vocative": {
+              "suffix": "-ო -o",
+              "function": "Addressing someone",
+              "example": "სახლო saxlo 'O house!'"
+            }
+          },
+          "Peripheral_Cases": [
+            "Instrumental (-ით -it)",
+            "Adverbial (-ად -ad)",
+            "Vocative (-ო -o)"
+          ]
+        },
+        "Number": {
+          "core_meanings": ["Singular", "Plural"],
+          "plural_suffix": {
+            "form": "-ებ- -eb- (most common) or -ნ- -n- (some roots)",
+            "rule": "The plural marker precedes the case marker.",
+            "examples": [
+              {"singular": "სახლი saxli 'house'", "plural": "სახლები saxlebi 'houses'"},
+              {"singular": "კაცი k'ac'i 'man'", "plural": "კაცები k'ac'ebi 'men'"},
+              {"singular": "ქვეყანა kveq'ana 'country'", "plural": "ქვეყნები kveq'nebi 'countries'"},
+              {"singular": "წყალი c'q'ali 'water'", "plural": "წყლები c'q'lebi 'waters'"}
+            ]
+          },
+          "special_cases": {
+            "pluralia_tantum": "Words with only plural form: შარვალი šarvali 'trousers', სათვალე satvale 'glasses'",
+            "mass_nouns": "Do not take plural when used generically: წყალი c'q'ali 'water', ღვინო ɣvino 'wine'"
+          }
+        },
+        "Determination": {
+          "referential_usage": {
+            "Definite": "Marked by zero (definite meaning is implied), or by word order and context",
+            "Indefinite": "Marked by ვინმე vinme 'someone' or რაღაც raɣac 'something', or by zero"
+          },
+          "non-referential_usage": {
+            "Generic": "Unmarked noun: ადამიანი მოკვდავია adamiani mok'vdavia 'Man is mortal.'"
+          }
+        },
+        "Possession": {
+          "definition": "Possession is expressed through possessive pronouns and suffixes on the possessed noun.",
+          "possessive_pronouns": {
+            "1SG": "ჩემი č'emi 'my'",
+            "2SG": "შენი šeni 'your'",
+            "3SG": "მისი misi 'his/her/its'",
+            "1PL": "ჩვენი č'veni 'our'",
+            "2PL": "თქვენი tkveni 'your'",
+            "3PL": "მათი mati 'their'"
+          },
+          "examples": [
+            {"possessor": "my", "word": "ჩემი სახლი č'emi saxli 'my house'"},
+            {"possessor": "your", "word": "შენი სახლი šeni saxli 'your house'"},
+            {"possessor": "his", "word": "მისი სახლი misi saxli 'his house'"}
+          ]
+        }
+      },
+      "Key_Categories_for_Verbs": {
+        "Aspect": {
+          "definition": "Presents situation from internal temporal perspective.",
+          "core_meanings": {
+            "Perfective": "Action viewed as a whole (aorist, perfect)",
+            "Imperfective": "Action viewed as ongoing (present, imperfect, present subjunctive)"
+          },
+          "subtypes": [
+            "Durative (continuous action)",
+            "Punctual (momentary action)",
+            "Completive (completed action)",
+            "Inchoative (beginning of action)",
+            "Habitual (repeated action)",
+            "Iterative (repeated on one occasion)",
+            "Perfect (resultative state)"
+          ]
+        },
+        "Tense": {
+          "definition": "Locates event relative to moment of speech.",
+          "core_meanings": {
+            "Present": "Present indicative, present subjunctive",
+            "Past": "Aorist, imperfect, perfect, pluperfect",
+            "Future": "Future indicative, future subjunctive, conditional"
+          },
+          "tense_suffixes": {
+            "Present_Indicative": {
+              "suffix": "-ი- -i- (1SG/2SG), -ა -a (3SG), -ი-ან -i-an (3PL)",
+              "example": "ვწერ vc'er 'I write', წერ c'er 'you write', წერს c'ers 'he writes', წერენ c'eren 'they write'"
+            },
+            "Future_Indicative": {
+              "suffix": "Preverb + present suffixes",
+              "example": "დავწერ davc'er 'I will write', დაწერ dac'er 'you will write', დაწერს dac'ers 'he will write'"
+            },
+            "Aorist": {
+              "suffix": "-ე -e (1SG/2SG), -ა -a (3SG), -ეს -es (3PL)",
+              "example": "დავწერე davc'ere 'I wrote', დაწერე dac'ere 'you wrote', დაწერა dac'era 'he wrote', დაწერეს dac'eres 'they wrote'"
+            },
+            "Imperfect": {
+              "suffix": "-დ-ი -d-i (1SG/2SG), -დ-ა -d-a (3SG), -დ-ნენ -d-nen (3PL)",
+              "example": "ვწერდი vc'erdi 'I was writing', წერდი c'erdi 'you were writing', წერდა c'erda 'he was writing', წერდნენ c'erdnen 'they were writing'"
+            },
+            "Perfect": {
+              "suffix": "Prefix + -ი-ა -i-a (3SG), -ი-ან -i-an (3PL)",
+              "example": "დამიწერია damic'eria 'I have apparently written', დაგიწერია dagic'eria 'you have apparently written', დაუწერია dauc'eria 'he has apparently written', დაუწერიათ dauc'eriat 'they have apparently written'"
+            },
+            "Pluperfect": {
+              "suffix": "Prefix + -ი-ა -i-a (3SG), -ი-ან -i-an (3PL)",
+              "example": "დამეწერა damec'era 'I had written', დაგეწერა dagec'era 'you had written', დაეწერა daec'era 'he had written', დაეწერათ daec'erat 'they had written'"
+            }
+          },
+          "negation_suffix": {
+            "form": "არ ar (present/future), ვერ ver (past, inability)",
+            "position": "Before verb",
+            "example": "არ დავწერე ar davc'ere 'I didn't write' (I refused to write), ვერ დავწერე ver davc'ere 'I couldn't write'"
+          }
+        },
+        "Mood": {
+          "definition": "Expresses attitude toward proposition.",
+          "key_distinction": ["Realis (indicative)", "Irrealis (imperative, subjunctive, conditional, optative)"],
+          "mood_suffixes": {
+            "Imperative": {
+              "SG": "verb stem + -ე -e (e.g., დაწერე dac'ere 'write!')",
+              "PL": "verb stem + -ეთ -et (e.g., დაწერეთ dac'eret 'write! (PL)')"
+            },
+            "Subjunctive": {
+              "suffix": "-ო -o (aorist subjunctive), -ა -a (present subjunctive), -ე -e (future subjunctive)",
+              "example": "დავწერო davc'ero 'that I may write', დავწერა davc'era 'that I may be writing', დავწერე davc'ere 'if I were to write'"
+            },
+            "Conditional": {
+              "suffix": "-დ-ი -d-i (1SG/2SG), -დ-ა -d-a (3SG), -დ-ნენ -d-nen (3PL)",
+              "example": "დავწერდი davc'erdi 'I would write', დაწერდი dac'erdi 'you would write', დაწერდა dac'erda 'he would write', დაწერდნენ dac'erdnen 'they would write'"
+            },
+            "Optative": {
+              "suffix": "-ო -o (aorist subjunctive)",
+              "example": "დავწერო davc'ero 'may I write'"
+            }
+          }
+        },
+        "Voice": {
+          "subtypes": {
+            "Active": "Default voice. The subject performs the action.",
+            "Passive": {
+              "suffix": "-დ- -d- or circumfix ი- -ებ- i- -eb-",
+              "example": "იწერება ic'ereba 'it is written'",
+              "rule": "In Series I, passive verbs take nominative subject and dative indirect object."
+            },
+            "Causative": {
+              "suffix": "Circumfix ა- -ებ- a- -eb- or -ინ- -in-",
+              "example": "აკეთებინებს ak'etebinebs 'he makes someone do it'",
+              "rule": "Causative verbs add an agent (causer) to the argument structure."
+            },
+            "Reflexive": {
+              "suffix": "Prefix ი- i- + verb root",
+              "example": "იბანს ibans 'he washes himself'",
+              "rule": "Reflexive verbs indicate the subject acts upon itself."
+            },
+            "Reciprocal": {
+              "suffix": "Prefix ი- i- + verb root + -ებ- -eb-",
+              "example": "იწერებიან ic'erebian 'they write to each other'",
+              "rule": "Reciprocal verbs indicate a mutual action."
+            }
+          }
+        },
+        "Version": {
+          "definition": "A grammatical category unique to Kartvelian languages that indicates the relationship between the verb and its indirect object.",
+          "types": {
+            "Neutral": {
+              "definition": "No specific indirect object relationship",
+              "vowel": "ა- a- (or none)",
+              "example": "აკეთებს ak'etebs 'he does it'"
+            },
+            "Subjective": {
+              "definition": "Action for oneself or on one's own behalf",
+              "vowel": "ი- i-",
+              "example": "იკეთებს ik'etebs 'he does it for himself'"
+            },
+            "Objective": {
+              "definition": "Action for someone else",
+              "vowel": "უ- u-",
+              "example": "უკეთებს uk'etebs 'he does it for him'"
+            },
+            "Locative": {
+              "definition": "Action on/at something",
+              "vowel": "ა- a-",
+              "example": "აკეთებს ak'etebs 'he does it on it' (rare)"
+            }
+          },
+          "notes": "Version is a hallmark of Georgian morphology. It interacts with the screeve system and case marking."
+        },
+        "Screeves": {
+          "definition": "The Georgian tense-aspect-mood system consists of 11 screeves (from the Greek 'skhēma' via Latin 'schema'), organized into three series.",
+          "series": {
+            "Series_I": {
+              "description": "Present sub-series: subject in nominative, direct object in dative.",
+              "screeves": [
+                "Present Indicative (აწმყო)",
+                "Present Subjunctive (აწმყოს კავშირებითი)",
+                "Imperfect Indicative (იმპერატივი)",
+                "Future Indicative (მომავალი)",
+                "Future Subjunctive (მომავლის კავშირებითი)",
+                "Conditional (პირობითი)"
+              ]
+            },
+            "Series_II": {
+              "description": "Aorist sub-series: subject in ergative (transitive), direct object in nominative.",
+              "screeves": [
+                "Aorist Indicative (ნამყო)",
+                "Aorist Subjunctive (ნამყოს კავშირებითი)"
+              ]
+            },
+            "Series_III": {
+              "description": "Perfect sub-series: subject in dative, direct object in nominative.",
+              "screeves": [
+                "Perfect (აწმყოსწინა)",
+                "Pluperfect (წინაწმყო)",
+                "III Subjunctive (III კავშირებითი)"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "Inflection_vs_Derivation_Criteria": [
+      "Relevance to syntax: Inflection is more relevant (case, agreement)",
+      "Obligatoriness: Inflection is more obligatory (case, tense)",
+      "Regularity and productivity: Inflection is more regular",
+      "Meaning compositionality: Inflection is more compositional",
+      "Word class change: Derivation can change class",
+      "Position relative to base: Derivation is closer to root"
+    ],
+    "Morphology_and_Other_Components": {
+      "Morphophonology": {
+        "definition": "Interaction between morphology and phonology.",
+        "processes": [
+          "Vowel syncope in noun declension (e.g., ქვეყანა kveq'ana 'country' → ქვეყნის kveq'nis 'of the country')",
+          "Consonant alternations (e.g., t→d, k→g, q→x in some contexts)",
+          "Elision of final vowels before suffixes",
+          "Compensatory lengthening"
+        ]
+      },
+      "Syntax-Morphology_Interface": {
+        "lexical_integrity": "Syntactic rules cannot access internal morphological structure."
+      },
+      "Morphology_and_Valence": "How morphology affects argument structure: causative adds an agent, passive removes an agent, reciprocal adds a plural subject."
+    },
+    "Productivity_and_Frequency_Effects": {
+      "Productivity": {
+        "definition": "Ability to apply to new bases.",
+        "restrictions": [
+          "Phonological: Some suffixes are sensitive to vowel harmony or syncope",
+          "Semantic: Some derivational suffixes only apply to certain semantic classes",
+          "Pragmatic: Some strategies are less productive",
+          "Morphological: Borrowed vocabulary may not take all suffixes"
+        ],
+        "blocking": "Existing word prevents formation of synonym"
+      },
+      "Frequency_Effects": {
+        "key_patterns": [
+          "Common values are shorter (e.g., -ა -a for 3SG)",
+          "Common values are more differentiated",
+          "High frequency forms are irregular (e.g., ყოფნა qopna 'to be' has suppletive forms)"
+        ]
+      }
+    },
+    "Morphological_Typology": {
+      "Language_Types": ["Agglutinative", "Fusional"],
+      "Degree_of_Synthesis": "High morpheme-per-word ratio; complex suffixation and prefixation"
+    },
+    "Part_Of_Speech_Property": {
+      "definition": "The property that identifies the grammatical class of a word.",
+      "classes": {
+        "Noun": "Names of entities; take plural, case, and possessive markers",
+        "Verb": "Actions and states; show TAM and agreement",
+        "Adjective": "Quality words; can be used as nouns",
+        "Adverb": "Modify verbs; often derived from adjectives with -ად -ad",
+        "Pronoun": "Replace nouns; personal, demonstrative, interrogative",
+        "Postposition": "Follow nouns; mark spatial, instrumental, and beneficiary relations",
+        "Particle": "Invariable grammatical items (negation, interrogation, discourse)",
+        "Conjunction": "Connect clauses and phrases",
+        "Numeral": "Cardinal and ordinal numbers",
+        "Interjection": "Exclamatory words"
+      }
+    },
+    "GOLD_Specific_Morphological_Classes": {
+      "Bound_Morpheme": {
+        "definition": "Cannot occur independently.",
+        "examples": "Plural suffix -ებ- -eb-, ergative -მა -ma, genitive -ის -is, 1SG subject prefix ვ- v-"
+      },
+      "Free_Morpheme": {
+        "definition": "Can occur independently.",
+        "examples": "სახლი saxli 'house', წიგნი c'igni 'book', კაცი k'ac'i 'man'"
+      },
+      "Inflectional_Morpheme": {
+        "definition": "Express grammatical categories; do not change word class.",
+        "examples": "Plural suffix -ებ- -eb-, case suffixes, tense suffixes, person agreement affixes"
+      },
+      "Derivational_Morpheme": {
+        "definition": "Derive new lexical units; may change word class.",
+        "examples": "-ელ- -el- (agentive), -ობ- -ob- (abstract), -ურ- -ur- (relational), -ად- -ad- (adverbial)"
+      },
+      "Prefix": {
+        "definition": "Attach to beginning of root.",
+        "examples": "ვ- v- (1SG), მ- m- (agentive), სა- sa- (future/place), ა- a- (version), ი- i- (version), უ- u- (version/privative)"
+      },
+      "Suffix": {
+        "definition": "Attach to end of root.",
+        "examples": "All primary inflectional and derivational morphemes"
+      },
+      "Circumfix": {
+        "definition": "Discontinuous affix that occurs on both sides of the base.",
+        "examples": "ა- -ებ- a- -eb- (causative), სა- -ე sa- -e (place), უ- -ო u- -o (privative)"
+      },
+      "Category_Changer": {
+        "definition": "Derivational units that change the syntactic category of the root.",
+        "examples": "-ელ- -el- (verb→noun), -ობ- -ob- (adjective→noun), -ად- -ad- (adjective→adverb)"
+      },
+      "Nominalizer": {
+        "definition": "Forms a noun from some other word class.",
+        "examples": "-ელ- -el- (agentive from verb), -ობ- -ob- (abstract from adjective)"
+      },
+      "Verbalizer": {
+        "definition": "Changes nouns into verbs.",
+        "examples": "-ებ- -eb- (e.g., სახელი saxeli 'name' → ასახელებს asaxelebs 'he names')"
+      },
+      "Copula": {
+        "definition": "Indicates a relationship of equivalency between subject and predicate.",
+        "examples": "არის aris 'is', არიან arian 'are', ვარ var 'I am', ხარ xar 'you are', ვართ vart 'we are', ხართ xart 'you (PL) are'"
+      },
+      "Auxiliary": {
+        "definition": "Verbs used in coordination with another verb to express mood, tense or aspect.",
+        "examples": "შეიძლება šeidzleba 'it is possible' (for potential), უნდა unda 'must' (for obligation)"
+      },
+      "Negation_Operator": {
+        "definition": "Negative-marking particle.",
+        "examples": "არ ar (simple negation), ვერ ver (inability), ნუ nu (prohibition)"
+      },
+      "Pro_Form": {
+        "definition": "Substitutes for other constituents.",
+        "examples": "ვინ vin 'who', რა ra 'what', რომელი romeli 'which'"
+      },
+      "Personal_Pronoun": {
+        "definition": "Refers to speaker, addressee, and others.",
+        "examples": {
+          "1SG": "მე me",
+          "2SG": "შენ šen",
+          "3SG": "ის is",
+          "1PL": "ჩვენ č'ven",
+          "2PL": "თქვენ tkven",
+          "3PL": "ისინი isini"
+        }
+      },
+      "Demonstrative": {
+        "definition": "Used deictically to indicate spatial, temporal, or discourse location.",
+        "examples": {
+          "proximal": "ეს es 'this'",
+          "medial": "ეგ eg 'that (near you)'",
+          "distal": "ის is 'that (over there)'",
+          "plural": "ესენი eseni 'these', ეგენი egeni 'those (near you)', ისინი isini 'those (over there)'"
+        }
+      },
+      "Quantifier": {
+        "definition": "Expresses definite or indefinite number or amount.",
+        "examples": ["ბევრი bevri 'many'", "ცოტა c'ot'a 'few'", "ყველა qvela 'all'", "ზოგი zogi 'some'", "არცერთი arc'erti 'none'"]
+      },
+      "Numeral": {
+        "definition": "Expresses number.",
+        "examples": [
+          "1: ერთი erti",
+          "2: ორი ori",
+          "3: სამი sami",
+          "4: ოთხი otxi",
+          "5: ხუთი xuti",
+          "6: ექვსი ekvsi",
+          "7: შვიდი švidi",
+          "8: რვა rva",
+          "9: ცხრა cxra",
+          "10: ათი ati"
+        ]
+      }
+    },
+    "GOLD_Specific_Grammatical_Categories": {
+      "Number_Values": {
+        "Singular": "Default form in Georgian",
+        "Plural": "Marked by -ებ- -eb- or -ნ- -n- suffix"
+      },
+      "Person_Values": {
+        "First_Person": "მე me (SG), ჩვენ č'ven (PL)",
+        "Second_Person": "შენ šen (SG), თქვენ tkven (PL)",
+        "Third_Person": "ის is (SG), ისინი isini (PL)"
+      },
+      "Tense_Values": {
+        "Present_Tense": "Present Indicative (აწმყო)",
+        "Past_Tense": "Aorist (ნამყო), Imperfect (იმპერატივი)",
+        "Future_Tense": "Future Indicative (მომავალი)",
+        "Perfect": "Perfect (აწმყოსწინა), Pluperfect (წინაწმყო)"
+      },
+      "Aspect_Values": {
+        "Perfective": "Aorist, Perfect",
+        "Imperfective": "Present, Imperfect, Present Subjunctive",
+        "Habitual": "Present Indicative (with habitual meaning)",
+        "Progressive": "Present Indicative (with progressive meaning)",
+        "Perfect": "Perfect, Pluperfect"
+      },
+      "Voice_Values": {
+        "Active": "Default voice",
+        "Passive": "Marked by -დ- -d- or ი- -ებ- i- -eb-",
+        "Causative": "Marked by circumfix ა- -ებ- a- -eb- or -ინ- -in-",
+        "Reflexive": "Marked by prefix ი- i-",
+        "Reciprocal": "Marked by prefix ი- i- + -ებ- -eb-"
+      },
+      "Mood_Values": {
+        "Indicative": "Default",
+        "Imperative": "Verb stem + -ე -e (SG), -ეთ -et (PL)",
+        "Subjunctive": "-ო -o (aorist), -ა -a (present), -ე -e (future)",
+        "Conditional": "-დ-ი -d-i (1SG/2SG), -დ-ა -d-a (3SG), -დ-ნენ -d-nen (3PL)",
+        "Optative": "-ო -o (aorist subjunctive)"
+      },
+      "Case_Property": {
+        "definition": "Grammatical encoding of a noun's relationship to other elements.",
+        "examples": "Nominative (-ი -i or zero), Ergative (-მა -ma), Dative (-ს -s), Genitive (-ის -is), Instrumental (-ით -it), Adverbial (-ად -ad), Vocative (-ო -o)"
+      },
+      "Modality_Property": {
+        "definition": "Status of the proposition itself.",
+        "examples": "Epistemic (ალბათ albat 'probably'), Deontic (უნდა unda 'must', შეიძლება šeidzleba 'may')"
+      },
+      "Evidentiality_Property": {
+        "definition": "Basis for claiming event has occurred.",
+        "examples": "Direct (unmarked), Indirect (Perfect screeve with -ი-ა -i-a), Reported (ამბობენ amboben 'they say')"
+      }
+    }
+  }
+},
+{
+  "Syntax": {
+    "Core_Foundations": {
+      "Generative_Grammar": {
+        "definition": "Grammar viewed as a cognitive faculty; language generated by a set of rules.",
+        "historical_versions": ["Transformational Grammar", "Government and Binding Theory", "Principles and Parameters Approach"],
+        "key_assumptions": {
+          "I-Language": "Internal, psychological, cognitive system of grammatical knowledge",
+          "E-Language": "External, physical, social manifestation of language",
+          "Competence": "Idealized, unconscious knowledge of I-Language",
+          "Performance": "Actual use of language, subject to external factors"
+        }
+      },
+      "Basic_Word_Order": {
+        "definition": "SOV (Subject-Object-Verb) order is the basic, unmarked order in Georgian. However, word order is pragmatically flexible, allowing for topicalization and focus.",
+        "example": "მე წიგნს ვკითხულობ. me c'igns vk'itxulob. 'I am reading a book.'",
+        "variations": {
+          "OSV": "For emphasis: წიგნს მე ვკითხულობ. c'igns me vk'itxulob. 'It's me who is reading the book.'",
+          "SVO": "Less common, but possible in some contexts: მე ვკითხულობ წიგნს. me vk'itxulob c'igns. 'I am reading a book.'",
+          "VSO": "Rare, in some questions: ვკითხულობ მე წიგნს? vk'itxulob me c'igns? 'Am I reading a book?'"
+        }
+      },
+      "Postpositions": {
+        "definition": "Function words that follow nouns to indicate case relations. Georgian uses postpositions rather than prepositions.",
+        "examples": {
+          "თვის tvis": "for (e.g., შენთვის šentvis 'for you')",
+          "ზე ze": "on, about (e.g., მაგიდაზე magidaze 'on the table')",
+          "ში ši": "in, into (e.g., სახლში saxliš 'in the house')",
+          "დან dan": "from (e.g., თბილისიდან tbilisidan 'from Tbilisi')",
+          "მდე mde": "up to, until (e.g., სახლამდე saxlamde 'up to the house')",
+          "თან tan": "at, by (e.g., მეგობართან megobartan 'at a friend's place')",
+          "შორის šoris": "among, between (e.g., ხეებს შორის xebs šoris 'among the trees')",
+          "გარეშე gareshe": "without (e.g., შენ გარეშე šen gareshe 'without you')",
+          "გამო gamo": "because of (e.g., ამის გამო amis gamo 'because of this')",
+          "მიხედვით mix-edvit": "according to (e.g., კანონის მიხედვით k'anonis mixedvit 'according to the law')"
+        }
+      },
+      "Negation": {
+        "verbal_negation": {
+          "structure": "Negation particle + verb",
+          "particles": {
+            "არ ar": "Simple negation (present/future)",
+            "ვერ ver": "Inability, impossibility (past/present)",
+            "ნუ nu": "Prohibition (imperative)"
+          },
+          "examples": [
+            {"affirmative": "დავწერე davc'ere 'I wrote'", "negative": "არ დავწერე ar davc'ere 'I didn't write (I refused to)'"},
+            {"affirmative": "დავწერე davc'ere 'I wrote'", "negative": "ვერ დავწერე ver davc'ere 'I couldn't write'"},
+            {"affirmative": "დაწერე dac'ere 'Write!'", "negative": "ნუ დაწერ nu dac'er 'Don't write!'"}
+          ]
+        },
+        "nominal_negation": {
+          "structure": "არ ar + noun + არის aris",
+          "example": "ეს არ არის სახლი. es ar aris saxli. 'This is not a house.'"
+        },
+        "existential_negation": {
+          "structure": "არ ar + მაქვს makvs (I have)",
+          "example": "ფული არ მაქვს. puli ar makvs. 'I don't have money.'"
+        }
+      },
+      "Interrogation": {
+        "yes_no": {
+          "structure": "Rising intonation or question particle -ა -a",
+          "example": "წიგნს კითხულობ? c'igns k'itxulob? 'Are you reading a book?'",
+          "alternative": "Question particle -ა -a attached to the focused word: წიგნსა კითხულობ? c'ignsa k'itxulob?"
+        },
+        "wh": {
+          "structure": "Interrogative word + verb (in focus position)",
+          "interrogatives": {
+            "ვინ vin": "who",
+            "რა ra": "what",
+            "სად sad": "where",
+            "როდის rodis": "when",
+            "როგორ rogor": "how",
+            "რატომ ratom": "why",
+            "რომელი romeli": "which",
+            "რამდენი ramdeni": "how many"
+          },
+          "example": "ეს რა არის? es ra aris? 'What is this?'",
+          "word_order": "The interrogative word typically immediately precedes the verb."
+        }
+      }
+    },
+    "Syntactic_Categories_and_Features": {
+      "Lexical_Categories": ["Noun (N)", "Verb (V)", "Adjective (Adj)", "Adverb (Adv)"],
+      "Functional_Categories": ["Determiner (D)", "Pronoun (Pron)", "Postposition (P)", "Particle", "Conjunction (Conj)"],
+      "Theta_Roles": {
+        "definition": "Bundle of thematic relations.",
+        "common_roles": ["Agent", "Patient", "Goal", "Experiencer", "Instrument", "Location", "Beneficiary"],
+        "Theta_Criterion": "Each argument assigned one and only one theta role; each theta role assigned to one argument."
+      }
+    },
+    "Constituency_and_Phrase_Structure": {
+      "Constituents": {
+        "definition": "A group of words functioning as a single unit.",
+        "tests": ["Replacement", "Movement", "Stand-alone", "Coordination"]
+      },
+      "Noun_Phrase": {
+        "structure": "(Determiner) (Numeral) (Adjective) Noun (Possessive) (Postposition)",
+        "examples": [
+          {"phrase": "დიდი სახლი didi saxli 'big house'", "structure": "Adj N"},
+          {"phrase": "ორი დიდი სახლი ori didi saxli 'two big houses'", "structure": "Num Adj N"},
+          {"phrase": "ჩემი სახლი č'emi saxli 'my house'", "structure": "Pron Poss N"},
+          {"phrase": "სახლში saxliš 'in the house'", "structure": "N Loc"},
+          {"phrase": "დიდ სახლში did saxliš 'in the big house'", "structure": "Adj N Loc"}
+        ]
+      },
+      "Verb_Phrase": {
+        "structure": "(Preverb) (Version) (Subject Agreement) Root (Thematic Suffix) (Tense Suffix) (Object Agreement) (Plural Suffix)",
+        "examples": [
+          {"phrase": "წიგნს ვკითხულობ c'igns vk'itxulob 'I am reading a book'", "structure": "Obj V"},
+          {"phrase": "სწრაფად ვკითხულობ sc'rapad vk'itxulob 'I read quickly'", "structure": "Adv V"},
+          {"phrase": "წიგნს დავწერ c'igns davc'er 'I will write a book'", "structure": "Obj Preverb-V"}
+        ]
+      },
+      "Adjective_Phrase": {
+        "structure": "Adj + (complement)",
+        "examples": ["ძალიან ლამაზი dzalian lamazi 'very beautiful'", "სახლზე დიდი saxlze didi 'bigger than the house'"]
+      },
+      "Clause_Structure": {
+        "order": "Subject precedes Object precedes Verb (SOV)",
+        "example": "მე წიგნს ვკითხულობ. me c'igns vk'itxulob. 'I am reading a book.'"
+      }
+    },
+    "Clause_and_Sentence_Types": {
+      "Declarative": {
+        "structure": "[Subject] [Object] [Verb]",
+        "example": "მე წიგნს ვკითხულობ.",
+        "negation": "მე წიგნს არ ვკითხულობ."
+      },
+      "Interrogative": {
+        "polar": "მე წიგნს ვკითხულობ? (with rising intonation)",
+        "polar_with_particle": "მე წიგნსა ვკითხულობ?",
+        "content": "შენ რომელ წიგნს კითხულობ? šen romel c'igns k'itxulob? 'Which book are you reading?'"
+      },
+      "Imperative": {
+        "singular": "წიგნი იკითხე! c'igni ik'itxe! 'Read the book!'",
+        "plural": "წიგნი იკითხეთ! c'igni ik'itxet! 'Read the book (PL)!'",
+        "prohibition": "წიგნი ნუ იკითხავ! c'igni nu ik'itxav! 'Don't read the book!'"
+      },
+      "Conditional": {
+        "structure": "Verb + conditional suffix or subjunctive",
+        "example": "თუ მოხვალ, მეც მოვალ. tu moxval, mec moval. 'If you come, I will come too.'"
+      },
+      "Relative_Clause": {
+        "structure": "Participle + Noun",
+        "examples": [
+          {"clause": "მოსული კაცი mosuli k'ac'i 'the man who has come'", "type": "Past participle"},
+          {"clause": "წიგნის კითხვა c'ignis k'itxva 'reading a book'", "type": "Verbal noun (masdar)"}
+        ]
+      },
+      "Nominal_Clause": {
+        "structure": "Complementizer რომ rom + clause",
+        "example": "მე ვიცი, რომ ის მოვა. me vici, rom is mova. 'I know that he will come.'"
+      }
+    },
+    "Communicative_Categories": {
+      "Theme_and_Rheme": {
+        "Theme": "Starting point, what sentence is about.",
+        "Rheme": "New information, what is said about theme."
+      },
+      "Topic": "Grammaticalized theme, often marked by position at the beginning of sentence.",
+      "Focus": "Most salient, emphasized part; often fronted immediately before the verb.",
+      "Given_vs_New": "Information assumed known vs. newly introduced.",
+      "Empathy": "Speaker's identification with a participant."
+    },
+    "Syntactic_Relations": {
+      "Agreement": {
+        "definition": "Poly-personal agreement in Georgian: the verb agrees with the subject, direct object, and indirect object through affixes.",
+        "example": "მე შენ წიგნს გაძლევ. me šen c'igns gadzlev. 'I give you a book.' (გ- g- marks 2SG indirect object, -ძლევ -dzlev is the root)"
+      },
+      "Government": {
+        "definition": "Postpositions and verbs determine case marking of noun phrases.",
+        "examples": [
+          "სახლში saxliš 'in the house' (locative)",
+          "სახლზე saxlze 'on the house' (dative)",
+          "სახლიდან saxlidan 'from the house' (ablative)"
+        ]
+      },
+      "Adjunct": {
+        "definition": "A phrase modifying a head but not an actant.",
+        "examples": ["Temporal adverbs (ხვალ xval 'tomorrow')", "Locative phrases (სახლში saxliš 'at home')"]
+      },
+      "Apposition": "Two noun phrases juxtaposed referring to the same entity.",
+      "example": "ნადირი, ჩემი მეგობარი, აქ ცხოვრობს. nadiri, č'emi megobari, ak cxovrobs. 'Nadiri, my friend, lives here.'"
+    },
+    "Advanced_Topics": {
+      "Screeves_System": {
+        "definition": "The Georgian verb system is organized into three series of screeves (tense-aspect-mood paradigms), each with its own case-marking pattern.",
+        "series": {
+          "Series_I": {
+            "description": "Present sub-series: Nominative subject, Dative direct object for transitives.",
+            "example": "მე წიგნს ვწერ. me c'igns vc'er. 'I am writing a book.'"
+          },
+          "Series_II": {
+            "description": "Aorist sub-series: Ergative subject, Nominative direct object for transitives.",
+            "example": "მე წიგნი დავწერე. me c'igni davc'ere. 'I wrote a book.'"
+          },
+          "Series_III": {
+            "description": "Perfect sub-series: Dative subject, Nominative direct object for transitives (inverted syntax).",
+            "example": "მე წიგნი დამიწერია. me c'igni damic'eria. 'I have apparently written a book.'"
+          }
+        }
+      },
+      "Ergativity": {
+        "definition": "Georgian displays split ergativity: the ergative case is used for the subject of transitive verbs in Series II (aorist).",
+        "example": "კაცმა წიგნი დაწერა. k'ac'ma c'igni dac'era. 'The man wrote a book.' (k'ac'ma = man-ERG)"
+      },
+      "Poly_Personal_Agreement": {
+        "definition": "The Georgian verb agrees with up to three arguments: subject, direct object, and indirect object.",
+        "example": "მე შენ წიგნს გაძლევ. me šen c'igns gadzlev. 'I give you a book.'"
+      },
+      "Preverbs": {
+        "definition": "Preverbs are prefixes that indicate direction and aspect. They are essential for forming future and aorist screeves.",
+        "list": [
+          "ა- a- (up, out)",
+          "გა- ga- (out, away)",
+          "და- da- (down, completion)",
+          "შე- še- (in, into)",
+          "ჩა- ča- (down into)",
+          "წა- c'a- (away, off)",
+          "მი- mi- (thither)",
+          "მო- mo- (hither)",
+          "გადა- gada- (across, over)",
+          "შემო- šemo- (in hither)",
+          "გამო- gamo- (out hither)",
+          "ჩამო- čamo- (down hither)"
+        ],
+        "examples": [
+          {"verb": "წერს c'ers 'he writes'", "future": "დაწერს dac'ers 'he will write'", "aorist": "დაწერა dac'era 'he wrote'"},
+          {"verb": "მიდის midis 'he goes'", "future": "წავა c'ava 'he will go'", "aorist": "წავიდა c'avida 'he went'"}
+        ]
+      },
+      "Version": {
+        "definition": "Version is a grammatical category that indicates the relationship between the verb and its indirect object.",
+        "types": {
+          "Neutral": "No specific indirect object relationship (vowel: ა- a-)",
+          "Subjective": "Action for oneself (vowel: ი- i-)",
+          "Objective": "Action for someone else (vowel: უ- u-)",
+          "Locative": "Action on/at something (vowel: ა- a-)"
+        }
+      }
+    },
+    "Clause_Combining": {
+      "Coordination": {
+        "definition": "Clauses of equal status joined by conjunctions.",
+        "conjunctions": ["და da 'and'", "მაგრამ magram 'but'", "ან an 'or'"],
+        "example": "მე ვკითხულობ და ის წერს. me vk'itxulob da is c'ers. 'I read and he writes.'"
+      },
+      "Subordination": {
+        "definition": "Clauses of unequal status, with one clause (subordinate) dependent on another (main).",
+        "types": [
+          "Complement clauses: introduced by რომ rom 'that'",
+          "Relative clauses: introduced by participles or რომელი romeli 'which'",
+          "Adverbial clauses: introduced by conjunctions like თუ tu 'if', როცა roc'a 'when', სანამ sanam 'until', რადგან radgan 'because'"
+        ],
+        "examples": [
+          {"type": "Complement", "example": "მე ვიცი, რომ ის მოვა. me vici, rom is mova. 'I know that he will come.'"},
+          {"type": "Conditional", "example": "თუ მოხვალ, მეც მოვალ. tu moxval, mec moval. 'If you come, I will come too.'"},
+          {"type": "Temporal", "example": "როცა ის მოვიდა, მე ვწერდი. roc'a is movida, me vc'erdi. 'When he came, I was writing.'"},
+          {"type": "Causal", "example": "რადგან წვიმდა, სახლში დავრჩი. radgan c'vimda, saxlši davrč'i. 'Because it was raining, I stayed at home.'"}
+        ]
+      }
+    },
+    "Syntactic_Phenomena": {
+      "Word_Order_Flexibility": {
+        "definition": "Georgian word order is pragmatically flexible, allowing for topicalization and focus.",
+        "examples": [
+          {"neutral": "მე წიგნს ვკითხულობ. me c'igns vk'itxulob. 'I am reading a book.'"},
+          {"topic_fronted": "წიგნს მე ვკითხულობ. c'igns me vk'itxulob. 'The book, I am reading (it).'"},
+          {"focus_fronted": "მე წიგნს ვკითხულობ. me c'igns vk'itxulob. (with emphasis on 'I')"}
+        ]
+      },
+      "Null_Subjects": {
+        "definition": "Subject pronouns are often omitted because the verb already marks person and number.",
+        "example": "ვკითხულობ. vk'itxulob. 'I am reading.' (Subject 'me' is omitted)"
+      },
+      "Reflexivization": {
+        "definition": "Reflexive pronouns (თავი tavi 'self') are used for reflexive actions.",
+        "example": "ის თავს იბანს. is tavs ibans. 'He washes himself.'"
+      },
+      "Reciprocal": {
+        "definition": "Reciprocal actions are expressed with the prefix ი- i- and the suffix -ებ- -eb-.",
+        "example": "ისინი ერთმანეთს წერენ. isini ertmanets c'eren. 'They write to each other.'"
+      }
+    }
+  }
+},
+{
+  "Semantics": {
+    "Core_Theoretical_Foundations": {
+      "Semantics": {
+        "definition": "The branch of linguistics studying meaning in Georgian.",
+        "narrow_vs_wide": {
+          "Narrow_Semantics": "Focuses on conventional, language-internal meaning",
+          "Wide_Semantics": "Encompasses context-dependent sense and pragmatics"
+        }
+      },
+      "Meaning_vs_Sense": {
+        "Meaning_Value": "Abstract, conventional, stable content",
+        "Sense": "Concrete, context-dependent, variable information"
+      },
+      "Truth-Conditional_Semantics": {
+        "definition": "To know meaning is to know truth-conditions."
+      },
+      "Compositionality": {
+        "definition": "Meaning of complex expression determined by meanings of parts and combination rules.",
+        "origin": "Gottlob Frege (Frege's Principle)"
+      },
+      "The_Linguistic_Sign": {
+        "definition": "Conventional relation between form and content.",
+        "properties": ["Asymmetry", "Double Articulation", "Arbitrariness"]
+      }
+    },
+    "Formal_Semantics_Framework": {
+      "Semantic_Types": {
+        "definition": "Label classifying denotations.",
+        "basic_types": {
+          "e": "Entities (individuals)",
+          "t": "Truth-values"
+        },
+        "complex_types": {
+          "<a, b>": "Functions from type a to type b",
+          "examples": {
+            "<e, t>": "Predicates",
+            "<e, <e, t>>": "Transitive verbs",
+            "<<e, t>, t>": "Generalized Quantifiers"
+          }
+        }
+      },
+      "Lexicon_and_Interpretation": {
+        "Lexicon": "Specifies denotation for each lexical item.",
+        "Interpretation_Function": "Assigns denotation to any expression."
+      },
+      "Semantic_Composition_Rules": {
+        "Functional_Application_FA": "Function applied to argument.",
+        "Non-Branching_Node_Rule": "Node passes denotation up.",
+        "Predicate_Abstraction_PA": "Binds variable with lambda operator."
+      },
+      "Interpretation_of_Key_Categories": {
+        "Sentence_S": "Type t",
+        "Noun_Phrase_DP": "Type <<e, t>, t>",
+        "Verb_Phrase_VP": "Type <e, t>",
+        "Common_Noun_CN": "Type <e, t>",
+        "Adjective_Modifier": "Type <<e, t>, <e, t>>",
+        "Relative_Clause": "Type <e, t>",
+        "Definite_Description": "Type e (or <<e, t>, t>)"
+      }
+    },
+    "Lexical_Semantics": {
+      "Lexical_Meaning": {
+        "definition": "Meaning of a word as a unit of the lexicon.",
+        "components": {
+          "Denotative_Component": "Relation between word and referent",
+          "Significative_Component": "Concept or manner of representation",
+          "Pragmatic_Component": "Conditions of use and speaker's attitude",
+          "Syntactic_Component": "Combinatorial properties"
+        }
+      },
+      "Lexical_Relations": {
+        "Paradigmatic_Relations": {
+          "Synonymy": [
+            "ლამაზი lamazi, მშვენიერი mšvenieri, კარგი k'argi 'beautiful, good'",
+            "დიდი didi, დიდებული didebuli 'big, great'",
+            "სწრაფი sc'rapi, მალე male 'quick, soon'"
+          ],
+          "Antonymy": [
+            "დიდი didi 'big' vs პატარა p'at'ara 'small'",
+            "კარგი k'argi 'good' vs ცუდი c'udi 'bad'",
+            "გრძელი grdzeli 'long' vs მოკლე mok'le 'short'",
+            "ახალი axali 'new' vs ძველი dzveli 'old'",
+            "ცხელი cxeli 'hot' vs ცივი c'ivi 'cold'"
+          ],
+          "Hyperonymy_Hyponymy": [
+            {"hypernym": "ცხოველი cxoveli 'animal'", "hyponyms": ["ძაღლი dzagli 'dog'", "კატა k'at'a 'cat'", "ცხენი cxeni 'horse'"]},
+            {"hypernym": "ხილი xili 'fruit'", "hyponyms": ["ვაშლი vašli 'apple'", "მსხალი msxali 'pear'", "ყურძენი q'urdzeni 'grape'"]},
+            {"hypernym": "ფერი feri 'color'", "hyponyms": ["შავი šavi 'black'", "თეთრი tetri 'white'", "წითელი c'iteli 'red'"]}
+          ],
+          "Meronymy": [
+            {"whole": "სახლი saxli 'house'", "parts": ["სახურავი saxuravi 'roof'", "კარი k'ari 'door'", "ფანჯარა panjara 'window'"]},
+            {"whole": "სხეული sxeuli 'body'", "parts": ["თავი tavi 'head'", "ხელი xeli 'hand'", "ფეხი pexi 'foot'"]}
+          ]
+        },
+        "Syntagmatic_Relations": ["Semantic relations", "Collocation", "Lexical functions"]
+      },
+      "Semantic_Fields": {
+        "Kinship": ["მამა mama 'father'", "დედა deda 'mother'", "ძმა dzma 'brother'", "და da 'sister'", "ვაჟიშვილი važišvili 'son'", "ქალიშვილი kališvili 'daughter'"],
+        "Colors": ["შავი šavi 'black'", "თეთრი tetri 'white'", "წითელი c'iteli 'red'", "მწვანე mc'vane 'green'", "ლურჯი lurji 'blue'", "ყვითელი q'viteli 'yellow'"],
+        "Food": ["პური puri 'bread'", "ხორცი xorci 'meat'", "თევზი tevzi 'fish'", "ხილი xili 'fruit'", "ბოსტნეული bostneuli 'vegetables'"],
+        "Transportation": ["მანქანა mankana 'car'", "ავტობუსი avt'obusi 'bus'", "მატარებელი mat'arebeli 'train'", "თვითმფრინავი tvitmprinavi 'airplane'", "გემი gemi 'ship'"],
+        "Body": ["თავი tavi 'head'", "თვალი tvali 'eye'", "ყური q'uri 'ear'", "ხელი xeli 'hand'", "ფეხი pexi 'foot'"]
+      },
+      "Polysemy": {
+        "definition": "Single word with multiple related meanings.",
+        "mechanisms": ["Metaphor", "Metonymy", "Synecdoche"],
+        "example": "თვალი tvali 'eye' also means 'source, spring' (თვალის წყარო tvalis c'q'aro 'spring water')"
+      },
+      "Loanwords": {
+        "from_Iranian": ["სახლი saxli 'house' (from Old Persian)", "ქალაქი kalaki 'city'", "მეგობარი megobari 'friend'"],
+        "from_Arabic": ["წიგნი c'igni 'book'", "ისტორია ist'oria 'history'", "ლიტერატურა lit'erat'ura 'literature'"],
+        "from_Turkish": ["ბაზარი bazari 'bazaar'", "ჩაი č'ai 'tea'", "ფული puli 'money'"],
+        "from_Russian": ["მანქანა mankana 'car'", "სტოლი st'oli 'table'", "გაზეთი gazeti 'newspaper'"],
+        "from_European": ["ტელეფონი t'eleponi 'telephone'", "რადიო radio 'radio'", "კინო k'ino 'cinema'"]
+      }
+    },
+    "Grammatical_Semantics": {
+      "Grammatical_Meaning": {
+        "definition": "Abstract, obligatory, systematic meaning expressed by grammatical markers.",
+        "key_categories": [
+          "Number (plural -ებ- -eb- or -ნ- -n-)",
+          "Case (7 cases: nominative, ergative, dative, genitive, instrumental, adverbial, vocative)",
+          "Tense (present, future, aorist, imperfect, perfect, pluperfect)",
+          "Aspect (perfective, imperfective, habitual)",
+          "Mood (indicative, imperative, subjunctive, conditional)",
+          "Voice (active, passive, causative, reflexive)",
+          "Version (neutral, subjective, objective, locative)",
+          "Person (agreement suffixes on verbs)"
+        ]
+      }
+    },
+    "Semantics_of_the_Sentence": {
+      "Propositional_Component": {
+        "definition": "Describes a state of affairs.",
+        "Proposition": "Set of possible worlds or truth-value.",
+        "Predicate": "Denotes a property or relation.",
+        "Argument_Structure": "List of participants with semantic roles."
+      },
+      "Communicative_Component": {
+        "definition": "Packaging of propositional content.",
+        "Theme_Rheme": "Topic and comment.",
+        "Topic_Focus": "Grammaticalized theme and salient part.",
+        "Given_New": "Information assumed known vs. newly introduced."
+      },
+      "Pragmatic_Component": {
+        "definition": "Information about speaker's intention and use.",
+        "Speech_Act": "Utterance with illocutionary force.",
+        "Illocutionary_Force": "Type of act (assertion, question, command, wish)",
+        "Presupposition": "Background information assumed true."
+      }
+    },
+    "Reference_and_Quantification": {
+      "Reference": {
+        "Referential_Status": {
+          "Definite": "Implied by context or marked by word order: წიგნი c'igni 'the book'",
+          "Indefinite": "Marked by ვინმე vinme 'someone' or რაღაც raɣac 'something': რაღაც წიგნი raɣac c'igni 'some book'",
+          "Generic": "Unmarked: წიგნი სასარგებლოა. c'igni sasargebloa. 'Books are useful.'"
+        }
+      },
+      "Quantification": {
+        "Numerals": [
+          {"1": "ერთი erti"},
+          {"2": "ორი ori"},
+          {"3": "სამი sami"},
+          {"4": "ოთხი otxi"},
+          {"5": "ხუთი xuti"},
+          {"6": "ექვსი ekvsi"},
+          {"7": "შვიდი švidi"},
+          {"8": "რვა rva"},
+          {"9": "ცხრა cxra"},
+          {"10": "ათი ati"}
+        ],
+        "Quantifiers": ["ბევრი bevri 'many'", "ცოტა c'ot'a 'few'", "ყველა qvela 'all'", "ზოგი zogi 'some'", "არცერთი arc'erti 'none'", "რამდენიმე ramdenime 'several'"]
+      }
+    },
+    "Binding_and_Anaphora": {
+      "Binding": {
+        "definition": "Relation between quantifier and variable.",
+        "conditions": "Binder must c-command variable and share an index."
+      },
+      "Variables": {
+        "Bound_Variables": "Pronouns interpreted as variables.",
+        "Free_Variables": "Pronouns with context-determined value."
+      },
+      "Binding_Principles": "Syntactic constraints on anaphoric relations (Principles A, B, C)."
+    },
+    "Semantic_Metalanguages_and_Methods": {
+      "Semantic_Metalanguages": {
+        "definition": "Formal languages used to describe meaning.",
+        "types": ["Logical Metalanguage", "Network Metalanguage", "Natural Meaning Postulate"]
+      },
+      "Experimental_and_Empirical_Methods": {
+        "definition": "Methods for studying meaning.",
+        "types": ["Experimentation with Contexts", "Denotative Experiments", "Semantic Tests", "Semantic Scaling"]
+      }
+    }
+  }
+},
+{
+  "Interfaces_and_Integration": {
+    "Phonetics-Phonology_Interface": {
+      "definition": "The interaction between the substance of speech (phonetics) and its functional organization in the linguistic system (phonology).",
+      "key_areas": [
+        {
+          "name": "Allophonic variation",
+          "examples": [
+            "Aspirated stops [pʰ, tʰ, kʰ] occur in free variation with their unaspirated counterparts in some contexts.",
+            "Ejectives [p', t', k', q'] may lose glottalization in fast speech or word-final position.",
+            "Voiced stops [b, d, g] may be partially devoiced word-finally, but remain distinct from voiceless stops."
+          ]
+        },
+        {
+          "name": "Phonological rules",
+          "examples": [
+            "Consonant clusters: Georgian allows up to six consonants initially (e.g., მწვრთნელი mts'vrtneli 'trainer').",
+            "No vowel epenthesis occurs in clusters.",
+            "Palatalization of velars before front vowels: კ k' → კ' k'ʲ before ი i, ე e.",
+            "Labialization of consonants before rounded vowels: შ š → შʷ before უ u, ო o."
+          ]
+        },
+        {
+          "name": "Phonetic transcription",
+          "examples": [
+            "Mapping from phonemes to phonetic realization: /p/ → [pʰ] initially, [p] in clusters.",
+            "Ejectives: /p'/ → [p'] (sharp pop).",
+            "Uvular /q'/ → [q'] (with strong friction)."
+          ]
+        }
+      ]
+    },
+    "Phonology-Morphology_Interface": {
+      "definition": "The interaction between sound structure and word structure.",
+      "key_areas": [
+        {
+          "name": "Morphophonology",
+          "examples": [
+            "Vowel syncope: ქვეყანა kveq'ana 'country' → ქვეყნის kveq'nis 'of the country'.",
+            "Consonant alternations: t → d in some verb forms (e.g., წერს c'ers 'writes' → დაწერა dac'era 'wrote').",
+            "Elision of final vowels before suffixes: სახლი saxli 'house' → სახლს saxls 'house (DAT)'.",
+            "Compensatory lengthening: when a consonant is lost, the preceding vowel may lengthen."
+          ]
+        },
+        {
+          "name": "Allomorphy",
+          "examples": [
+            "Plural suffix allomorphs: -ებ- -eb- (most roots) vs -ნ- -n- (some roots).",
+            "1SG subject prefix allomorphs: ვ- v- (present) vs ვ- - -თ -t (some screeves).",
+            "Case suffix allomorphs: -ს -s (dative) vs -ის -is (genitive) depending on the stem."
+          ]
+        },
+        {
+          "name": "Phonologically conditioned morphological rules",
+          "examples": [
+            "The choice between -ებ- -eb- and -ნ- -n- plural suffixes is phonologically conditioned.",
+            "The epenthetic vowel -ა- -a- is inserted between some consonant clusters (e.g., ვწერ vc'er 'I write' vs ვწერე vc'ere 'I wrote')."
+          ]
+        }
+      ]
+    },
+    "Morphology-Syntax_Interface": {
+      "definition": "The interaction between word structure and sentence structure.",
+      "key_areas": [
+        {
+          "name": "Lexical Integrity",
+          "examples": [
+            "Syntactic rules cannot access internal morphological structure.",
+            "The verb form is a single syntactic word, even though it contains many morphemes (e.g., დაგიწერია dagic'eria 'you have apparently written it to him')."
+          ]
+        },
+        {
+          "name": "Agreement",
+          "examples": [
+            "Poly-personal agreement: the verb agrees with subject, direct object, and indirect object through affixes.",
+            "Example: მე შენ წიგნს გაძლევ. me šen c'igns gadzlev. 'I give you a book.' (გ- g- marks 2SG indirect object)"
+          ]
+        },
+        {
+          "name": "Case assignment",
+          "examples": [
+            "Nominative case: subject of intransitive verbs and direct object in Series I.",
+            "Ergative case: subject of transitive verbs in Series II (aorist).",
+            "Dative case: indirect object and subject of indirect verbs.",
+            "Example: კაცმა წიგნი დაწერა. k'ac'ma c'igni dac'era. 'The man wrote a book.' (k'ac'ma = man-ERG, c'igni = book-NOM)"
+          ]
+        },
+        {
+          "name": "Valence changing operations",
+          "examples": [
+            "Causative adds an agent: აკეთებს ak'etebs 'he does it' → აკეთებინებს ak'etebinebs 'he makes someone do it'.",
+            "Passive removes an agent: წერს c'ers 'he writes' → იწერება ic'ereba 'it is written'.",
+            "Reflexive: იბანს ibans 'he washes himself'.",
+            "Reciprocal: იწერებიან ic'erebian 'they write to each other'."
+          ]
+        }
+      ]
+    },
+    "Syntax-Semantics_Interface": {
+      "definition": "The interaction between sentence structure and meaning.",
+      "key_areas": [
+        {
+          "name": "Compositionality",
+          "examples": [
+            "Meaning derived from parts and their combination: მე წიგნს ვკითხულობ. me c'igns vk'itxulob. 'I am reading a book.'",
+            "The meaning is composed of: me 'I', c'igns 'book (DAT)', vk'itxulob 'read (1SG subject)'."
+          ]
+        },
+        {
+          "name": "Logical Form",
+          "examples": [
+            "Quantifier scope: ყველა კაცი ვინმეს უყვარს. qvela k'ac'i vinmes uq'vars. 'Every man loves someone.' (ambiguous scope)",
+            "Binding: მან თავისი წიგნი წაიკითხა. man tavisi c'igni c'aik'itxa. 'He read his own book.'"
+          ]
+        },
+        {
+          "name": "Quantifier Raising",
+          "examples": [
+            "Quantifiers move to a higher position for scope interpretation."
+          ]
+        },
+        {
+          "name": "Binding Theory",
+          "examples": [
+            "Reflexive: თავი tavi 'self' must be bound locally.",
+            "Pronoun: ის is 'he/she/it' must be free in its governing category."
+          ]
+        }
+      ]
+    },
+    "Semantics-Pragmatics_Interface": {
+      "definition": "The interaction between literal meaning and context-dependent interpretation.",
+      "key_areas": [
+        {
+          "name": "Speech acts",
+          "examples": [
+            "Assertion: ეს წიგნია. es c'ignia. 'This is a book.'",
+            "Question: ეს წიგნია? es c'ignia? 'Is this a book?'",
+            "Command: წაიკითხე! c'aik'itxe! 'Read!'",
+            "Wish: ნეტავ მოვიდეს! netav movides! 'If only he would come!'"
+          ]
+        },
+        {
+          "name": "Presupposition",
+          "examples": [
+            "The fact that ... : ის ფაქტი, რომ ის მოვიდა, ყველას გააკვირვა. is p'ak'ti, rom is movida, qvelas gaakvirva. 'The fact that he came surprised everyone.'"
+          ]
+        },
+        {
+          "name": "Implicature",
+          "examples": [
+            "Scalar implicature: ზოგი მოვიდა. zogi movida. 'Some came.' (implicates: not all came)"
+          ]
+        },
+        {
+          "name": "Reference resolution",
+          "examples": [
+            "Pronouns: ის is 'he/she/it' refers to a contextually salient entity."
+          ]
+        }
+      ]
+    },
+    "Interfaces_with_Other_Levels": {
+      "Phonology-Syntax_Interface": {
+        "definition": "The interaction between sound structure and sentence structure.",
+        "key_areas": [
+          "Intonation and clause type: falling for statements, rising for yes/no questions.",
+          "Prosodic phrasing: syntactic constituents align with prosodic phrases."
+        ]
+      },
+      "Morphology-Pragmatics_Interface": {
+        "definition": "The interaction between word structure and context-dependent interpretation.",
+        "key_areas": [
+          "Evidentiality: The Perfect screeve (with -ი-ა -i-a) indicates indirect evidentiality (apparently, hearsay).",
+          "Honorifics: Use of plural forms for polite address (თქვენ tkven 'you (PL)' for singular polite)."
+        ]
+      }
+    }
+  }
+},
+{
+  "Relations_and_Properties": {
+    "Object_Properties": {
+      "subject": {
+        "definition": "The syntactic subject of a clause. In Georgian, the subject is marked by nominative case in Series I and III (for intransitives), by ergative case in Series II (for transitives), and by dative case in Series III (for transitives).",
+        "examples": [
+          {"clause": "მე ვკითხულობ.", "translation": "I am reading.", "subject": "მე me 'I' (NOM)"},
+          {"clause": "კაცმა წიგნი დაწერა.", "translation": "The man wrote a book.", "subject": "კაცმა k'ac'ma 'man' (ERG)"},
+          {"clause": "მე წიგნი დამიწერია.", "translation": "I have apparently written a book.", "subject": "მე me 'I' (DAT)"}
+        ]
+      },
+      "object": {
+        "definition": "The syntactic object of a clause. In Georgian, the direct object is marked by dative case in Series I, and by nominative case in Series II and III.",
+        "examples": [
+          {"clause": "მე წიგნს ვკითხულობ.", "translation": "I am reading a book.", "object": "წიგნს c'igns 'book' (DAT)"},
+          {"clause": "კაცმა წიგნი დაწერა.", "translation": "The man wrote a book.", "object": "წიგნი c'igni 'book' (NOM)"}
+        ]
+      },
+      "agent": {
+        "definition": "Semantic role of the doer of the action. Typically marked by ergative case in Series II and by nominative case in Series I.",
+        "examples": [
+          {"clause": "კაცმა წიგნი დაწერა.", "translation": "The man wrote a book.", "agent": "კაცმა k'ac'ma 'man'"},
+          {"clause": "მე წიგნს ვკითხულობ.", "translation": "I am reading a book.", "agent": "მე me 'I'"}
+        ]
+      },
+      "patient": {
+        "definition": "Semantic role of the undergoer of the action. Typically marked by nominative case in Series II and by dative case in Series I.",
+        "examples": [
+          {"clause": "კაცმა წიგნი დაწერა.", "translation": "The man wrote a book.", "patient": "წიგნი c'igni 'book'"},
+          {"clause": "მე წიგნს ვკითხულობ.", "translation": "I am reading a book.", "patient": "წიგნს c'igns 'book'"}
+        ]
+      },
+      "experiencer": {
+        "definition": "Semantic role of the entity that experiences a psychological state. Typically marked by dative case with indirect verbs.",
+        "examples": [
+          {"clause": "მე მიყვარს.", "translation": "I love him/her.", "experiencer": "მე me 'I' (DAT)"},
+          {"clause": "მას სძინავს.", "translation": "He/she is sleeping.", "experiencer": "მას mas 'he/she' (DAT)"}
+        ]
+      },
+      "beneficiary": {
+        "definition": "Semantic role of the entity for whose benefit an action is performed. Typically marked by the postposition -თვის -tvis 'for' or by objective version in the verb.",
+        "examples": [
+          {"clause": "მე შენთვის ვწერ.", "translation": "I am writing for you.", "beneficiary": "შენთვის šentvis 'for you'"},
+          {"clause": "მე შენ გწერ.", "translation": "I am writing to you.", "beneficiary": "შენ šen 'you' (DAT)"}
+        ]
+      },
+      "instrument": {
+        "definition": "Semantic role of the entity used to perform an action. Typically marked by instrumental case.",
+        "examples": [
+          {"clause": "კალმით ვწერ.", "translation": "I write with a pen.", "instrument": "კალმით k'almit 'with a pen' (INSTR)"}
+        ]
+      },
+      "location": {
+        "definition": "Semantic role of the place where an action occurs. Typically marked by locative case or postpositions.",
+        "examples": [
+          {"clause": "სახლში ვარ.", "translation": "I am at home.", "location": "სახლში saxlši 'at home' (LOC)"},
+          {"clause": "მაგიდაზე წიგნია.", "translation": "The book is on the table.", "location": "მაგიდაზე magidaze 'on the table'"}
+        ]
+      },
+      "goal": {
+        "definition": "Semantic role of the entity toward which an action is directed. Typically marked by dative case.",
+        "examples": [
+          {"clause": "სახლში მივდივარ.", "translation": "I am going home.", "goal": "სახლში saxlši 'home'"},
+          {"clause": "წიგნს ვაძლევ.", "translation": "I am giving him/her the book.", "goal": "წიგნს c'igns 'book' (DAT)"}
+        ]
+      },
+      "source": {
+        "definition": "Semantic role of the entity from which an action originates. Typically marked by ablative case or postpositions.",
+        "examples": [
+          {"clause": "სახლიდან მოვდივარ.", "translation": "I am coming from home.", "source": "სახლიდან saxlidan 'from home' (ABL)"}
+        ]
+      },
+      "possessor": {
+        "definition": "Semantic role of the entity that possesses something. Typically marked by genitive case.",
+        "examples": [
+          {"clause": "ეს ჩემი სახლია.", "translation": "This is my house.", "possessor": "ჩემი č'emi 'my'"},
+          {"clause": "კაცის სახლი.", "translation": "The man's house.", "possessor": "კაცის k'ac'is 'man (GEN)'"}
+        ]
+      },
+      "precedes": {
+        "definition": "Linear order relation. In Georgian, subjects typically precede objects, and objects precede verbs (SOV).",
+        "examples": [
+          {"clause": "მე წიგნს ვკითხულობ.", "translation": "I am reading a book.", "order": "Subject (მე) precedes Object (წიგნს) precedes Verb (ვკითხულობ)"},
+          {"clause": "დიდი სახლი.", "translation": "Big house.", "order": "Adjective (დიდი) precedes Noun (სახლი)"}
+        ]
+      },
+      "follows": {
+        "definition": "Inverse of precedes.",
+        "examples": [
+          {"clause": "მე წიგნს ვკითხულობ.", "translation": "I am reading a book.", "order": "Verb (ვკითხულობ) follows Object (წიგნს) and Subject (მე)"}
+        ]
+      },
+      "allomorph": {
+        "definition": "Relation between a morpheme and its allomorphs.",
+        "examples": [
+          {"morpheme": "PLURAL", "allomorphs": ["-ებ- -eb- (სახლები saxlebi 'houses')", "-ნ- -n- (ქვეყნები kveq'nebi 'countries')"]},
+          {"morpheme": "1SG_SUBJECT", "allomorphs": ["ვ- v- (ვწერ vc'er 'I write')", "ვ- - -თ -t (ვწერთ vc'ert 'we write')"]},
+          {"morpheme": "GENITIVE", "allomorphs": ["-ის -is (სახლის saxis 'of the house')", "-ს -s (some nouns)"]}
+        ]
+      },
+      "allophone": {
+        "definition": "Relation between a phoneme and its phones.",
+        "examples": [
+          {"/p/": "allophone [pʰ] (aspirated) initially (ფარი pʰari 'shield')"},
+          {"/p'/": "allophone [p'] (ejective) (პარი p'ari 'pair')"},
+          {"/b/": "allophone [b] (voiced) (ბარი bari 'pen')"},
+          {"/v/": "allophones [v], [w], [ʋ] depending on context"}
+        ]
+      },
+      "complement": {
+        "definition": "Syntactic argument of a verb.",
+        "examples": [
+          {"clause": "წიგნს ვკითხულობ.", "translation": "I am reading a book.", "complement": "წიგნს c'igns 'book'"},
+          {"clause": "მას ველოდები.", "translation": "I am waiting for him/her.", "complement": "მას mas 'him/her' (DAT)"}
+        ]
+      },
+      "head": {
+        "definition": "The head of a phrase.",
+        "examples": [
+          {"phrase": "დიდი სახლი didi saxli 'big house'", "head": "სახლი saxli 'house' (N)"},
+          {"phrase": "სწრაფად ვკითხულობ sc'rapad vk'itxulob 'I read quickly'", "head": "ვკითხულობ vk'itxulob 'I read' (V)"}
+        ]
+      },
+      "argument": {
+        "definition": "The syntactic entity about which something is predicated.",
+        "examples": [
+          {"clause": "მე ვკითხულობ.", "translation": "I am reading.", "arguments": ["მე me 'I' (Subject)"]},
+          {"clause": "მე წიგნს ვკითხულობ.", "translation": "I am reading a book.", "arguments": ["მე me 'I' (Subject)", "წიგნს c'igns 'book' (Object)"]}
+        ]
+      },
+      "realization": {
+        "definition": "Relation between a linguistic unit and its physical form.",
+        "examples": [
+          {"/saxli/": "realized as [saxli] 'house'"},
+          {"/c'igni/": "realized as [ts'igni] 'book'"},
+          {"/p'ari/": "realized as [p'ari] 'pair'"}
+        ]
+      },
+      "semanticRole": {
+        "definition": "Relation between a participant and a predicate.",
+        "examples": [
+          {"clause": "კაცმა წიგნი დაწერა.", "translation": "The man wrote a book.", "semantic_roles": ["Agent: k'ac'ma 'man'", "Patient: c'igni 'book'"]},
+          {"clause": "მე მიყვარს.", "translation": "I love him/her.", "semantic_roles": ["Experiencer: me 'I'", "Stimulus: is 'he/she'"]}
+        ]
+      },
+      "synonym": {
+        "definition": "Words with similar meaning.",
+        "examples": [
+          {"synonyms": ["ლამაზი lamazi", "მშვენიერი mšvenieri", "კარგი k'argi"], "meaning": "'beautiful, good'"},
+          {"synonyms": ["დიდი didi", "დიდებული didebuli"], "meaning": "'big, great'"},
+          {"synonyms": ["სწრაფი sc'rapi", "მალე male"], "meaning": "'quick, soon'"}
+        ]
+      },
+      "antonym": {
+        "definition": "Words with opposite meaning.",
+        "examples": [
+          {"antonyms": ["დიდი didi 'big'", "პატარა p'at'ara 'small'"]},
+          {"antonyms": ["კარგი k'argi 'good'", "ცუდი c'udi 'bad'"]},
+          {"antonyms": ["გრძელი grdzeli 'long'", "მოკლე mok'le 'short'"]},
+          {"antonyms": ["ახალი axali 'new'", "ძველი dzveli 'old'"]},
+          {"antonyms": ["ცხელი cxeli 'hot'", "ცივი c'ivi 'cold'"]}
+        ]
+      },
+      "entails": {
+        "definition": "Entailment relation between propositions.",
+        "examples": [
+          {"entailment": "მან წიგნი დაწერა. man c'igni dac'era. 'He wrote a book.' entails წიგნი არსებობს. c'igni arsebobs. 'A book exists.'"}
+        ]
+      },
+      "inLanguage": {
+        "definition": "Relation between a linguistic sign and the Georgian language.",
+        "examples": [
+          {"sign": "სახლი saxli 'house'", "language": "Georgian (kat)"},
+          {"sign": "წიგნი c'igni 'book'", "language": "Georgian (kat)"}
+        ]
+      },
+      "hasMorphologicalConstituent": {
+        "definition": "Part-whole relation in morphology.",
+        "examples": [
+          {"whole": "სახლები saxlebi 'houses'", "constituents": ["სახლ- saxl- 'house (root)'", "-ებ- -eb- 'plural'", "-ი -i 'nominative'"]},
+          {"whole": "დავწერე davc'ere 'I wrote'", "constituents": ["და- da- 'preverb'", "ვ- v- '1SG subject'", "წერ- c'er- 'write (root)'", "-ე -e 'aorist suffix'"]}
+        ]
+      },
+      "hasSyntacticConstituent": {
+        "definition": "Part-whole relation in syntax.",
+        "examples": [
+          {"whole": "Clause", "constituents": ["Subject (მე me)", "Object (წიგნს c'igns)", "Verb (ვკითხულობ vk'itxulob)"]}
+        ]
+      }
+    },
+    "Datatype_Properties": {
+      "phoneticRep": {
+        "definition": "Phonetic representation of a linguistic unit.",
+        "examples": [
+          {"word": "სახლი", "phonetic": "[saxli]"},
+          {"word": "წიგნი", "phonetic": "[ts'igni]"},
+          {"word": "პარი", "phonetic": "[p'ari]"},
+          {"word": "ფარი", "phonetic": "[pʰari]"},
+          {"word": "ბარი", "phonetic": "[bari]"}
+        ]
+      },
+      "phonemicRep": {
+        "definition": "Phonemic representation of a linguistic unit.",
+        "examples": [
+          {"word": "სახლი", "phonemic": "/saxli/"},
+          {"word": "წიგნი", "phonemic": "/c'igni/"},
+          {"word": "პარი", "phonemic": "/p'ari/"},
+          {"word": "ფარი", "phonemic": "/pʰari/"},
+          {"word": "ბარი", "phonemic": "/bari/"}
+        ]
+      },
+      "orthographicRep": {
+        "definition": "Orthographic representation of a linguistic unit (Mkhedruli script).",
+        "examples": [
+          {"word": "house", "orthographic": "სახლი"},
+          {"word": "book", "orthographic": "წიგნი"},
+          {"word": "I", "orthographic": "მე"},
+          {"word": "you", "orthographic": "შენ"}
+        ]
+      },
+      "gloss": {
+        "definition": "Gloss or translation of a linguistic unit.",
+        "examples": [
+          {"word": "სახლი", "gloss": "house"},
+          {"word": "წიგნი", "gloss": "book"},
+          {"word": "მე", "gloss": "I"},
+          {"word": "შენ", "gloss": "you"}
+        ]
+      },
+      "hasExample": {
+        "definition": "Example usage of a linguistic unit.",
+        "examples": [
+          {"word": "სახლი saxli", "example": "ეს სახლია. es saxl-ia. 'This is a house.'"},
+          {"word": "წიგნი c'igni", "example": "წიგნს ვკითხულობ. c'igns vk'itxulob. 'I am reading a book.'"}
+        ]
+      },
+      "stringRep": {
+        "definition": "String representation of a linguistic unit.",
+        "examples": [
+          {"word": "სახლი", "string": "saxli"},
+          {"word": "წიგნი", "string": "c'igni"}
+        ]
+      }
+    },
+    "Relations_Between_Units": {
+      "agreement": {
+        "definition": "The verb agrees with subject, direct object, and indirect object through affixes.",
+        "examples": [
+          {"clause": "მე ვწერ. me vc'er. 'I write.'", "agreement": "ვ- v- marks 1SG subject"},
+          {"clause": "შენ წერ. šen c'er. 'You write.'", "agreement": "zero marks 2SG subject"},
+          {"clause": "ის წერს. is c'ers. 'He writes.'", "agreement": "-ს -s marks 3SG subject"},
+          {"clause": "ჩვენ ვწერთ. č'ven vc'ert. 'We write.'", "agreement": "ვ- v- + -თ -t marks 1PL subject"},
+          {"clause": "თქვენ წერთ. tkven c'ert. 'You (PL) write.'", "agreement": "-თ -t marks 2PL subject"},
+          {"clause": "ისინი წერენ. isini c'eren. 'They write.'", "agreement": "-ენ -en marks 3PL subject"}
+        ]
+      },
+      "government": {
+        "definition": "Postpositions and verbs determine case marking of noun phrases.",
+        "examples": [
+          {"phrase": "სახლში saxliš 'in the house'", "governor": "postposition -ში -ši", "case": "locative"},
+          {"phrase": "სახლზე saxlze 'on the house'", "governor": "postposition -ზე -ze", "case": "dative"},
+          {"phrase": "სახლიდან saxlidan 'from the house'", "governor": "postposition -დან -dan", "case": "ablative"}
+        ]
+      },
+      "adjunct": {
+        "definition": "A phrase modifying a head but not an actant.",
+        "examples": [
+          {"clause": "ხვალ მოვალ. xval moval. 'I will come tomorrow.'", "adjunct": "ხვალ xval 'tomorrow' (temporal adverb)"},
+          {"clause": "სახლში ვკითხულობ. saxlši vk'itxulob. 'I read at home.'", "adjunct": "სახლში saxlši 'at home' (locative phrase)"}
+        ]
+      },
+      "apposition": {
+        "definition": "Two noun phrases juxtaposed referring to the same entity.",
+        "examples": [
+          {"clause": "ნადირი, ჩემი მეგობარი, აქ ცხოვრობს. nadiri, č'emi megobari, ak cxovrobs. 'Nadiri, my friend, lives here.'", "apposition": "ნადირი nadiri 'Nadiri' and ჩემი მეგობარი č'emi megobari 'my friend'"}
+        ]
+      }
+    }
+  }
+},
+{
+  "Lexicon_Overview": {
+    "definition": "The lexicon of Georgian includes native Kartvelian roots and extensive borrowings from Iranian, Arabic, Turkish, Russian, and European languages. The lexicon is characterized by complex morphology, including numerous derivational suffixes and prefixes, and a rich system of verbal roots with preverbs.",
+    "word_structure": "Most words are disyllabic or monosyllabic; CV and CVC syllable structures are most common. However, complex consonant clusters (up to 6 consonants initially) are a hallmark of Georgian phonology.",
+    "loanwords": "Primarily from Iranian (Old and Middle Persian), Arabic, Turkish, Russian, and European languages; adapt to Georgian phonotactic constraints and morphology.",
+    "noun_classes": "Nouns are not classified by grammatical gender. Natural gender is expressed lexically (e.g., კაცი k'ac'i 'man' vs ქალი kali 'woman').",
+    "nominal_compounds": "Highly productive; plural marked on the second constituent.",
+    "sample_entries": [
+      {
+        "form": "სახლი",
+        "transliteration": "saxli",
+        "gloss": "house",
+        "class": "N",
+        "plural": "სახლები saxlebi",
+        "case_paradigm": [
+          "სახლი saxli (NOM)",
+          "სახლის saxis (GEN)",
+          "სახლს saxls (DAT)",
+          "სახლმა saxlma (ERG)",
+          "სახლით saxit (INSTR)",
+          "სახლად saxlad (ADV)",
+          "სახლო saxlo (VOC)"
+        ]
+      },
+      {
+        "form": "წიგნი",
+        "transliteration": "c'igni",
+        "gloss": "book",
+        "class": "N",
+        "plural": "წიგნები c'ignebi",
+        "case_paradigm": [
+          "წიგნი c'igni (NOM)",
+          "წიგნის c'ignis (GEN)",
+          "წიგნს c'igns (DAT)",
+          "წიგნმა c'ignma (ERG)",
+          "წიგნით c'ignit (INSTR)",
+          "წიგნად c'ignad (ADV)",
+          "წიგნო c'igno (VOC)"
+        ]
+      },
+      {
+        "form": "კაცი",
+        "transliteration": "k'ac'i",
+        "gloss": "man",
+        "class": "N",
+        "plural": "კაცები k'ac'ebi",
+        "case_paradigm": [
+          "კაცი k'ac'i (NOM)",
+          "კაცის k'ac'is (GEN)",
+          "კაცს k'ac's (DAT)",
+          "კაცმა k'ac'ma (ERG)",
+          "კაცით k'ac'it (INSTR)",
+          "კაცად k'ac'ad (ADV)",
+          "კაცო k'ac'o (VOC)"
+        ]
+      },
+      {
+        "form": "ქალი",
+        "transliteration": "kali",
+        "gloss": "woman",
+        "class": "N",
+        "plural": "ქალები kalebi",
+        "case_paradigm": [
+          "ქალი kali (NOM)",
+          "ქალის kalis (GEN)",
+          "ქალს kals (DAT)",
+          "ქალმა kalma (ERG)",
+          "ქალით kalit (INSTR)",
+          "ქალად kalad (ADV)",
+          "ქალო kalo (VOC)"
+        ]
+      },
+      {
+        "form": "წყალი",
+        "transliteration": "c'q'ali",
+        "gloss": "water",
+        "class": "N",
+        "plural": "წყლები c'q'lebi",
+        "case_paradigm": [
+          "წყალი c'q'ali (NOM)",
+          "წყლის c'q'lis (GEN)",
+          "წყალს c'q'als (DAT)",
+          "წყალმა c'q'alma (ERG)",
+          "წყლით c'q'lit (INSTR)",
+          "წყლად c'q'lad (ADV)",
+          "წყალო c'q'alo (VOC)"
+        ]
+      },
+      {
+        "form": "დედა",
+        "transliteration": "deda",
+        "gloss": "mother",
+        "class": "N",
+        "plural": "დედები dedebi",
+        "case_paradigm": [
+          "დედა deda (NOM)",
+          "დედის dedis (GEN)",
+          "დედას dedas (DAT)",
+          "დედამ dedam (ERG)",
+          "დედით dedit (INSTR)",
+          "დედად dedad (ADV)",
+          "დედავ dedav (VOC)"
+        ]
+      },
+      {
+        "form": "მამა",
+        "transliteration": "mama",
+        "gloss": "father",
+        "class": "N",
+        "plural": "მამები mamebi",
+        "case_paradigm": [
+          "მამა mama (NOM)",
+          "მამის mamis (GEN)",
+          "მამას mamas (DAT)",
+          "მამამ mamam (ERG)",
+          "მამით mamit (INSTR)",
+          "მამად mamad (ADV)",
+          "მამავ mamav (VOC)"
+        ]
+      },
+      {
+        "form": "ძმა",
+        "transliteration": "dzma",
+        "gloss": "brother",
+        "class": "N",
+        "plural": "ძმები dzmebi",
+        "case_paradigm": [
+          "ძმა dzma (NOM)",
+          "ძმის dzmis (GEN)",
+          "ძმას dzmas (DAT)",
+          "ძმამ dzmam (ERG)",
+          "ძმით dzmit (INSTR)",
+          "ძმად dzmad (ADV)",
+          "ძმაო dzmao (VOC)"
+        ]
+      },
+      {
+        "form": "და",
+        "transliteration": "da",
+        "gloss": "sister",
+        "class": "N",
+        "plural": "დები de-bi",
+        "case_paradigm": [
+          "და da (NOM)",
+          "დის dis (GEN)",
+          "დას das (DAT)",
+          "დამ dam (ERG)",
+          "დით dit (INSTR)",
+          "დად dad (ADV)",
+          "დაო dao (VOC)"
+        ]
+      },
+      {
+        "form": "მეგობარი",
+        "transliteration": "megobari",
+        "gloss": "friend",
+        "class": "N",
+        "plural": "მეგობრები megobrebi",
+        "case_paradigm": [
+          "მეგობარი megobari (NOM)",
+          "მეგობრის megobris (GEN)",
+          "მეგობარს megobars (DAT)",
+          "მეგობარმა megobarma (ERG)",
+          "მეგობრით megobrit (INSTR)",
+          "მეგობრად megobrad (ADV)",
+          "მეგობარო megobaro (VOC)"
+        ]
+      },
+      {
+        "form": "ვაჟიშვილი",
+        "transliteration": "važišvili",
+        "gloss": "son",
+        "class": "N",
+        "plural": "ვაჟიშვილები važišvilebi",
+        "case_paradigm": [
+          "ვაჟიშვილი važišvili (NOM)",
+          "ვაჟიშვილის važišvilis (GEN)",
+          "ვაჟიშვილს važišvils (DAT)",
+          "ვაჟიშვილმა važišvilma (ERG)",
+          "ვაჟიშვილით važišvilit (INSTR)",
+          "ვაჟიშვილად važišvilad (ADV)",
+          "ვაჟიშვილო važišvilo (VOC)"
+        ]
+      },
+      {
+        "form": "ქალიშვილი",
+        "transliteration": "kališvili",
+        "gloss": "daughter",
+        "class": "N",
+        "plural": "ქალიშვილები kališvilebi",
+        "case_paradigm": [
+          "ქალიშვილი kališvili (NOM)",
+          "ქალიშვილის kališvilis (GEN)",
+          "ქალიშვილს kališvils (DAT)",
+          "ქალიშვილმა kališvilma (ERG)",
+          "ქალიშვილით kališvilit (INSTR)",
+          "ქალიშვილად kališvilad (ADV)",
+          "ქალიშვილო kališvilo (VOC)"
+        ]
+      },
+      {
+        "form": "წერა",
+        "transliteration": "c'era",
+        "gloss": "to write (verbal noun/masdar)",
+        "class": "V",
+        "stem": "წერ- c'er-",
+        "tenses": [
+          "ვწერ vc'er (Present)",
+          "დავწერ davc'er (Future)",
+          "დავწერე davc'ere (Aorist)",
+          "ვწერდი vc'erdi (Imperfect)",
+          "დამიწერია damic'eria (Perfect)",
+          "დამეწერა damec'era (Pluperfect)"
+        ]
+      },
+      {
+        "form": "კითხვა",
+        "transliteration": "k'itxva",
+        "gloss": "to read (verbal noun/masdar)",
+        "class": "V",
+        "stem": "კითხ- k'itx-",
+        "tenses": [
+          "ვკითხულობ vk'itxulob (Present)",
+          "წავიკითხავ c'avik'itxav (Future)",
+          "წავიკითხე c'avik'itxe (Aorist)",
+          "ვკითხულობდი vk'itxulobdi (Imperfect)",
+          "წამიკითხავს c'amik'itxavs (Perfect)",
+          "წამეკითხა c'amek'itxa (Pluperfect)"
+        ]
+      },
+      {
+        "form": "წასვლა",
+        "transliteration": "c'asvla",
+        "gloss": "to go (verbal noun/masdar)",
+        "class": "V",
+        "stem": "სვლ- svl-",
+        "tenses": [
+          "მივდივარ mivdivar (Present)",
+          "წავალ c'aval (Future)",
+          "წავედი c'avedi (Aorist)",
+          "მივდიოდი mivdiodi (Imperfect)",
+          "წავსულვარ c'avsulvar (Perfect)",
+          "წავსულიყავი c'avsuliqavi (Pluperfect)"
+        ]
+      },
+      {
+        "form": "მოსვლა",
+        "transliteration": "mosvla",
+        "gloss": "to come (verbal noun/masdar)",
+        "class": "V",
+        "stem": "სვლ- svl-",
+        "tenses": [
+          "მოვდივარ movdivar (Present)",
+          "მოვალ moval (Future)",
+          "მოვედი movedi (Aorist)",
+          "მოვდიოდი movdiodi (Imperfect)",
+          "მოსულვარ mosulvar (Perfect)",
+          "მოსულიყავი mosuliqavi (Pluperfect)"
+        ]
+      },
+      {
+        "form": "ჭამა",
+        "transliteration": "č'ama",
+        "gloss": "to eat (verbal noun/masdar)",
+        "class": "V",
+        "stem": "ჭამ- č'am-",
+        "tenses": [
+          "ვჭამ vč'am (Present)",
+          "შევჭამ ševč'am (Future)",
+          "შევჭამე ševč'ame (Aorist)",
+          "ვჭამდი vč'amdi (Imperfect)",
+          "შემიჭამია šemič'amia (Perfect)",
+          "შემეჭამა šemeč'ama (Pluperfect)"
+        ]
+      },
+      {
+        "form": "სმა",
+        "transliteration": "sma",
+        "gloss": "to drink (verbal noun/masdar)",
+        "class": "V",
+        "stem": "სმ- sm-",
+        "tenses": [
+          "ვსვამ vsvam (Present)",
+          "დავლევ davlev (Future)",
+          "დავლიე davlie (Aorist)",
+          "ვსვამდი vsvamdi (Imperfect)",
+          "დამილევია damilevia (Perfect)",
+          "დამელევა dameleva (Pluperfect)"
+        ]
+      },
+      {
+        "form": "ლამაზი",
+        "transliteration": "lamazi",
+        "gloss": "beautiful",
+        "class": "Adj"
+      },
+      {
+        "form": "კარგი",
+        "transliteration": "k'argi",
+        "gloss": "good",
+        "class": "Adj"
+      },
+      {
+        "form": "ცუდი",
+        "transliteration": "c'udi",
+        "gloss": "bad",
+        "class": "Adj"
+      },
+      {
+        "form": "დიდი",
+        "transliteration": "didi",
+        "gloss": "big",
+        "class": "Adj"
+      },
+      {
+        "form": "პატარა",
+        "transliteration": "p'at'ara",
+        "gloss": "small",
+        "class": "Adj"
+      },
+      {
+        "form": "ახალი",
+        "transliteration": "axali",
+        "gloss": "new",
+        "class": "Adj"
+      },
+      {
+        "form": "ძველი",
+        "transliteration": "dzveli",
+        "gloss": "old",
+        "class": "Adj"
+      },
+      {
+        "form": "ცხელი",
+        "transliteration": "cxeli",
+        "gloss": "hot",
+        "class": "Adj"
+      },
+      {
+        "form": "ცივი",
+        "transliteration": "c'ivi",
+        "gloss": "cold",
+        "class": "Adj"
+      },
+      {
+        "form": "ერთი",
+        "transliteration": "erti",
+        "gloss": "one",
+        "class": "Num"
+      },
+      {
+        "form": "ორი",
+        "transliteration": "ori",
+        "gloss": "two",
+        "class": "Num"
+      },
+      {
+        "form": "სამი",
+        "transliteration": "sami",
+        "gloss": "three",
+        "class": "Num"
+      },
+      {
+        "form": "ოთხი",
+        "transliteration": "otxi",
+        "gloss": "four",
+        "class": "Num"
+      },
+      {
+        "form": "ხუთი",
+        "transliteration": "xuti",
+        "gloss": "five",
+        "class": "Num"
+      },
+      {
+        "form": "ექვსი",
+        "transliteration": "ekvsi",
+        "gloss": "six",
+        "class": "Num"
+      },
+      {
+        "form": "შვიდი",
+        "transliteration": "švidi",
+        "gloss": "seven",
+        "class": "Num"
+      },
+      {
+        "form": "რვა",
+        "transliteration": "rva",
+        "gloss": "eight",
+        "class": "Num"
+      },
+      {
+        "form": "ცხრა",
+        "transliteration": "cxra",
+        "gloss": "nine",
+        "class": "Num"
+      },
+      {
+        "form": "ათი",
+        "transliteration": "ati",
+        "gloss": "ten",
+        "class": "Num"
+      }
+    ]
+  },
+  "Relations_and_Properties_Summary": {
+    "definition": "Summary of the most important relations and properties in the Georgian language ontology.",
+    "key_relations": [
+      "subject: The syntactic subject of a clause (nominative in Series I, ergative in Series II, dative in Series III for transitives).",
+      "object: The syntactic object of a clause (dative in Series I, nominative in Series II and III).",
+      "agent: The doer of the action (typically ergative in Series II, nominative in Series I).",
+      "patient: The undergoer of the action (typically nominative in Series II, dative in Series I).",
+      "experiencer: The entity experiencing a psychological state (typically dative with indirect verbs).",
+      "precedes: Linear order relation (Subject precedes Object precedes Verb).",
+      "follows: Inverse of precedes.",
+      "allomorph: Relation between a morpheme and its allomorphs (e.g., -eb- vs -n- plural).",
+      "allophone: Relation between a phoneme and its phones (e.g., /p/ → [pʰ]).",
+      "head: The head of a phrase.",
+      "complement: Syntactic argument of a verb.",
+      "argument: The syntactic entity about which something is predicated.",
+      "realization: Relation between a linguistic unit and its physical form.",
+      "semanticRole: Relation between a participant and a predicate.",
+      "synonym: Words with similar meaning.",
+      "antonym: Words with opposite meaning.",
+      "inLanguage: Relation between a linguistic sign and Georgian."
+    ],
+    "key_properties": [
+      "phoneticRep: Phonetic representation.",
+      "phonemicRep: Phonemic representation.",
+      "orthographicRep: Orthographic representation (Mkhedruli script).",
+      "gloss: Gloss or translation.",
+      "hasExample: Example usage.",
+      "stringRep: String representation."
+    ]
+  },
+  "Typological_Summary": {
+    "definition": "A summary of the typological characteristics of Georgian.",
+    "morphological_type": "Agglutinative-fusional",
+    "word_order": "SOV (basic), pragmatically flexible",
+    "alignment": "Split ergative: Nominative-Accusative in Series I, Ergative-Absolutive in Series II, Inverted (Dative-Nominative) in Series III",
+    "agreement": "Poly-personal (subject, direct object, indirect object)",
+    "gender": "No grammatical gender",
+    "cases": ["Nominative", "Ergative", "Dative", "Genitive", "Instrumental", "Adverbial", "Vocative"],
+    "script": "Mkhedruli (33 letters, no capitals)",
+    "phonology": {
+      "vowels": "5 (a, e, i, o, u) - no length distinction",
+      "consonants": "28 - three-way laryngeal contrast (voiced, aspirated voiceless, ejective)",
+      "clusters": "Complex (up to 6 consonants initially)",
+      "stress": "Weak, dynamic, usually on the first syllable"
+    },
+    "verb_system": {
+      "screeves": "11 screeves in 3 series",
+      "series_I": "Present, Future, Imperfect, Conditional, Present Subjunctive, Future Subjunctive",
+      "series_II": "Aorist, Aorist Subjunctive",
+      "series_III": "Perfect, Pluperfect, III Subjunctive",
+      "preverbs": "12+ directional prefixes (a-, ga-, da-, še-, ča-, c'a-, mi-, mo-, gada-, šemo-, gamo-, čamo-)",
+      "version": "Neutral, Subjective, Objective, Locative"
+    },
+    "lexicon": {
+      "native_roots": "Kartvelian roots (e.g., saxli 'house', c'q'ali 'water', c'era 'to write')",
+      "loanwords": ["Iranian (Old/Middle Persian)", "Arabic", "Turkish", "Russian", "European languages"],
+      "derivation": "Rich system of suffixes and prefixes"
+    }
+  },
+  "References": {
+    "definition": "Key references for the Georgian language ontology.",
+    "sources": [
+      "Hewitt, B. G. (2005). Georgian: A Learner's Grammar (2nd ed.). Routledge.",
+      "Aronson, H. I. (1990). Georgian: A Reading Grammar. Slavica Publishers.",
+      "Kiziria, D. (2009). Beginner's Georgian. Hippocrene Books.",
+      "Vogt, H. (1971). Grammaire de la langue géorgienne. Universitetsforlaget.",
+      "Shanidze, A. (1973). Kartuli enis gramatikis safuZvlebi (Fundamentals of the Grammar of the Georgian Language). Tbilisi State University Press.",
+      "Tschenkeli, K. (1958). Einführung in die georgische Sprache. Amirani Verlag.",
+      "Harris, A. C. (1981). Georgian Syntax: A Study in Relational Grammar. Cambridge University Press.",
+      "Comrie, B. (1981). The Languages of the Soviet Union. Cambridge University Press.",
+      "Hewitt, B. G. (1995). Georgian: A Structural Reference Grammar. John Benjamins."
+    ]
+  },
+  "Version": {
+    "version": "1.0",
+    "date": "2026-09-21",
+    "author": "Ontology generated from Georgian: A Learner's Grammar (Hewitt, 2005) and other sources.",
+    "license": "CC BY 4.0",
+    "citation": "Georgian (ქართული ენა) Language Ontology, Version 1.0, 2026."
+  }
+}
