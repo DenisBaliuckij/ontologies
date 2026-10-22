@@ -4,20 +4,8 @@
     "version": "1.0",
     "description": "Description of Modern Literary Tajik, an Eastern variety of New Persian used in Tajikistan and parts of Uzbekistan. The variety described is the literary standard in Cyrillic.",
     "sources": [
-      {
-        "name": "Gernot Windfuhr and John R. Perry, Persian and Tajik (chapter 8 of The Iranian Languages)",
-        "url": "not stated in the attached file",
-        "version": "attached chapter; printed page numbers 416-544",
-        "license": "not stated in the attached file",
-        "annotation_type": "descriptive reference grammar"
-      },
-      {
-        "name": "Nasrullo Khojayori and Mikael Thompson, Tajiki Reference Grammar for Beginners",
-        "url": "not stated in the attached file",
-        "version": "2009, Georgetown University Press, ISBN 978-1-58901-269-1",
-        "license": "copyright 2009 Georgetown University Press, as printed in the attached file",
-        "annotation_type": "pedagogical reference grammar"
-      }
+      "Gernot Windfuhr and John R. Perry, Persian and Tajik (chapter 8 of The Iranian Languages), attached chapter, printed page numbers 416-544. Descriptive reference grammar. URL not stated in the attached file. License not stated in the attached file.",
+      "Nasrullo Khojayori and Mikael Thompson, Tajiki Reference Grammar for Beginners, 2009, Georgetown University Press, ISBN 978-1-58901-269-1. Pedagogical reference grammar. URL not stated in the attached file. Copyright 2009 Georgetown University Press, as printed in the attached file."
     ],
     "language_name": "Tajik (забони тоҷикӣ)",
     "iso_code": "tgk",
@@ -35,7 +23,186 @@
     "gold_base_uri": "http://purl.org/linguistics/gold/",
     "date": "2026-10-06",
     "scope": "Standard literary Tajik of the modern written norm associated with Dushanbe, in Cyrillic script, as described for Modern Literary Tajik.",
-    "note": "Speaker figure, location, dialect groups, and the literary standard are synchronous descriptions in Windfuhr & Perry (book pp. 420-421). The Eastern vs Western split and descent from Early New Persian are diachronic as well as synchronic (book pp. 416-421). ISO codes are file identity fields; the attached grammars do not print ISO 639 codes."
+    "note": "Speaker figure, location, dialect groups, and the literary standard are synchronous descriptions in Windfuhr & Perry (book pp. 420-421). The Eastern vs Western split and descent from Early New Persian are diachronic as well as synchronic (book pp. 416-421). ISO codes are file identity fields; the attached grammars do not print ISO 639 codes.",
+    "notes": {
+      "gaps": [
+        {
+          "fact": "Ergative construction in Standard Tajik",
+          "reason": "No attestation in the attached chapter or in the beginner grammar.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "A list of at least 50 irregular Tajik verbs with both stems and the infinitive",
+          "reason": "Windfuhr & Perry give a short set of Tajik stem pairs and state that Tajik forms are omitted from most of the irregular subset list. No stem dictionary is attached.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Three distinct buffer vowels -а-, -я-, and -й- each with three examples, as separate morphological formatives",
+          "reason": "The sources attest euphonic -y- after vowels, ezafe -yi, and euphonic -g- after -a. They do not set up three vowel buffers under those names.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Homonymy of possessive -ат, -аш, -амон, -атон, -ашон with verbal personal endings of the same shape",
+          "reason": "The Tajik verb endings in the paradigm are -am, -i, -ad, -em, -ed, -and. Only -am clearly matches an enclitic of the same shape. -at/-as/-amon/-aton/-ason are enclitics.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Prefix на- homonymous with the onset of verbs such as навиштан, нишастан, намудан",
+          "reason": "Negation na- is attested (na-raft, na-me-gu-yam). Those lexical verbs are not given as Tajik citation forms in the attached sources. 'Sit' is sin-/sist-, not a na- initial stem.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Case markers -да and -з as standard case",
+          "reason": "Not described as Standard Tajik case markers. Postposition -ro and prepositions are described instead. Dialectal da from dar is a reduced preposition, not a case suffix -да.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Suppletive comparatives беҳтар/хуб, бештар/бисёр, камтар/кам, бузургтар/бузург, меҳрубонтар/меҳрубон as stated pairs",
+          "reason": "bihtar-in kitob 'the best book', buzurg-tar, and bisyor 'very' occur, but the sources do not state these as suppletive lemmas of хуб, бисёр, кам, or меҳрубон.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Lexicalized items оҳангар, боғбон, деҳқон, чӯпон, моҳигир, гурбача, шаҳрак, and the base меҳрубон",
+          "reason": "Not found in the attached sources. kor-gar, navis-anda, and Tojikiston are attested and are entered above.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Colloquial shortened stems мешунам and мерам",
+          "reason": "Not attested in the attached sources.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Three attested examples each for abstract -ӣ from adjectives and for relational -ӣ from nouns, beyond the few forms printed",
+          "reason": "Attested: шиносой, хонагӣ, baca-g-i, Buxoro-i. Further triplets are not in the pages used.",
+          "where_searched": [
+            "Khojayori & Thompson 2009",
+            "Windfuhr & Perry, Persian and Tajik"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Derivational suffixes -манд, -нок, -дор, -ча, -ак, -чӣ, -бон with examples",
+          "reason": "Not attested with examples in the passages extracted. -gar, -anda, -iston, and -i/-gi are attested and are entered above.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Perry 2005, Ido 2005 as a Standard Tajik grammar, and Rzehak 1999",
+          "reason": "Those editions are not in the attached file set. The attached Ido PDF is a 2007 Bukharan Tajik text collection and was not used for Standard Tajik facts.",
+          "where_searched": [
+            "attached file set in the task folder"
+          ],
+          "status": "missing"
+        },
+        {
+          "fact": "Lemma conventions of a gold treebank",
+          "reason": "No corpus annotation guidelines were attached (Input C is absent).",
+          "where_searched": [
+            "attached file set in the task folder"
+          ],
+          "status": "missing"
+        }
+      ],
+      "verification": [
+        {
+          "fact": "Consonant letter list of 24 items as read from the Khojayori alphabet page image (ғ, қ, ҳ, ҷ, ъ among them)",
+          "reason": "The PDF text layer maps those glyphs to Latin lookalikes. The list was read from a rendered page image, not from a second grammar's chart.",
+          "where_searched": [
+            "Khojayori & Thompson 2009",
+            "Windfuhr & Perry, Persian and Tajik"
+          ],
+          "status": "unverified"
+        },
+        {
+          "fact": "Present stem paired with the attested infinitive girift-an 'to take'",
+          "reason": "girift-an and girift-a are printed. The present stem is not glossed next to that infinitive. Persian gereft- is in a comparative pair.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik"
+          ],
+          "status": "unverified"
+        },
+        {
+          "fact": "xah-am raft as a Tajik definite future rather than a Persian example in a joint paragraph",
+          "reason": "The stress section cites xah-am raft without a Persian/Tajik slash pair. The tense chapter says there is no paradigmatic future.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik",
+            "Khojayori & Thompson 2009"
+          ],
+          "status": "unverified"
+        },
+        {
+          "fact": "Past stem of Tajik don- 'know'",
+          "reason": "Present don- is attested (me-don-em, bi-don). The dan-/danest- pair is in the list from which Tajik forms are omitted.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik"
+          ],
+          "status": "unverified"
+        },
+        {
+          "fact": "Past stem paired with Tajik dih- 'give'",
+          "reason": "dih-ed 'give!' is attested. The deh-/dod- pair is in the list from which Tajik forms are omitted.",
+          "where_searched": [
+            "Windfuhr & Perry, Persian and Tajik"
+          ],
+          "status": "unverified"
+        }
+      ],
+      "processed": [
+        "Core_Foundations, Phonetics_and_Phonology, Morphology, Syntax, Semantics, Interfaces_and_Integration, Relations_and_Properties, and Lexicon_Overview are populated from the two sources in meta.sources.",
+        "Windfuhr & Perry, Persian and Tajik, chapter 8: citations in this file cover printed pages 416-455, 473, 475-476, 527, and 530-532.",
+        "Khojayori & Thompson 2009 is cited in Phonetics_and_Phonology, Morphology, and Lexicon_Overview. The beginner grammar is not cited by printed page number."
+      ],
+      "not_yet_processed": [
+        "Windfuhr & Perry chapter 8, printed pages 456-472, 474, 477-526, 528-529, and 533-544, are not cited in this file. The chapter PDF is not in the repair folder, so those pages were not read in this pass.",
+        "Khojayori & Thompson 2009 has no page-numbered unread queue recorded in this file."
+      ],
+      "input_validation": [
+        "Repair inputs present: OntoTajik.json, OntoKon.json, base-ontology.schema.json, language-ontology.schema.json, validate.py.",
+        "The source grammars are not in this folder. No new linguistic facts were added in the repair."
+      ],
+      "limitations": [
+        "The Khojayori PDF text layer maps some Cyrillic glyphs to Latin lookalikes. The 24-letter consonant list was read from a rendered page image and is marked unverified in notes.verification.",
+        "ISO 639 codes tgk and tg are file identity fields. The attached grammars do not print ISO 639 codes.",
+        "Lexicon_Overview is a sample, not a full dictionary."
+      ]
+    }
   },
   "Core_Foundations": {
     "Language": {
@@ -134,7 +301,7 @@
   "Phonetics_and_Phonology": {
     "note": "Vowel count and the q/gh contrast are synchronous facts of Modern Standard Tajik. Length neutralization relative to Early New Persian is diachrony. Orthography is synchronous for the current Cyrillic norm.",
     "Vowel_inventory": {
-      "count": 6,
+      "count": "6",
       "phonemes": [
         {
           "orthography": "а",
@@ -222,7 +389,7 @@
       "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book pp. 429-430; Khojayori & Thompson 2009, Tajiki Reference Grammar for Beginners states that stress usually falls on the first syllable in finite verb forms or on the last syllable in nouns and noun-like words"
     },
     "Orthography": {
-      "alphabet_size": 35,
+      "alphabet_size": "35",
       "statement": "Khojayori & Thompson: a modified Cyrillic alphabet became official in 1940 and contains 35 letters: 24 consonants, 6 vowels plus и with macron (ӣ) used at the end of a word, and 4 yotated letters (е, ё, ю, я). Windfuhr & Perry: Arabic script was replaced by Latin in 1928 and by Cyrillic in 1939; six supplementary letters are added to the Cyrillic inventory by diacritics (diachrony of script change; the inventory is synchronous).",
       "dotted_i": "ӣ (macron) marks stressed word-final -i of a morphological formative, as against unstressed ezafe -i. The macron is dropped before an ezafe. Also used in monosyllables: ki 'who?' (distinct from unstressed subordinizer ki), chi 'what?', si 'thirty', and the interrogative enclitic -mi.",
       "distinct_letters": "Tajik keeps ҳ, қ, ғ, ҷ as letters. Windfuhr & Perry: қ (q) is distinct from the velar stop, and ғ (gh) is distinct from х, unlike the Persian merger of q and gh. Khojayori lists ҳ, қ, ғ, ҷ among the consonant letters, separate from х, к, г, ч.",
@@ -1908,21 +2075,21 @@
         "form": "kor-gar",
         "gloss": "manual worker",
         "class": "noun",
-        "lexicalized": true,
+        "lexicalized": "true",
         "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 527"
       },
       {
         "form": "navis-anda",
         "gloss": "writer",
         "class": "noun",
-        "lexicalized": true,
+        "lexicalized": "true",
         "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 449"
       },
       {
         "form": "Tojikiston",
         "gloss": "Tajikistan",
         "class": "noun",
-        "lexicalized": true,
+        "lexicalized": "true",
         "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 476"
       },
       {
@@ -1981,164 +2148,5 @@
         "source": "Windfuhr & Perry, Persian and Tajik, in The Iranian Languages, ch. 8, book p. 447"
       }
     ]
-  },
-  "verification": [
-    {
-      "fact": "Consonant letter list of 24 items as read from the Khojayori alphabet page image (ғ, қ, ҳ, ҷ, ъ among them)",
-      "reason": "The PDF text layer maps those glyphs to Latin lookalikes. The list was read from a rendered page image, not from a second grammar's chart.",
-      "where_searched": [
-        "Khojayori & Thompson 2009",
-        "Windfuhr & Perry, Persian and Tajik"
-      ],
-      "status": "unverified"
-    },
-    {
-      "fact": "Present stem paired with the attested infinitive girift-an 'to take'",
-      "reason": "girift-an and girift-a are printed. The present stem is not glossed next to that infinitive. Persian gereft- is in a comparative pair.",
-      "where_searched": [
-        "Windfuhr & Perry, Persian and Tajik"
-      ],
-      "status": "unverified"
-    },
-    {
-      "fact": "xah-am raft as a Tajik definite future rather than a Persian example in a joint paragraph",
-      "reason": "The stress section cites xah-am raft without a Persian/Tajik slash pair. The tense chapter says there is no paradigmatic future.",
-      "where_searched": [
-        "Windfuhr & Perry, Persian and Tajik",
-        "Khojayori & Thompson 2009"
-      ],
-      "status": "unverified"
-    },
-    {
-      "fact": "Past stem of Tajik don- 'know'",
-      "reason": "Present don- is attested (me-don-em, bi-don). The dan-/danest- pair is in the list from which Tajik forms are omitted.",
-      "where_searched": [
-        "Windfuhr & Perry, Persian and Tajik"
-      ],
-      "status": "unverified"
-    },
-    {
-      "fact": "Past stem paired with Tajik dih- 'give'",
-      "reason": "dih-ed 'give!' is attested. The deh-/dod- pair is in the list from which Tajik forms are omitted.",
-      "where_searched": [
-        "Windfuhr & Perry, Persian and Tajik"
-      ],
-      "status": "unverified"
-    }
-  ],
-  "gaps": [
-    {
-      "fact": "Ergative construction in Standard Tajik",
-      "reason": "No attestation in the attached chapter or in the beginner grammar.",
-      "where_searched": [
-        "Windfuhr & Perry, Persian and Tajik",
-        "Khojayori & Thompson 2009"
-      ],
-      "status": "missing"
-    },
-    {
-      "fact": "A list of at least 50 irregular Tajik verbs with both stems and the infinitive",
-      "reason": "Windfuhr & Perry give a short set of Tajik stem pairs and state that Tajik forms are omitted from most of the irregular subset list. No stem dictionary is attached.",
-      "where_searched": [
-        "Windfuhr & Perry, Persian and Tajik",
-        "Khojayori & Thompson 2009"
-      ],
-      "status": "missing"
-    },
-    {
-      "fact": "Three distinct buffer vowels -а-, -я-, and -й- each with three examples, as separate morphological formatives",
-      "reason": "The sources attest euphonic -y- after vowels, ezafe -yi, and euphonic -g- after -a. They do not set up three vowel buffers under those names.",
-      "where_searched": [
-        "Windfuhr & Perry, Persian and Tajik",
-        "Khojayori & Thompson 2009"
-      ],
-      "status": "missing"
-    },
-    {
-      "fact": "Homonymy of possessive -ат, -аш, -амон, -атон, -ашон with verbal personal endings of the same shape",
-      "reason": "The Tajik verb endings in the paradigm are -am, -i, -ad, -em, -ed, -and. Only -am clearly matches an enclitic of the same shape. -at/-as/-amon/-aton/-ason are enclitics.",
-      "where_searched": [
-        "Windfuhr & Perry, Persian and Tajik"
-      ],
-      "status": "missing"
-    },
-    {
-      "fact": "Prefix на- homonymous with the onset of verbs such as навиштан, нишастан, намудан",
-      "reason": "Negation na- is attested (na-raft, na-me-gu-yam). Those lexical verbs are not given as Tajik citation forms in the attached sources. 'Sit' is sin-/sist-, not a na- initial stem.",
-      "where_searched": [
-        "Windfuhr & Perry, Persian and Tajik",
-        "Khojayori & Thompson 2009"
-      ],
-      "status": "missing"
-    },
-    {
-      "fact": "Case markers -да and -з as standard case",
-      "reason": "Not described as Standard Tajik case markers. Postposition -ro and prepositions are described instead. Dialectal da from dar is a reduced preposition, not a case suffix -да.",
-      "where_searched": [
-        "Windfuhr & Perry, Persian and Tajik"
-      ],
-      "status": "missing"
-    },
-    {
-      "fact": "Suppletive comparatives беҳтар/хуб, бештар/бисёр, камтар/кам, бузургтар/бузург, меҳрубонтар/меҳрубон as stated pairs",
-      "reason": "bihtar-in kitob 'the best book', buzurg-tar, and bisyor 'very' occur, but the sources do not state these as suppletive lemmas of хуб, бисёр, кам, or меҳрубон.",
-      "where_searched": [
-        "Windfuhr & Perry, Persian and Tajik",
-        "Khojayori & Thompson 2009"
-      ],
-      "status": "missing"
-    },
-    {
-      "fact": "Lexicalized items оҳангар, боғбон, деҳқон, чӯпон, моҳигир, гурбача, шаҳрак, and the base меҳрубон",
-      "reason": "Not found in the attached sources. kor-gar, navis-anda, and Tojikiston are attested and are entered above.",
-      "where_searched": [
-        "Windfuhr & Perry, Persian and Tajik",
-        "Khojayori & Thompson 2009"
-      ],
-      "status": "missing"
-    },
-    {
-      "fact": "Colloquial shortened stems мешунам and мерам",
-      "reason": "Not attested in the attached sources.",
-      "where_searched": [
-        "Windfuhr & Perry, Persian and Tajik",
-        "Khojayori & Thompson 2009"
-      ],
-      "status": "missing"
-    },
-    {
-      "fact": "Three attested examples each for abstract -ӣ from adjectives and for relational -ӣ from nouns, beyond the few forms printed",
-      "reason": "Attested: шиносой, хонагӣ, baca-g-i, Buxoro-i. Further triplets are not in the pages used.",
-      "where_searched": [
-        "Khojayori & Thompson 2009",
-        "Windfuhr & Perry, Persian and Tajik"
-      ],
-      "status": "missing"
-    },
-    {
-      "fact": "Derivational suffixes -манд, -нок, -дор, -ча, -ак, -чӣ, -бон with examples",
-      "reason": "Not attested with examples in the passages extracted. -gar, -anda, -iston, and -i/-gi are attested and are entered above.",
-      "where_searched": [
-        "Windfuhr & Perry, Persian and Tajik",
-        "Khojayori & Thompson 2009"
-      ],
-      "status": "missing"
-    },
-    {
-      "fact": "Perry 2005, Ido 2005 as a Standard Tajik grammar, and Rzehak 1999",
-      "reason": "Those editions are not in the attached file set. The attached Ido PDF is a 2007 Bukharan Tajik text collection and was not used for Standard Tajik facts.",
-      "where_searched": [
-        "attached file set in the task folder"
-      ],
-      "status": "missing"
-    },
-    {
-      "fact": "Lemma conventions of a gold treebank",
-      "reason": "No corpus annotation guidelines were attached (Input C is absent).",
-      "where_searched": [
-        "attached file set in the task folder"
-      ],
-      "status": "missing"
-    }
-  ]
+  }
 }
